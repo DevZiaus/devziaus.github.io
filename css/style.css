@@ -95,8 +95,9 @@ h4 {
 }
 
 h5 {
-    color: #b1d3ff;
-    font-size: 28px;
+    font-family: 'Aleo', serif;
+    color: #173557;
+    font-size: 30px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -300,4 +301,55 @@ nav.navbar-light .navbar-toggler {
 }
 /*================================================
     04 - End of banner part
+==================================================*/
+
+/*================================================
+    05 - Start of common heading part
+==================================================*/
+.common_heading{
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+/*
+.common_heading h5{
+    position: relative;
+}
+*/
+
+.common_heading h5:before{
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    height: 4px;
+    background: #05233e;
+    width: 11%;
+    content: '';
+    opacity: 1;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    
+}
+
+.common_heading h5:after{
+    position: absolute;
+    left: 50%;
+    bottom: 6px;
+    height: 4px;
+    background: #05233e;
+    width: 6%;
+    content: '';
+    opacity: 1;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    
+}
+/*================================================
+    05 - End of common heading part
 ==================================================*/

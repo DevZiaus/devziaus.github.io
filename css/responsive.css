@@ -1,5 +1,10 @@
 /* Extra small devices (portrait phones, less than 576px) */ 
 @media (min-width: 320px) and (max-width: 575px) {
+    
+    .container {
+        padding-right: 7.5px;
+        padding-left: 7.5px;
+    }
     #header_part .header_content h6 a {
         font-size: 10px;
     }

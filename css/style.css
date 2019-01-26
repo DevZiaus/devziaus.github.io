@@ -97,13 +97,13 @@ h4 {
 
 h5 {
     font-family: 'Aleo', serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     line-height: 30px;
 }
 
 h6 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 p {
@@ -416,7 +416,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .feature_content p{
-    margin-top: 15px;
+    margin: 15px 5px 0px;
 }
 /*================================================
     06 - Start of about part

@@ -64,7 +64,19 @@
 
         body.side-menu-visible #side-menu {
             transform: translateX(-200px)
-        }
+    }
+    
+    .feature_content p{
+        font-size: 14px;
+    }
+    
+    .me_bio p{
+        font-size: 14px;
+    }
+    
+    .me_bio p a{
+        font-size: 14px;
+    }
 
 }
 

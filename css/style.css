@@ -114,6 +114,10 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    display: inline;
+}
+
 .pt_50{
     padding-top: 50px;
 }
@@ -372,7 +376,7 @@ nav.navbar-light .navbar-toggler {
   width: 56.57px;
   height: 56.57px;
   -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  -moz-transform: scaleY(0.5774) rotate(-45deg);
   transform: scaleY(0.5774) rotate(-45deg);
   background-color: inherit;
   left: 8.7157px;
@@ -413,10 +417,67 @@ nav.navbar-light .navbar-toggler {
 .feature_content h4{
     margin-top: 40px;
     color: #05233e;
+    text-transform: capitalize;
 }
 
 .feature_content p{
     margin: 15px 5px 0px;
+}
+
+.octagon {
+    width: 260px;
+    height: 260px;
+    background: #0095da;
+    position: relative;
+    position: relative;
+}
+
+.octagon:before {
+    content: "";
+    width: 260px;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 65px solid #0095da;
+    border-left: 65px solid #fff;
+    border-right: 65px solid #fff;
+}
+
+.octagon:after {
+    content: "";
+    width: 260px;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 65px solid #0095da;
+    border-left: 65px solid #fff;
+    border-right: 65px solid #fff;
+} 
+
+.polygon{
+    height: 260px;
+    -webkit-clip-path: polygon(25% 0, 75% 0, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0 75%, 0 25%);
+    -moz-clip-path: polygon(25% 0, 75% 0, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0 75%, 0 25%);
+    clip-path: polygon(25% 0, 75% 0, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0 75%, 0 25%);
+}
+
+.me_bio{
+    
+}
+
+.me_bio h5{
+    text-transform: capitalize;
+    margin: 20px 0px 10px;
+}
+
+.me_bio p{
+    margin: 5px 10px 25px;
+}
+
+.me_bio p a:hover{
+    color: #e68324
 }
 /*================================================
     06 - Start of about part

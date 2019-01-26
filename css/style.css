@@ -311,16 +311,10 @@ nav.navbar-light .navbar-toggler {
     text-transform: uppercase;
 }
 
-/*
-.common_heading h5{
-    position: relative;
-}
-*/
-
 .common_heading h5:before{
     position: absolute;
     left: 50%;
-    bottom: 25px;
+    bottom: 33px;
     height: 4px;
     background: #05233e;
     width: 11%;
@@ -337,7 +331,7 @@ nav.navbar-light .navbar-toggler {
 .common_heading h5:after{
     position: absolute;
     left: 50%;
-    bottom: 6px;
+    bottom: 18px;
     height: 4px;
     background: #05233e;
     width: 6%;
@@ -348,7 +342,6 @@ nav.navbar-light .navbar-toggler {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
-    
 }
 /*================================================
     05 - End of common heading part

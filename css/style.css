@@ -1,0 +1,303 @@
+/*
+*******************************************
+*******************************************
+
+Template Name: MZSBulbul
+Template URL: http://
+Description:  Personal Portfolio Template.
+Author: Md. Ziaus Samad
+Author URL: https://www.mzsbulbul.ga
+Version: 1.0
+
+* This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+This files contents are outlined below >>>>
+
+*** SEARCH EACH SECTION AS IT COMMENTS, YOU WILL GET THE RIGHT SECTION.
+
+**************************************************
+**************************************************
+
+==== CSS INDEX ===================================
+
+01 - default css
+
+==================================================*/
+/*================================================
+    01 - start of default css
+==================================================*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul{
+    list-style-type: none;
+}
+
+a:hover,
+a{
+    text-decoration: none;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+ol, 
+ul, 
+a, 
+p,  
+li,
+input{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Aleo', serif;
+    font-size: 60px;
+    line-height: 54px;
+    color: #0095da;
+}
+
+h2 {
+    font-size: 45px;
+    color: #0095da;
+}
+
+h3 {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+h4 {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+h5 {
+    color: #b1d3ff;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+p {
+    color: #173557;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pt_50{
+    padding-top: 50px;
+}
+.py_50{
+    padding: 50px 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+/*================================================
+    01 - end of default css
+==================================================*/
+
+/*================================================
+    02 - start of header part 
+==================================================*/
+#header_part{
+    background: #f1f1f1;
+}
+
+#header_part .header_content h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #05233e;
+    padding: 0px 0px 3px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+#header_part .header_content h6 a{
+    transition: all linear .3s;
+    font-size: 14px;
+    font-weight: 400;
+    color: #05233e;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+
+#header_part .header_content h6:hover a i,
+    #header_part .header_content h6:hover a{
+    color: #e68324;
+}
+
+#header_part .header_content a i{
+    color: #0095da;
+    margin-right: 10px;
+}
+
+#header_part .header_content a img{
+    height: 14px;
+    width: 14px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#header_part .header_icon ul li{
+    float: left;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+#header_part .header_icon ul li a{
+    color: #0095da;
+    font-size: 14px;
+    padding: 12px 12px;
+    display: block;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+#header_part .header_icon ul li:last-child a{
+    padding-right: 0;
+}
+
+#header_part .header_icon ul li:hover a{
+    color: #e68324;
+}
+
+/*================================================
+    02 - end of header part
+==================================================*/
+
+/*================================================
+    03 - Start of navbar part
+==================================================*/
+
+nav.navbar-light .navbar-toggler {
+	border-color: rgba(5, 35, 62, 0.99);
+}
+
+/*nav.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(232, 15, 15, 0.78)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}*/
+
+.navbar-brand{
+    margin-right: 0px; 
+    padding: 10px 0px;
+}
+
+.menu_part .nav-item .nav-link{
+    color: #05233e;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px 18px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.menu_part .nav-item .nav-link:last-child{
+    padding-right: 0px;
+}
+
+.menu_part .nav-item.active .nav-link,
+.menu_part .nav-item:hover .nav-link{
+    color: #e68324;
+}
+
+/*================================================
+    03 - End of navbar part
+==================================================*/
+
+/*================================================
+    04 - Start of banner part
+==================================================*/
+#banner_part{
+   
+}
+
+.banner_main{
+    background: url(../images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner_overlay{
+    padding: 80px 0px 120px;
+    background: rgba(0, 0, 0, 0.60);
+}
+
+.banner_content h3, h4{
+    margin-bottom: 20px;
+}
+
+.banner_content h1, h2{
+    margin-bottom: 30px;
+}
+
+.banner_content p{
+    color: #ffffff;
+    margin-bottom: 45px;
+}
+
+.banner_content a{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 16px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #fff;
+    transition: all linear .3s;
+}
+
+.banner_content a:hover{
+    background: #e68324;
+    border-color: #e68324;
+}
+/*================================================
+    04 - End of banner part
+==================================================*/

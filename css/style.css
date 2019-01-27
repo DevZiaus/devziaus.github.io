@@ -319,6 +319,10 @@ nav.navbar-light .navbar-toggler {
 ==================================================*/
 .common_heading{
     padding-bottom: 40px;
+}
+
+.common_heading h5{
+    font-size: 30px;
     text-transform: uppercase;
 }
 
@@ -352,11 +356,21 @@ nav.navbar-light .navbar-toggler {
 }
 
 #skills_part .common_heading h5:before{
-    width: 8%;
+    width: 9%;
 }
 
 #skills_part .common_heading h5:after{
-    width: 4%;
+    width: 5%;
+}
+
+.me_bio .common_heading h5:before{
+	bottom: 40px;
+	width: 9%;
+}
+
+.me_bio .common_heading h5:after{
+    bottom: 26px;
+	width: 5%;
 }
 /*================================================
     05 - End of common heading part
@@ -476,20 +490,33 @@ nav.navbar-light .navbar-toggler {
 }
 
 .me_bio h5{
-    text-transform: capitalize;
     margin: 20px 0px 10px;
 }
 
-.me_bio p{
-    margin: 5px 10px 25px;
+.me_bio .me_bio_content{
+    background: #f1f1f1;
+    padding: 15px 10px;
+    margin-top: 25px;
+    position: relative;
 }
 
-.me_bio p a{
+.me_bio .me_bio_content:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background: #f1f1f1;
+    height: 30px;
+    width: 30px;
+    transform: translate(-50% , -50%)rotate(45deg);
+}
+
+.me_bio .me_bio_content p a{
     color:  #0095da;
     font-style: italic;
 }
 
-.me_bio p a:hover{
+.me_bio .me_bio_content p a:hover{
     color: #e68324;
 }
 /*================================================

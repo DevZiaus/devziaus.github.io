@@ -377,6 +377,41 @@ nav.navbar-light .navbar-toggler {
 ==================================================*/
 
 /*================================================
+    05.5 - Start of sub heading part
+==================================================*/
+.sub_heading{
+    padding-bottom: 10px;
+}
+
+.sub_heading h5{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.sub_heading h5:before{
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    height: 3px;
+    background: #05233e;
+    width: 11%;
+    content: '';
+    opacity: 1;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    
+}
+
+#skills_part .sub_heading h5:before{
+	top: 80px;
+	width: 9.5%;
+}
+/*================================================
+    05.5 - End of sub heading part
+==================================================*/
+
+/*================================================
     06 - Start of about part
 ==================================================*/
 .hexagon {
@@ -620,8 +655,23 @@ nav.navbar-light .navbar-toggler {
     border-color: #1abc9c;
 }
 .progress.green .progress-left .progress-bar{
-    animation: loading-5 1.2s linear forwards 1.8s;
+    animation: loading-5 1.8s linear forwards 1.8s;
 }
+
+.progress.red .progress-bar{
+    border-color: #ff0000; 
+}
+.progress.red .progress-left .progress-bar{
+    animation: loading-6 0.8s linear forwards 1.8s;
+}
+
+.progress.magenta .progress-bar{
+    border-color: #bc1a58;
+}
+.progress.magenta .progress-left .progress-bar{
+    animation: loading-7 0.6s linear forwards 1.8s;
+}
+
 @keyframes loading-1{
     0%{
         -webkit-transform: rotate(0deg);
@@ -653,9 +703,9 @@ nav.navbar-light .navbar-toggler {
         transform: rotate(0deg);
     }
     100%{
-        -webkit-transform: rotate(110deg);
-        -moz-transform: rotate(110deg);
-        transform: rotate(110deg);
+        -webkit-transform: rotate(100deg);
+        -moz-transform: rotate(100deg);
+        transform: rotate(100deg);
     }
 }
 @keyframes loading-4{
@@ -665,9 +715,9 @@ nav.navbar-light .navbar-toggler {
         transform: rotate(0deg);
     }
     100%{
-        -webkit-transform: rotate(80deg);
-        -moz-transform: rotate(80deg);
-        transform: rotate(80deg);
+        -webkit-transform: rotate(60deg);
+        -moz-transform: rotate(60deg);
+        transform: rotate(60deg);
     }
 }
 @keyframes loading-5{
@@ -680,6 +730,31 @@ nav.navbar-light .navbar-toggler {
         -webkit-transform: rotate(126deg);
         -moz-transform: rotate(126deg);
         transform: rotate(126deg);
+    }
+}
+@keyframes loading-6{
+    0%{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(40deg);
+        -moz-transform: rotate(40deg);
+        transform: rotate(40deg);
+    }
+}
+
+@keyframes loading-7{
+    0%{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(8deg);
+        -moz-transform: rotate(8deg);
+        transform: rotate(8deg);
     }
 }
 

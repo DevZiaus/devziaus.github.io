@@ -118,6 +118,11 @@
         }
 }
 
+/*For progress bar 990 px devices only*/
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+
 /* Medium devices (tablets, 768px and up) */ 
 @media (min-width: 768px) and (max-width: 991px) {
    .menu_part .nav-item .nav-link {

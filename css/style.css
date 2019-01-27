@@ -325,10 +325,10 @@ nav.navbar-light .navbar-toggler {
 .common_heading h5:before{
     position: absolute;
     left: 50%;
-    bottom: 33px;
+    bottom: 30px;
     height: 4px;
     background: #05233e;
-    width: 11%;
+    width: 9%;
     content: '';
     opacity: 1;
     -webkit-transform: translateX(-50%);
@@ -340,15 +340,23 @@ nav.navbar-light .navbar-toggler {
 .common_heading h5:after{
     position: absolute;
     left: 50%;
-    bottom: 18px;
+    bottom: 16px;
     height: 4px;
     background: #05233e;
-    width: 6%;
+    width: 5%;
     content: '';
     opacity: 1;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     transform: translateX(-50%);
+}
+
+#skills_part .common_heading h5:before{
+    width: 8%;
+}
+
+#skills_part .common_heading h5:after{
+    width: 4%;
 }
 /*================================================
     05 - End of common heading part
@@ -476,9 +484,181 @@ nav.navbar-light .navbar-toggler {
     margin: 5px 10px 25px;
 }
 
+.me_bio p a{
+    color:  #0095da;
+    font-style: italic;
+}
+
 .me_bio p a:hover{
-    color: #e68324
+    color: #e68324;
 }
 /*================================================
     06 - Start of about part
+==================================================*/
+
+/*================================================
+    07 - Start of skills part
+==================================================*/
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #44484b;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress.blue .progress-bar{
+    border-color: #049dff;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+    border-color: #fdba04;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #ed687c;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-4 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-5 1.2s linear forwards 1.8s;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(150deg);
+        -moz-transform: rotate(150deg);
+        transform: rotate(150deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(110deg);
+        -moz-transform: rotate(110deg);
+        transform: rotate(110deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(80deg);
+        -moz-transform: rotate(80deg);
+        transform: rotate(80deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        -moz-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+
+.skill_title h5{
+    margin: 10px 0px;
+}
+/*================================================
+    07 - Start of skills part
 ==================================================*/

@@ -73,5 +73,8 @@ $(function(){
     });
     
     // for venobox
-    $('.venobox').venobox({});
+    $('.venobox').venobox();
+    
+    // for wow animate
+    new WOW().init();
     });

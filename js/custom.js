@@ -71,4 +71,7 @@ $(function(){
         }
       ]
     });
+    
+    // for venobox
+    $('.venobox').venobox({});
     });

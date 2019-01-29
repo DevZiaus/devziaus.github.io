@@ -77,6 +77,13 @@
     .me_bio p a{
         font-size: 14px;
     }
+    
+    .mdi-arrow-left-drop-circle {
+        left: 10px;
+    }
+    .mdi-arrow-right-drop-circle {
+        right: 10px;
+    }
 
 }
 
@@ -115,6 +122,13 @@
         .banner_content a {
             font-size: 14px;
             padding: 9px 13px;
+        }
+        
+        .mdi-arrow-left-drop-circle {
+            left: -18px;
+        }
+        .mdi-arrow-right-drop-circle {
+            right: -18px;
         }
 }
 
@@ -163,6 +177,13 @@
             font-size: 15px;
             padding: 12px 16px;
         }
+    
+        .mdi-arrow-left-drop-circle {
+            left: -25px;
+        }
+        .mdi-arrow-right-drop-circle {
+            right: -25px;
+        }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -205,6 +226,13 @@
                 font-size: 15px;
                 padding: 12px 16px;
             }
+    
+        .mdi-arrow-left-drop-circle {
+            left: -10px;
+        }
+        .mdi-arrow-right-drop-circle {
+            right: -10px;
+        }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

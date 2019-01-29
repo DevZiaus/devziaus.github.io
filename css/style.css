@@ -78,11 +78,13 @@ h1 {
     font-size: 70px;
     line-height: 54px;
     color: #0095da;
+    font-weight: 700;
 }
 
 h2 {
     font-size: 55px;
     color: #0095da;
+    font-weight: 500;
 }
 
 h3 {
@@ -329,65 +331,22 @@ nav.navbar-light .navbar-toggler {
     padding-bottom: 40px;
 }
 
+.common_heading p{
+    color: #969696;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
 .common_heading h5 {
     font-size: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;;
 }
 
-.common_heading h5:before {
-    position: absolute;
-    left: 50%;
-    bottom: 30px;
-    height: 4px;
-    background: #05233e;
-    width: 9%;
-    content: '';
-    opacity: 1;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
-    
+.contact_me .common_heading h5{
+    color: #0095da;
 }
 
-.common_heading h5:after {
-    position: absolute;
-    left: 50%;
-    bottom: 16px;
-    height: 4px;
-    background: #05233e;
-    width: 5%;
-    content: '';
-    opacity: 1;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-
-#skills_part .common_heading h5:before {
-    width: 9%;
-}
-
-#skills_part .common_heading h5:after {
-    width: 5%;
-}
-
-.me_bio .common_heading h5:before {
-	bottom: 40px;
-	width: 9%;
-}
-
-.me_bio .common_heading h5:after {
-    bottom: 26px;
-	width: 5%;
-}
-
-#service_part .common_heading h5:before {
-    width: 21%;
-}
-
-#service_part .common_heading h5:after {
-    width: 17%;
-}
 /*================================================
     05 - End of common heading part
 ==================================================*/
@@ -402,30 +361,11 @@ nav.navbar-light .navbar-toggler {
 .sub_heading h5{
     font-size: 25px;
     text-transform: capitalize;
-}
-
-.sub_heading h5:before{
-    position: absolute;
-    left: 50%;
-    top: 30px;
-    height: 3px;
-    background: #05233e;
-    width: 11%;
-    content: '';
-    opacity: 1;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
-    
+    color: #7c7c7c;
 }
 
 #skills_part .sub_heading{
-    padding: 25px 0px 15px;
-}
-
-#skills_part .sub_heading h5:before{
-	top: 55px;
-	width: 10.5%;
+    padding-top: 25px;
 }
 /*================================================
     05.5 - End of sub heading part
@@ -434,6 +374,7 @@ nav.navbar-light .navbar-toggler {
 /*================================================
     06 - Start of about part
 ==================================================*/
+
 .hexagon {
   position: relative;
   width: 80px; 
@@ -484,6 +425,10 @@ nav.navbar-light .navbar-toggler {
   background: inherit;
 }
 
+.features{
+    margin-top: 15px;
+}
+
 .feature_main i {
 	font-size: 55px;
 	color: #ffffff;
@@ -499,6 +444,39 @@ nav.navbar-light .navbar-toggler {
 
 .feature_content p{
     margin: 15px 5px 0px;
+}
+
+.mdi-arrow-left-drop-circle{
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    font-size: 35px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 99;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    cursor: pointer;
+    color: #0095da;
+}
+
+.mdi-arrow-right-drop-circle{
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    font-size: 35px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 99;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    cursor: pointer;
+    color: #0095da;
+}
+
+.mdi-arrow-left-drop-circle:hover,
+.mdi-arrow-right-drop-circle:hover{
+    color: #e68324;
 }
 
 .octagon {
@@ -828,7 +806,7 @@ nav.navbar-light .navbar-toggler {
     07 - Start of service part
 ==================================================*/
 .my_services{
-    padding: 100px 0px 50px;
+    padding-top: 50px;
 }
 
 .service_main{
@@ -920,3 +898,280 @@ nav.navbar-light .navbar-toggler {
 /*================================================
     07 - End of service part
 ==================================================*/
+
+/*================================================
+    07 - Start of marketplace part
+==================================================*/
+.marketplace_main{
+    
+}
+
+.market_place_img{
+    height: 150px;
+    width: 150px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background: #0095da;
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.marketplace_main h6{
+    margin-top: 15px;
+}
+/*================================================
+    07 - End of marketplace part
+==================================================*/
+
+/*================================================
+    08 - Start of newsletter part
+==================================================*/
+/*#newsletter_part{
+	background: #141414;
+	margin: 0px 200px;
+	transform: translateY(65px);
+    z-index: 99999;
+}
+
+.newsletter-form {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 44px;
+	padding-bottom: 7px;
+}
+
+.newsletter-form form {
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.newsletter-form .newsletter-email {
+	width: 100%;
+	background: #fff;
+	height: 40px;
+	border: 1px transparent;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.newsletter #mc-form label {
+	color: #dadada;
+	margin-top: 8px;
+}*/
+/*================================================
+    09 - End of newsletter part
+==================================================*/
+
+/*================================================
+    09 - Start of contact part
+==================================================*/
+.contact_me{
+    background: url(../images/contact_img.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact_overlay{
+    padding: 90px 0px;
+    background: rgba(0, 0, 0, 0.60);
+}
+
+.contact_form,
+.contact_datails{
+   background: #ffffff;
+    padding: 36px 40px;
+}
+
+.contact_datails h6{
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: 'Aleo', serif;
+    font-weight: 600;
+    
+}
+
+.contact_datails p{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact_datails p i{
+    font-size: 20px;
+}
+
+.contact_datails p i span{
+    font-size: 17px;
+    font-style: normal;
+    margin-left: 5px;
+}
+
+.contact_datails p i a{
+    font-style: normal;
+    margin-left: 5px;
+    color: #2f2f2f;
+}
+
+.contact_datails .contact_social{
+    margin: 25px 0px;
+}
+
+.contact_datails .contact_social h6{
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-family: 'Aleo', serif;
+    font-weight: 600;
+}
+
+.contact_datails .contact_social ul li{
+    float: left;
+}
+
+.contact_datails .contact_social ul li a{
+    font-size: 32px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.contact_datails .contact_social ul li a i{
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+    color: #2f2f2f;
+}
+
+.contact_datails .contact_social ul li a:hover i{
+    color: #e68324;
+}
+
+.form-group{
+    position: relative;
+}
+
+.contact_form sup{
+    color: #ff0000;
+    font-size: 16px;
+}
+
+.contact_form label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #9a9a9a;
+    pointer-events: none;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    transition: all linear .5s;
+}
+
+.contact_form .form-group input:focus ~ label,
+.contact_form .form-group input:valid ~ label{
+    top: -20px;
+    left: 0;
+    font-size: 14px;
+}
+
+.contact_form .form_text,
+.contact_form .form_inp{
+    border: none;
+    border-bottom: 1px solid #9a9a9a;
+    background: transparent;
+    margin: 15px 15px 0px 0px;
+    padding: 10px 0px;
+    border-radius: 0px;
+    width: 100%;
+    
+}
+
+.contact_form .form_text{
+    resize: none;
+    padding: 30px 0px;
+}
+
+.contact_form .btn_subm{
+    margin: 10px 0px 23px;
+}
+/*================================================
+    09 - End of contact part
+==================================================*/
+
+/*================================================
+    10 - Start of footer part
+==================================================*/
+#footer_part{
+    background: #111111;
+    padding: 30px 0px;
+}
+
+.footer_main p{
+    font-size: 14px;
+    color: #f1f1f1;
+}
+
+.footer_main p a{
+    font-size: 15px;
+    color: #0095da;
+}
+
+/*================================================
+    10 - End of footer part
+==================================================*/
+
+.back_to_top {
+    display: inline-block;
+    background: transparent;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;;
+    z-index: 1000;
+    transform: rotate(270deg);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.back_to_top a{
+    color: #0095da;
+}
+
+.back_to_top a i{
+    font-size: 16px;
+    color: #0095da;
+}
+
+.back_to_top:hover {
+  cursor: pointer;
+}
+.back_to_top:active {
+  background-color: #555;
+}
+
+.show{
+    opacity: 1;
+    visibility: visible;
+}

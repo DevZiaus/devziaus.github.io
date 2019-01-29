@@ -1,5 +1,8 @@
 $(function(){
     
+    //for menu scrolling
+       
+    
     // for feature part slider
     $('.feature_slider').slick({
       nextArrow: '<i class="mdi mdi-arrow-right-drop-circle"></i>',

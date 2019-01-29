@@ -88,7 +88,11 @@
     .back_to_top {
         right: -85px;
     }
-
+    
+    #newsletter_part {
+        margin: 0px 5px;
+    }
+    
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -135,9 +139,14 @@
             right: -18px;
         }
     
-    .back_to_top {
-        right: -50px;
-    }
+        .back_to_top {
+            right: -50px;
+        }
+    
+        #newsletter_part {
+            margin: 0px 35px;
+        }
+    
 }
 
 /*For progress bar 990 px devices only*/
@@ -195,6 +204,9 @@
         .back_to_top {
             right: -85px;
         }
+        #newsletter_part {
+            margin: 0px 70px;
+        }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -247,6 +259,10 @@
     
     .back_to_top {
         right: -65px;
+    }
+    
+    #newsletter_part {
+        margin: 0px 135px;
     }
 }
 

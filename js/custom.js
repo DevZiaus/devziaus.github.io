@@ -81,7 +81,9 @@ $(function(){
     $('.venobox').venobox();
     
     // for wow animate
-    new WOW().init();
+    new WOW({
+        mobile: false,
+    }).init();
     
     // for back to top
     $(function() {

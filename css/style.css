@@ -1109,7 +1109,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .contact_form .btn_subm{
-    margin: 10px 0px 23px;
+    margin: 24px 0px;
 }
 /*================================================
     09 - End of contact part
@@ -1148,8 +1148,16 @@ nav.navbar-light .navbar-toggler {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    transition: background-color .3s, opacity .5s, visibility .5s;;
+    -webkit-transition: background-color .3s, opacity .5s, visibility .5s;
+    -moz-transition: background-color .3s, opacity .5s, visibility .5s;
+    -ms-transition: background-color .3s, opacity .5s, visibility .5s;
+    -o-transition: background-color .3s, opacity .5s, visibility .5s;
+    transition: background-color .3s, opacity .5s, visibility .5s;
     z-index: 1000;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
     transform: rotate(270deg);
     opacity: 0;
     visibility: hidden;

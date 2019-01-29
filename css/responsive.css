@@ -84,6 +84,10 @@
     .mdi-arrow-right-drop-circle {
         right: 10px;
     }
+    
+    .back_to_top {
+        right: -85px;
+    }
 
 }
 
@@ -130,6 +134,10 @@
         .mdi-arrow-right-drop-circle {
             right: -18px;
         }
+    
+    .back_to_top {
+        right: -50px;
+    }
 }
 
 /*For progress bar 990 px devices only*/
@@ -184,6 +192,9 @@
         .mdi-arrow-right-drop-circle {
             right: -25px;
         }
+        .back_to_top {
+            right: -85px;
+        }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -233,6 +244,10 @@
         .mdi-arrow-right-drop-circle {
             right: -10px;
         }
+    
+    .back_to_top {
+        right: -65px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

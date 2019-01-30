@@ -89,10 +89,33 @@
         right: -85px;
     }
     
-    #newsletter_part {
-        margin: 0px 5px;
+    .hire_me_main h4 {
+        font-size: 18px;
     }
     
+    .hire_me_main p {
+        margin: 5px 0px;
+        font-size: 13px;
+    }
+    
+    .newsletter_main {
+        margin: 0px 50px;
+        top: 90%;
+        padding: 10px 0px;
+    }
+    
+    .newsletter_main h5{
+        font-size: 15px;
+    }
+    
+    .newsletter_main .newsletter_form{
+        width: 75%;
+        height: 35px;
+    }
+    
+    .newsletter_main .but_subs{
+        right: -30%;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -145,6 +168,11 @@
     
         #newsletter_part {
             margin: 0px 35px;
+        }
+        
+        .newsletter_main {
+            margin: 0px 50px;
+            top: 90%;
         }
     
 }
@@ -204,8 +232,8 @@
         .back_to_top {
             right: -85px;
         }
-        #newsletter_part {
-            margin: 0px 70px;
+        .newsletter_main {
+            margin: 0px -15px;
         }
 }
 
@@ -257,13 +285,14 @@
             right: -10px;
         }
     
-    .back_to_top {
-        right: -65px;
-    }
+        .back_to_top {
+            right: -65px;
+        }
     
-    #newsletter_part {
-        margin: 0px 135px;
-    }
+        .newsletter_main {
+            margin: 0px 60px;
+        }
+    
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

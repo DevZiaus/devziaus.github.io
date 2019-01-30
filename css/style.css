@@ -1004,7 +1004,7 @@ nav.navbar-light .navbar-toggler {
 .testimonial_main{
     width: 350px;
     max-width: 850px;
-    margin: 15px;
+    margin: 15px 0px;
     padding: 15px;
     background: #acacac;
     -webkit-transition: all linear .3s;

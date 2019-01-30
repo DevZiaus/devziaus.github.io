@@ -44,30 +44,34 @@ $(function(){
       ]
     });
     
-    // for skills part slider
-    $('.skills_slider').slick({
+    // for testimonial slider
+    $('.testimonial_slider').slick({
+      nextArrow: '<i class="mdi mdi-arrow-right-drop-circle"></i>',
+      prevArrow: '<i class="mdi mdi-arrow-left-drop-circle"></i>',
       infinite: true,
       autoplay: true,
-      autoplaySpeed: 2500,
-      slidesToShow: 4,
+      autoplaySpeed: 3500,
+      slidesToShow: 3,
       slidesToScroll: 1,
-      arrows: false,
+      arrows: true,
       dots: false,
       responsive: [
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
             dots: false,
+            arrows: true,
           }
-        },
+        }, 
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1,
+            arrows: true,
           }
         },
         {
@@ -75,6 +79,7 @@ $(function(){
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
+            arrows: true,
           }
         }
       ]

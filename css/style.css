@@ -81,13 +81,13 @@ h1 {
     font-size: 70px;
     line-height: 54px;
     color: #0095da;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 h2 {
     font-size: 55px;
     color: #0095da;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 h3 {
@@ -239,9 +239,9 @@ nav.navbar-light .navbar-toggler {
 	border-color: rgba(5, 35, 62, 0.99);
 }
 
-.navbar-brand{
-    margin-right: 0px; 
-    padding: 10px 0px;
+.navbar .logo{
+    margin-top: 0px;
+    max-width: 65px;
 }
 
 .menu_part .nav-item .nav-link{
@@ -363,6 +363,7 @@ nav.navbar-light .navbar-toggler {
     text-transform: capitalize;;
 }
 
+.my_testimonial .common_heading h5,
 .contact_me .common_heading h5{
     color: #0095da;
 }
@@ -543,12 +544,35 @@ nav.navbar-light .navbar-toggler {
 } 
 
 .polygon{
-    height: 260px;
+    max-width: 260px;
     -webkit-clip-path: polygon(25% 0, 75% 0, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0 75%, 0 25%);
     -moz-clip-path: polygon(25% 0, 75% 0, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0 75%, 0 25%);
     -ms-clip-path: polygon(25% 0, 75% 0, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0 75%, 0 25%);
     -o-clip-path: polygon(25% 0, 75% 0, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0 75%, 0 25%);
     clip-path: polygon(25% 0, 75% 0, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0 75%, 0 25%);
+}
+
+.about_me{
+    background: url(../images/about_me.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.about_me_overlay{
+    padding: 90px 0px;
+    background: rgba(0, 0, 0, 0.60);
+}
+
+.me_img{
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .me_bio{
@@ -945,7 +969,110 @@ nav.navbar-light .navbar-toggler {
 ==================================================*/
 
 /*================================================
-    07 - Start of marketplace part
+    08 - Start of portfolio part
+==================================================*/
+
+/*================================================
+    08 - End of portfolio part
+==================================================*/
+
+/*================================================
+    09 - Start of testimonial part
+==================================================*/
+
+.my_testimonial{
+    background: url(../images/portfolio_img.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.testi_overlay{
+    padding: 90px 0px;
+    background: rgba(0, 0, 0, 0.60);
+}
+
+.testimonial_main{
+    width: 350px;
+    max-width: 850px;
+    margin: 15px;
+    padding: 15px;
+    background: #acacac;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.testimonial_img{
+    height: 100px;
+    width: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 15px auto;
+}
+
+.testimonial_content p{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.testimonial_content p span{
+    font-size: 20px;
+    color: #0095da;
+}
+
+.testimonial_content h5{
+    margin-top: 10px;
+}
+
+.testimonial_content h6{
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #585858;
+}
+
+.testimonial_main:hover{
+    background: #7e7e7e;
+}
+
+/*================================================
+    09 - End of testimonial part
+==================================================*/
+
+/*================================================
+    10 - Start of counter part
+==================================================*/
+
+/*================================================
+    10 - End of counter part
+==================================================*/
+
+/*================================================
+    11 - Start of blog part
+==================================================*/
+
+/*================================================
+    11 - End of blog part
+==================================================*/
+
+
+/*================================================
+    12 - Start of marketplace part
 ==================================================*/
 .marketplace_main{
     
@@ -974,11 +1101,11 @@ nav.navbar-light .navbar-toggler {
     margin-top: 15px;
 }
 /*================================================
-    07 - End of marketplace part
+    12 - End of marketplace part
 ==================================================*/
 
 /*================================================
-    08 - Start of newsletter part
+    13 - Start of newsletter part
 ==================================================*/
 #newsletter_part{
 	background: #141414;
@@ -1045,17 +1172,18 @@ newsletter-form .form-inline input placeholder{
     padding: 8px 10px;
 }
 /*================================================
-    09 - End of newsletter part
+    13 - End of newsletter part
 ==================================================*/
 
 /*================================================
-    09 - Start of contact part
+    14 - Start of contact part
 ==================================================*/
 .contact_me{
     background: url(../images/contact_img.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .contact_overlay{
@@ -1189,11 +1317,11 @@ newsletter-form .form-inline input placeholder{
     margin: 24px 0px;
 }
 /*================================================
-    09 - End of contact part
+    14 - End of contact part
 ==================================================*/
 
 /*================================================
-    10 - Start of footer part
+    15 - Start of footer part
 ==================================================*/
 #footer_part{
     background: #111111;
@@ -1211,7 +1339,11 @@ newsletter-form .form-inline input placeholder{
 }
 
 /*================================================
-    10 - End of footer part
+    15 - End of footer part
+==================================================*/
+
+/*================================================
+    16 - Start of back to top button part
 ==================================================*/
 
 .back_to_top {
@@ -1260,3 +1392,7 @@ newsletter-form .form-inline input placeholder{
     opacity: 1;
     visibility: visible;
 }
+
+/*================================================
+    16 - End of back to top button part
+==================================================*/

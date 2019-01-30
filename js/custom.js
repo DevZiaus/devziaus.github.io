@@ -108,5 +108,35 @@ $(function(){
       });
 
     });
+	
+    //for form validation
+	function check(){
+    var name = document.getElementById('in_nm');
+    var email = document.getElementById('in_em');
+    var subject = document.getElementById('in_sub');
+    var message = document.getElementById('in_msg');
+    
+    if(name.value === ""){
+        alert("Please, Enter Your Name!");
+        name.focus;
+        return false;
+    }
+    if(email.value === ""){
+        alert("Please, Enter Your Email");
+        email.focus;
+        return false;
+    }
+    if(Subject.value === ""){
+        alert("Please, Enter Your subject!");
+        pass.focus;
+        return false;
+    }
+    
+    if(message.value === ""){
+        alert('Please, Enter Your Messages!');
+        mess.focus;
+        return false;
+    }
+}
 
 });

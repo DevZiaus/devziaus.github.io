@@ -388,6 +388,10 @@ nav.navbar-light .navbar-toggler {
 #skills_part .sub_heading{
     padding-top: 25px;
 }
+
+.me_bio .sub_heading h5{
+    color: #f1f1f1;
+}
 /*================================================
     05.5 - End of sub heading part
 ==================================================*/
@@ -584,7 +588,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .me_bio .me_bio_content{
-    background: #f1f1f1;
+    background: #555555;
     padding: 15px 10px;
     margin-top: 25px;
     position: relative;
@@ -595,7 +599,7 @@ nav.navbar-light .navbar-toggler {
     position: absolute;
     top: 0;
     left: 50%;
-    background: #f1f1f1;
+    background: #555555;
     height: 30px;
     width: 30px;
     -webkit-transform: translate(-50% , -50%)rotate(45deg);
@@ -603,6 +607,10 @@ nav.navbar-light .navbar-toggler {
     -ms-transform: translate(-50% , -50%)rotate(45deg);
     -o-transform: translate(-50% , -50%)rotate(45deg);
     transform: translate(-50% , -50%)rotate(45deg);
+}
+
+.me_bio .me_bio_content p{
+    color: #f1f1f1;
 }
 
 .me_bio .me_bio_content p a{

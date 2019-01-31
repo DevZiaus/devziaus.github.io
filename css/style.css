@@ -761,7 +761,7 @@ nav.navbar-light .navbar-toggler {
     border-color: #1abc9c;
 }
 .progress.green .progress-left .progress-bar{
-    animation: loading-5 1.8s linear forwards 1.8s;
+    animation: loading-2 1.8s linear forwards 1.8s;
 }
 
 .progress.red .progress-bar{

@@ -398,9 +398,10 @@ nav.navbar-light .navbar-toggler {
     padding-top: 25px;
 }
 
-.me_bio .sub_heading h5{
+/*.me_bio .sub_heading h5{
     color: #f1f1f1;
-}
+}*/
+
 /*================================================
     05.5 - End of sub heading part
 ==================================================*/
@@ -574,52 +575,32 @@ nav.navbar-light .navbar-toggler {
 }
 
 .about_me_overlay{
-    padding: 90px 0px;
+    padding: 0px 0px;
     background: rgba(0, 0, 0, 0.60);
 }
 
 .me_img{
     position: relative;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
+    top: 50%;
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translateX(-50% , -50%);
+    -o-transform: translateX(-50% , -50%);
+    transform: translateX(-50% , -50%);
 }
 
 .me_bio{
-    
+    background: #ffffff;
 }
 
 .me_bio h5{
-    margin: 20px 0px 10px;
+    padding: 20px 0px 10px;
 }
 
 .me_bio .me_bio_content{
-    background: #555555;
-    padding: 15px 10px;
-    margin-top: 25px;
+    padding: 15px 20px;
     position: relative;
-}
-
-.me_bio .me_bio_content:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    background: #555555;
-    height: 30px;
-    width: 30px;
-    -webkit-transform: translate(-50% , -50%)rotate(45deg);
-    -moz-transform: translate(-50% , -50%)rotate(45deg);
-    -ms-transform: translate(-50% , -50%)rotate(45deg);
-    -o-transform: translate(-50% , -50%)rotate(45deg);
-    transform: translate(-50% , -50%)rotate(45deg);
-}
-
-.me_bio .me_bio_content p{
-    color: #f1f1f1;
 }
 
 .me_bio .me_bio_content p a{

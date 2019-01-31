@@ -85,6 +85,11 @@
         right: 10px;
     }
     
+    .me_img,
+    .me_bio {
+        margin-top: 20px;
+    }
+    
     .back_to_top {
         right: -85px;
     }
@@ -160,6 +165,11 @@
         }
         .mdi-arrow-right-drop-circle {
             right: -18px;
+        }
+    
+        .me_img,
+        .me_bio {
+            margin-top: 20px;
         }
     
         .back_to_top {

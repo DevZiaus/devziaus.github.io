@@ -235,6 +235,11 @@
         .newsletter_main {
             margin: 0px -15px;
         }
+    
+        .counter_main p {
+            font-size: 14px;
+            margin: 10px 0px;
+        }
 }
 
 /* Large devices (desktops, 992px and up) */

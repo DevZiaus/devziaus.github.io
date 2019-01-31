@@ -143,5 +143,9 @@ $(function(){
         return false;
     }
 }
-
+    //for counter
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
 });

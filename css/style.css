@@ -371,6 +371,7 @@ nav.navbar-light .navbar-toggler {
     text-transform: capitalize;;
 }
 
+.my_marketplace .common_heading h5,
 .my_testimonial .common_heading h5,
 .contact_me .common_heading h5{
     color: #0095da;
@@ -565,7 +566,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .about_me{
-    background: url(../images/about_me.jpg);
+    background: url(../images/about_me_bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -632,6 +633,10 @@ nav.navbar-light .navbar-toggler {
 .me_bio .me_bio_content p span{
     color: #0095da;
     font-size: 18px;
+}
+
+.me_bio .me_bio_content .watch{
+    color: #eb1111;
 }
 
 .video{
@@ -997,7 +1002,7 @@ nav.navbar-light .navbar-toggler {
 ==================================================*/
 
 .my_testimonial{
-    background: url(../images/portfolio_img.jpg);
+    background: url(../images/testimonial_bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1074,6 +1079,47 @@ nav.navbar-light .navbar-toggler {
     10 - Start of counter part
 ==================================================*/
 
+/*
+.my_counter{
+    background: url(../images/counter_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.counter_overlay{
+    padding: 20px 0px;
+    background: rgba(0, 0, 0, 0.60);
+}
+*/
+
+.counter_main{
+    width: 70%;
+    margin: 5px 0px;
+    padding: 5px 0px;
+    background: #606060;
+    position: relative;
+    left: 50%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    transform: translateX(-50%);
+}
+
+.counter_main span{
+	font-size: 60px;
+	padding: 15px 0px;
+    color: #0095da;
+}
+
+.counter_main p{
+    font-size: 20px;
+    color: #f1f1f1;
+    margin: 15px 0px;
+}
+
 /*================================================
     10 - End of counter part
 ==================================================*/
@@ -1090,9 +1136,20 @@ nav.navbar-light .navbar-toggler {
 /*================================================
     12 - Start of marketplace part
 ==================================================*/
-.marketplace_main{
-    
+
+.my_marketplace{
+    background: url(../images/marketplace_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+.marketplace_overlay{
+    padding: 90px 0px;
+    background: rgba(0, 0, 0, 0.60);
+}
+
 
 .market_place_img{
     height: 150px;
@@ -1111,11 +1168,38 @@ nav.navbar-light .navbar-toggler {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.market_place_img img{
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.marketplace_main:hover img{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
 }
 
 .marketplace_main h6{
     margin-top: 15px;
 }
+
 /*================================================
     12 - End of marketplace part
 ==================================================*/
@@ -1220,7 +1304,7 @@ nav.navbar-light .navbar-toggler {
     15 - Start of contact part
 ==================================================*/
 .contact_me{
-    background: url(../images/contact_img.jpg);
+    background: url(../images/contact_bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

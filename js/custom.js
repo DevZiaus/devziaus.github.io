@@ -5,8 +5,8 @@ $(function(){
     
     // for feature part slider
     $('.feature_slider').slick({
-      nextArrow: '<i class="mdi mdi-arrow-right-drop-circle"></i>',
-      prevArrow: '<i class="mdi mdi-arrow-left-drop-circle"></i>',
+      nextArrow: '<i class="fas fa-chevron-circle-right"></i>',
+      prevArrow: '<i class="fas fa-chevron-circle-left"></i>',
       infinite: true,
       autoplay: true,
       autoplaySpeed: 2500,
@@ -46,8 +46,8 @@ $(function(){
     
     // for testimonial slider
     $('.testimonial_slider').slick({
-      nextArrow: '<i class="mdi mdi-arrow-right-drop-circle"></i>',
-      prevArrow: '<i class="mdi mdi-arrow-left-drop-circle"></i>',
+      nextArrow: '<i class="fa fa-chevron-circle-right"></i>',
+      prevArrow: '<i class="fa fa-chevron-circle-left"></i>',
       infinite: true,
       autoplay: true,
       autoplaySpeed: 3500,

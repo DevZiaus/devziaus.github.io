@@ -78,10 +78,11 @@
         font-size: 14px;
     }
     
-    .mdi-arrow-left-drop-circle {
+    .fa-chevron-circle-left{
         left: 10px;
     }
-    .mdi-arrow-right-drop-circle {
+
+    .fa-chevron-circle-right {
         right: 10px;
     }
     
@@ -90,8 +91,12 @@
         margin-top: 20px;
     }
     
-    .back_to_top {
-        right: -85px;
+    .testimonial_main {
+        width: 300px;
+    }
+    
+    .blog_main {
+        width: 310px;
     }
     
     .hire_me_main h4 {
@@ -121,6 +126,13 @@
     .newsletter_main .but_subs{
         right: -30%;
     }
+    
+    
+    .back_to_top {
+        right: -85px;
+    }
+    
+    
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -160,20 +172,17 @@
             padding: 9px 13px;
         }
         
-        .mdi-arrow-left-drop-circle {
+       .fa-chevron-circle-left{
             left: -18px;
         }
-        .mdi-arrow-right-drop-circle {
+
+        .fa-chevron-circle-right {
             right: -18px;
         }
     
         .me_img,
         .me_bio {
             margin-top: 20px;
-        }
-    
-        .back_to_top {
-            right: -50px;
         }
     
         #newsletter_part {
@@ -183,6 +192,10 @@
         .newsletter_main {
             margin: 0px 50px;
             top: 90%;
+        }
+    
+        .back_to_top {
+            right: -50px;
         }
     
 }
@@ -233,22 +246,25 @@
             padding: 12px 16px;
         }
     
-        .mdi-arrow-left-drop-circle {
+        .fa-chevron-circle-left{
             left: -25px;
         }
-        .mdi-arrow-right-drop-circle {
+
+        .fa-chevron-circle-right {
             right: -25px;
-        }
-        .back_to_top {
-            right: -85px;
-        }
-        .newsletter_main {
-            margin: 0px -15px;
         }
     
         .counter_main p {
             font-size: 14px;
             margin: 10px 0px;
+        }
+    
+        .newsletter_main {
+            margin: 0px -15px;
+        }
+    
+        .back_to_top {
+            right: -85px;
         }
 }
 
@@ -293,19 +309,24 @@
                 padding: 12px 16px;
             }
     
-        .mdi-arrow-left-drop-circle {
+        .fa-chevron-circle-left{
             left: -10px;
         }
-        .mdi-arrow-right-drop-circle {
+
+        .fa-chevron-circle-right {
             right: -10px;
         }
     
-        .back_to_top {
-            right: -65px;
+        .blog_main {
+            width: 310px;
         }
     
         .newsletter_main {
             margin: 0px 60px;
+        }
+    
+        .back_to_top {
+            right: -65px;
         }
     
 }

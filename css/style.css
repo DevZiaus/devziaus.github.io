@@ -490,7 +490,12 @@ nav.navbar-light .navbar-toggler {
 	font-size: 55px;
 	color: #ffffff;
 	position: relative;
-	top: -25px;
+	top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .feature_content h4{
@@ -503,7 +508,7 @@ nav.navbar-light .navbar-toggler {
     margin: 15px 5px 0px;
 }
 
-.mdi-arrow-left-drop-circle{
+.fa-chevron-circle-left{
     position: absolute;
     top: 50%;
     left: -40px;
@@ -520,7 +525,7 @@ nav.navbar-light .navbar-toggler {
     color: #0095da;
 }
 
-.mdi-arrow-right-drop-circle{
+.fa-chevron-circle-right{
     position: absolute;
     top: 50%;
     right: -40px;
@@ -540,8 +545,8 @@ nav.navbar-light .navbar-toggler {
     color: #0095da;
 }
 
-.mdi-arrow-left-drop-circle:hover,
-.mdi-arrow-right-drop-circle:hover{
+.fa-chevron-circle-left:hover,
+.fa-chevron-circle-right:hover{
     color: #e68324;
 }
 
@@ -948,11 +953,18 @@ nav.navbar-light .navbar-toggler {
 .service_icon i{
     font-size: 40px;
     color: #0095da;
+    position: relative;
     -webkit-transition: all linear .5s;
     -moz-transition: all linear .5s;
     -ms-transition: all linear .5s;
     -o-transition: all linear .5s;
     transition: all linear .5s;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .service_content{
@@ -1080,21 +1092,6 @@ nav.navbar-light .navbar-toggler {
     10 - Start of counter part
 ==================================================*/
 
-/*
-.my_counter{
-    background: url(../images/counter_bg.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.counter_overlay{
-    padding: 20px 0px;
-    background: rgba(0, 0, 0, 0.60);
-}
-*/
-
 .counter_main{
     width: 70%;
     margin: 5px 0px;
@@ -1128,6 +1125,118 @@ nav.navbar-light .navbar-toggler {
 /*================================================
     11 - Start of blog part
 ==================================================*/
+
+.blog_main{
+    width: 370px;
+    max-width: 850px;
+    margin: 15px 0px;
+    padding: 15px;
+    background: #f1f1f1;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-shadow: 0 0 5px #000000;
+    -moz-box-shadow: 0 0 5px #000000;
+    -ms-box-shadow: 0 0 5px #000000;
+    -o-box-shadow: 0 0 5px #000000;
+    box-shadow: 0 0 5px #000000;
+}
+
+.blog_title{
+    padding: 5px 0px;
+}
+
+.blog_title h6{
+    margin-bottom: 5px;
+}
+
+.blog_title p{
+    font-size: 13px;
+    color: #2c2c2c;
+}
+
+.blog_title p span{
+    color: #6c6c6c;
+}
+
+.blog_img{
+    margin: 5px 0px;
+    overflow: hidden;
+}
+
+.blog_img img{
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.blog_content{
+    margin: 5px;
+}
+
+.blog_content p{
+    margin: 5px 0px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #222222;
+}
+
+.blog_content a{
+    font-size: 15px;
+    color: #0f0f0f;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.blog_content a i{
+    font-size: 13px;
+    margin-left: -2px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.blog_content a:hover{
+    padding-left: 5px;
+}
+
+.blog_content a:hover i{
+    padding-left: 5px;
+}
+
+.blog_main:hover{
+    -webkit-box-shadow: 0 0 10px #000000;
+    -moz-box-shadow: 0 0 10px #000000;
+    -ms-box-shadow: 0 0 10px #000000;
+    -o-box-shadow: 0 10 5px #000000;
+    box-shadow: 0 0 20px #060026;
+}
+
+.blog_main:hover .blog_img img{
+    transform: scale(1.2) rotate(-10deg);
+}
+
 
 /*================================================
     11 - End of blog part
@@ -1199,6 +1308,7 @@ nav.navbar-light .navbar-toggler {
 
 .marketplace_main h6{
     margin-top: 15px;
+    color: #f1f1f1;
 }
 
 /*================================================
@@ -1336,22 +1446,41 @@ nav.navbar-light .navbar-toggler {
     margin-top: 15px;
     font-size: 16px;
     font-weight: 400;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
 }
 
 .contact_datails p i{
     font-size: 20px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
 }
 
 .contact_datails p i span{
     font-size: 17px;
     font-style: normal;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .contact_datails p i a{
     font-style: normal;
     margin-left: 5px;
     color: #2f2f2f;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.contact_datails p:hover i a{
+    color: #e68324;
 }
 
 .contact_datails .contact_social{
@@ -1378,6 +1507,7 @@ nav.navbar-light .navbar-toggler {
     transition: all linear .3s;
 }
 
+
 .contact_datails .contact_social ul li a i{
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -1385,6 +1515,7 @@ nav.navbar-light .navbar-toggler {
     -o-transition: all linear .3s;
     transition: all linear .3s;
     color: #2f2f2f;
+    margin-right: 10px;
 }
 
 .contact_datails .contact_social ul li a:hover i{
@@ -1500,11 +1631,21 @@ nav.navbar-light .navbar-toggler {
 
 .back_to_top a{
     color: #0095da;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
 }
 
 .back_to_top a i{
     font-size: 16px;
     color: #0095da;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
 }
 
 .back_to_top:hover {
@@ -1517,6 +1658,14 @@ nav.navbar-light .navbar-toggler {
 .show{
     opacity: 1;
     visibility: visible;
+}
+
+.back_to_top a:hover{
+    padding-left: 10px;
+}
+
+.back_to_top a:hover i{
+    padding-left: 10px;
 }
 
 /*================================================

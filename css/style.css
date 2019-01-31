@@ -392,10 +392,30 @@ nav.navbar-light .navbar-toggler {
     font-size: 25px;
     text-transform: capitalize;
     color: #7c7c7c;
+    position: relative;
+}
+
+.sub_heading h5:after{
+	content: '';
+	width: 55px;
+	height: 3px;
+	background: #7c7c7c;
+	left: 50%;
+	bottom: -5px;
+	position: absolute;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 
 #skills_part .sub_heading{
     padding-top: 25px;
+}
+
+.me_bio .sub_heading h5:after{
+	bottom: 8px;
 }
 
 /*.me_bio .sub_heading h5{

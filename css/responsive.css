@@ -14,13 +14,22 @@
     }
     
     #header_part .header_icon ul li a {
-	font-size: 13px;
-	padding: 12px 5px;
+        font-size: 13px;
+        padding: 12px 5px;
     }
     
     .navbar .navbar-brand .img-fluid {
         max-width: 70%;
         height: auto;
+    }
+    
+    .nav_main {
+        margin-top: -76px;
+        top: 65px;
+    }
+    
+    .nav_repos{
+        top: 0;
     }
     
     .banner_overlay {
@@ -137,7 +146,16 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
-       .banner_overlay {
+    
+        .nav_main {
+            top: 80px;
+        }
+
+        .nav_repos{
+            top: 0;
+        }
+    
+        .banner_overlay {
             padding: 20px 0px;
         }
 

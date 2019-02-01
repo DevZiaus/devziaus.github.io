@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <title>MZSBulbul</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="100">
       <!-- start of header part-->
       <header id="header_part">
           <div class="container">
@@ -50,8 +50,8 @@
       </header>
       <!-- end of header part-->
       
-      <!-- Start of navbar part -->
-        <nav class="navbar navbar-expand-md navbar-light menu_part sticky-top">
+        <!-- Start of navbar part -->
+        <nav class="navbar navbar-expand-md navbar-light menu_part sticky-top nav_main">
             <div class="container">
                 <a class="navbar-brand logo" href="index.html">
                     <img src="images/logo.png" alt="logo.png" class="img-fluid">
@@ -62,14 +62,23 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#header_part">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about_part">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#service_part">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio_part">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial_part">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog_part">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#marketplace_part">Find me</a>
@@ -81,16 +90,16 @@
                 </div>
             </div>
         </nav>
-      <!-- End of navbar part -->
+        <!-- End of navbar part -->
+      
       
       <!-- Start of banner part -->
         <section id="banner_part">
            <div class="banner_main">
-               <img src="images/banner_bg.jpg" alt="banner Image" class="img-fluid">
                 <div class="banner_overlay">
                     <div class="container">
                         <div class="row">
-                            <div class="banner_content col-lg-6 offset-lg-6 text-right wow bounceInDown" data-wow-duration="2s">
+                            <div class="banner_content pt_50 col-lg-6 offset-lg-6 text-right wow bounceInDown" data-wow-duration="2s">
                                 <h3>Hi! I Am</h3>
                                 <h1>Md. Ziaus Samad</h1>
                                 <h4>I'm a Front End</h4>
@@ -382,6 +391,89 @@
           
       </section>
       <!-- End of services part -->
+      
+      <!-- Start of portfolio part -->
+      <section id="portfolio_part" class="pt_50">
+          <div class="container">
+            <!-- Start of common heading part-->
+            <div class="row">
+                <div class="common_heading col-lg-12 text-center wow bounceInDown" data-wow-duration="3s">
+                    <p>Portfolio</p>
+                    <h5>My recent Projects</h5>
+                </div>
+            </div>
+            <!-- End of common heading part-->
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="portfolio_main text-center">
+                            <img src="images/potfolio/beatles_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
+                            <div class="portfolio_overlay">
+                                <h6>PSD to HTML</h6>
+                                <p>Single Page</p>
+                                <a class="venobox" href="images/potfolio/beatles.jpg"><i class="fas fa-search-plus"></i></a>
+                                <a href="https://beatls.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="portfolio_main text-center">
+                            <img src="images/potfolio/national_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
+                            <div class="portfolio_overlay">
+                                <h6>PSD to HTML</h6>
+                                <p>Multi Page</p>
+                                <a class="venobox" href="images/potfolio/national.png"><i class="fas fa-search-plus"></i></a>
+                                <a href="https://nationaldoctors.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="portfolio_main text-center">
+                            <img src="images/potfolio/spirit8_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
+                            <div class="portfolio_overlay">
+                                <h6>PSD to HTML</h6>
+                                <p>Single Page</p>
+                                <a class="venobox" href="images/potfolio/spirit8.png"><i class="fas fa-search-plus"></i></a>
+                                <a href="https://spirit8.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="portfolio_main text-center">
+                            <img src="images/potfolio/strict_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
+                            <div class="portfolio_overlay">
+                                <h6>PSD to HTML</h6>
+                                <p>Single Page</p>
+                                <a class="venobox" href="images/potfolio/strict.jpg"><i class="fas fa-search-plus"></i></a>
+                                <a href="https://strictsingle.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="portfolio_main text-center">
+                            <img src="images/potfolio/motion_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
+                            <div class="portfolio_overlay">
+                                <h6>PSD to HTML</h6>
+                                <p>Single Page</p>
+                                <a class="venobox" href="images/potfolio/motion.jpg"><i class="fas fa-search-plus"></i></a>
+                                <a href="https://motionsinglepage.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="portfolio_main text-center">
+                            <img src="images/potfolio/registration_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
+                            <div class="portfolio_overlay">
+                                <h6>PSD to HTML</h6>
+                                <p>Registration Page</p>
+                                <a class="venobox" href="images/potfolio/registration_page.jpg"><i class="fas fa-search-plus"></i></a>
+                                <a href="https://registrationpage.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- End of portfolio part -->
       
       <!-- Start of testimonial part -->
         <section id="testimonial_part" class="pt_50 text-center">

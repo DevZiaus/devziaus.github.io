@@ -152,7 +152,7 @@ body{
     02 - start of header part 
 ==================================================*/
 #header_part{
-    background: #ffffff;
+    /*margin-bottom: -88px;*/
 }
 
 #header_part .header_content h6{
@@ -237,7 +237,29 @@ body{
 /*================================================
     03 - Start of navbar part
 ==================================================*/
-.navbar{
+/*.navbar{
+    background: #ffffff;
+    position: fixed;
+    top: 94px;
+    margin-top: -97px;
+}*/
+
+.nav_main{
+    margin-top: -97px;
+    position: relative;
+    top: 94px;
+}
+
+.nav_repos{
+    top: 0;
+    -webkit-position: sticky;
+    -moz-position: sticky;
+    -ms-position: sticky;
+    -o-position: sticky;
+    position: sticky;
+}
+
+.bg_nav{
     background: #ffffff;
 }
 
@@ -251,7 +273,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .menu_part .nav-item .nav-link{
-    color: #05233e;
+    color: #adadad;
     font-size: 14px;
     font-weight: 500;
     text-transform: capitalize;
@@ -267,11 +289,12 @@ nav.navbar-light .navbar-toggler {
     padding-right: 0px;
 }
 
-.active{
+.menu_part .nav-item .nav-link:focus,
+.menu_part .nav-item .nav-link:hover{
     color: #e68324;
 }
-.menu_part .nav-item.active .nav-link,
-.menu_part .nav-item:hover .nav-link{
+
+.menu_part .nav-item .nav-link.active{
     color: #e68324;
 }
 
@@ -283,25 +306,19 @@ nav.navbar-light .navbar-toggler {
     04 - Start of banner part
 ==================================================*/
 #banner_part{
-   
-}
-
-.banner_main{
-    background-position: center center;
+    background: url(../images/banner_bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.banner_main{
     position: relative;
 }
 
 .banner_overlay{
-    padding: 110px 0px;
+    padding: 60px 0px;
     background: rgba(0, 0, 0, 0.60);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
 }
 
 .banner_content h3{
@@ -1006,6 +1023,111 @@ nav.navbar-light .navbar-toggler {
     08 - Start of portfolio part
 ==================================================*/
 
+.portfolio_main{
+    max-width: 380px;
+    max-height: 380px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25px;
+}
+
+.portfolio_overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    background: rgba(0, 16, 59, 0.6);
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.portfolio_main img{
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portfolio_main:hover img{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.portfolio_main:hover .portfolio_overlay{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.portfolio_overlay h6{
+    color: #f1f1f1;
+    margin-top: 35px;
+}
+
+.portfolio_overlay p{
+    color: #bababa;
+    margin-top: 5px;
+}
+
+.portfolio_overlay a{
+    height: 35px;
+    width: 35px;
+    border: 2px solid #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    color: #f1f1f1;
+    font-size: 16px;
+    background: #0095da;
+    display: inline-block;
+    position: relative;
+    top: 20%;
+    -webkit-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -o-transform: translateY(-20%);
+    transform: translateY(-20%);
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.portfolio_overlay a i{
+    line-height: 35px;
+}
+
+.portfolio_overlay a:hover{
+    color: #e68324;
+    border-color: #e68324;
+}
+
 /*================================================
     08 - End of portfolio part
 ==================================================*/
@@ -1217,12 +1339,14 @@ nav.navbar-light .navbar-toggler {
     transition: all linear .3s;
 }
 
+.blog_content a:focus,
 .blog_content a:hover{
-    padding-left: 5px;
+    padding-left: 8px;
 }
 
+.blog_content a:focus i,
 .blog_content a:hover i{
-    padding-left: 5px;
+    padding-left: 8px;
 }
 
 .blog_main:hover{
@@ -1561,8 +1685,11 @@ nav.navbar-light .navbar-toggler {
     margin: 15px 15px 0px 0px;
     padding: 10px 0px;
     border-radius: 0px;
-    width: 100%;
-    
+    width: 100%; 
+}
+
+.contact_form .form_text{
+    margin-bottom: 30px;
 }
 
 .contact_form .form_text{
@@ -1571,7 +1698,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .contact_form .btn_subm{
-    margin: 24px 0px;
+    /*margin: 24px 0px;*/
 }
 /*================================================
     15 - End of contact part
@@ -1613,7 +1740,7 @@ nav.navbar-light .navbar-toggler {
     margin: 30px;
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    right: 10px;
     -webkit-transition: background-color .3s, opacity .5s, visibility .5s;
     -moz-transition: background-color .3s, opacity .5s, visibility .5s;
     -ms-transition: background-color .3s, opacity .5s, visibility .5s;
@@ -1660,6 +1787,7 @@ nav.navbar-light .navbar-toggler {
     visibility: visible;
 }
 
+.back_to_top a:focus,
 .back_to_top a:hover{
     padding-left: 10px;
 }

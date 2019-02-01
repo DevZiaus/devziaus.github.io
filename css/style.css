@@ -354,11 +354,13 @@ nav.navbar-light .navbar-toggler {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    border-radius: 20px;
+    position: relative;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+    transform: translateX(50%);
 }
 
 .banner_content a:hover{

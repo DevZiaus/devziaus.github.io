@@ -1601,7 +1601,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .contact_datails h6{
-    padding-bottom: 27px;    /*Originally "padding bottom: 20px;"*/
+    padding-bottom: 28px;    /*Originally "padding bottom: 20px;"*/
     font-size: 25px;
     font-family: 'Aleo', serif;
     font-weight: 600;
@@ -1609,7 +1609,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .contact_datails p{
-    margin: 15px 0px 7px;   /*Originaly  "margin-top: 15px;"*/
+    margin: 15px 0px;   /*Originaly  "margin-top: 15px;"*/
     font-size: 16px;
     font-weight: 400;
     -webkit-transition: all linear .3s;

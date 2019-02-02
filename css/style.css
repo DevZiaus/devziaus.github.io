@@ -3,19 +3,20 @@
 *******************************************
 
 Template Name: MZSBulbul
-Template URL: http://
+Template URL: http://www.mzsbulbul.ga
 Description:  Personal Portfolio Template.
 Author: Md. Ziaus Samad
 Author URL: https://www.mzsbulbul.ga
 Version: 1.0
 
-* This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
+* This file contains the styling for the 
+actual theme, this is the file you need to 
+edit to change the look  of the theme.
 
 This files contents are outlined below >>>>
 
-*** SEARCH EACH SECTION AS IT COMMENTS, YOU WILL GET THE RIGHT SECTION.
+*** SEARCH EACH SECTION AS IT COMMENTS, 
+YOU WILL GET THE RIGHT SECTION.
 
 **************************************************
 **************************************************
@@ -144,12 +145,35 @@ a{
 body{
     overflow-x: hidden;
 }
+
 /*================================================
     01 - end of default css
 ==================================================*/
 
 /*================================================
-    02 - start of header part 
+    1.5 - Etart of preloader part 
+==================================================*/
+.preloader{
+   position: fixed;
+    z-index: 999999;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    
+}
+.preloader img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+*================================================
+    1.5 - End of preloader part 
+==================================================*/
+
+
+/*================================================
+    02 - Start of header part 
 ==================================================*/
 #header_part{
     /*margin-bottom: -88px;*/
@@ -390,6 +414,7 @@ nav.navbar-light .navbar-toggler {
     text-transform: capitalize;;
 }
 
+.services .common_heading h5,
 .my_marketplace .common_heading h5,
 .my_testimonial .common_heading h5,
 .contact_me .common_heading h5{
@@ -918,6 +943,20 @@ nav.navbar-light .navbar-toggler {
 /*================================================
     07 - Start of service part
 ==================================================*/
+
+.services{
+    background: url(../images/services_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.service_overlay{
+    padding: 90px 0px;
+    background: rgba(0, 0, 0, 0.60);
+}
+
 .my_services{
     padding-top: 50px;
 }
@@ -1002,6 +1041,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .service_content p{
+    font-size: 13px;
     padding: 0px 15px;
 }
 
@@ -1652,6 +1692,11 @@ nav.navbar-light .navbar-toggler {
     position: relative;
 }
 
+.contact_datails,
+.contact_form{
+    max-height: 436px;
+}
+
 .contact_form sup{
     color: #ff0000;
     font-size: 16px;
@@ -1691,7 +1736,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .contact_form .form_text{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .contact_form .form_text{
@@ -1700,7 +1745,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .contact_form .btn_subm{
-    /*margin: 24px 0px;*/
+    margin: 24px 0px;
 }
 /*================================================
     15 - End of contact part

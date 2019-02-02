@@ -1601,7 +1601,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .contact_datails h6{
-    padding-bottom: 28px;    /*Originally "padding bottom: 20px;"*/
+    padding-bottom: 20px;
     font-size: 25px;
     font-family: 'Aleo', serif;
     font-weight: 600;
@@ -1609,7 +1609,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .contact_datails p{
-    margin: 15px 0px;   /*Originaly  "margin-top: 15px;"*/
+    margin-top: 15px;
     font-size: 16px;
     font-weight: 400;
     -webkit-transition: all linear .3s;
@@ -1694,7 +1694,7 @@ nav.navbar-light .navbar-toggler {
 
 .contact_datails,
 .contact_form{
-    max-height: 450px;     /*Originally " max-height: 436px"*/
+    max-height: 436px;
 }
 
 .contact_form sup{
@@ -1735,19 +1735,13 @@ nav.navbar-light .navbar-toggler {
     width: 100%; 
 }
 
-
-/*Originally Uncommented*/
-/*
 .contact_form .form_text{    
     margin-bottom: 10px;
 }
-*/
-
-
 
 .contact_form .form_text{
     resize: none;
-    padding: 15px 0px;   /* originally " padding: 30px"*/
+    padding: 30px 0px;
 }
 
 .contact_form .btn_subm{

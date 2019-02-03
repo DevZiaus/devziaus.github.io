@@ -954,7 +954,7 @@ nav.navbar-light .navbar-toggler {
 
 .service_overlay{
     padding: 90px 0px;
-    background: rgba(0, 0, 0, 0.60);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .my_services{
@@ -974,13 +974,18 @@ nav.navbar-light .navbar-toggler {
     position: absolute;
     height: 80px;
     width: 80px;
+    background: #f1f1f1;
+    border: 4px solid rgba(0, 0, 0, 0.4);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    -ms-background-clip: padding-box;
+    -o-background-clip: padding-box;
+    background-clip: padding-box;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    background: #f1f1f1;
-    border: 4px solid #ffffff;
     -webkit-transition: all linear .5s;
     -moz-transition: all linear .5s;
     -ms-transition: all linear .5s;
@@ -994,12 +999,19 @@ nav.navbar-light .navbar-toggler {
 .service_icon{
     height: 65px;
     width: 65px;
+    margin: 3px;
+    background: #f1f1f1;
+    border: 3px solid rgba(0, 0, 0, 0.4);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    -ms-background-clip: padding-box;
+    -o-background-clip: padding-box;
+    background-clip: padding-box;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     border-radius: 50%;
-    margin:  3px;
-    background: #f1f1f1;
-    border: 3px solid #ffffff;
     -webkit-transition: all linear .5s;
     -moz-transition: all linear .5s;
     -ms-transition: all linear .5s;
@@ -1051,7 +1063,8 @@ nav.navbar-light .navbar-toggler {
 }
 
 .service_main:hover .service_content{
-    box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 15px #3d0045;
+    background: #7e7e7e;
 }
 
 .service_main:hover .service_icon i{

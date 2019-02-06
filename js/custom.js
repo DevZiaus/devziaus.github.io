@@ -181,6 +181,7 @@ $(function () {
         var email = document.getElementById('in_em');
         var subject = document.getElementById('in_sub');
         var message = document.getElementById('in_msg');
+        var phone = document.getElementById('in_phone');
 
         if (name.value === "") {
             alert("Please, Enter Your Name!");
@@ -201,6 +202,12 @@ $(function () {
         if (message.value === "") {
             alert('Please, Enter Your Messages!');
             mess.focus;
+            return false;
+        }
+        
+        if (phone.value === "") {
+            alert('Please, Enter Your Phone Number!');
+            phone.focus;
             return false;
         }
     }

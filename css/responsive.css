@@ -154,6 +154,10 @@ part.
     .newsletter_main .but_subs {
         right: -30%;
     }
+    
+    .contact_datails, .contact_form {
+        max-height: 560px;
+    }
 
 
     .back_to_top {
@@ -230,6 +234,10 @@ part.
         margin: 0px 50px;
         top: 90%;
     }
+    
+    .contact_datails, .contact_form {
+        max-height: 560px;
+    }
 
     .back_to_top {
         right: -50px;
@@ -291,6 +299,10 @@ part.
 
     .fa-chevron-circle-right {
         right: -25px;
+    }
+    
+    .portfolio_overlay a {
+        top: 10%;
     }
 
     .counter_main p {

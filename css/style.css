@@ -1772,12 +1772,12 @@ nav.navbar-light .navbar-toggler {
     padding: 30px 0px;
 }
 
-.footer_main p{
+.footer_main h6{
     font-size: 14px;
     color: #f1f1f1;
 }
 
-.footer_main p a{
+.footer_main h6 a{
     font-size: 15px;
     color: #0095da;
 }

@@ -2,9 +2,9 @@
 *******************************************
 *******************************************
 
-Template Name: MZSBulbul
+Template Name: Portfie
 Template URL: http://www.mzsbulbul.ga
-Description:  Personal Portfolio Template.
+Description: MZSBulbul's Personal Portfolio
 Author: Md. Ziaus Samad
 Author URL: https://www.mzsbulbul.ga
 Version: 1.0
@@ -18,16 +18,34 @@ This files contents are outlined below >>>>
 *** SEARCH EACH SECTION AS IT COMMENTS, 
 YOU WILL GET THE RIGHT SECTION.
 
-**************************************************
-**************************************************
+***********************************************
+***********************************************
 
 ==== CSS INDEX ===================================
 
 01 - default css
+02 - Header part 
+03 - Navbar part
+04 - Banner part
+05 - Common heading part
+05.5 - Sub heading part
+06 - About part
+07 - Skills part
+08 - Service part
+09 - Portfolio part
+10 - Testimonial part
+11 - Counter part
+12 - Blog part
+13 - Marketplace part
+14 - Hire me part
+15 - Newsletter part
+16 - Contact part
+17 - Footer part
+18 - Back to top button part
 
 ==================================================*/
 /*================================================
-    01 - start of default css
+    01 - default css
 ==================================================*/
 *{
     margin: 0;
@@ -79,7 +97,7 @@ input{
 
 h1 {
     font-family: 'Aleo', serif;
-    font-size: 70px;
+    font-size: 65px;
     line-height: 54px;
     color: #0095da;
     font-weight: 400;
@@ -87,14 +105,14 @@ h1 {
 }
 
 h2 {
-    font-size: 55px;
+    font-size: 45px;
     color: #0095da;
     font-weight: 400;
     text-transform: capitalize;
 }
 
 h3 {
-    font-size: 45px;
+    font-size: 40px;
     color: #ffffff;
     text-transform: capitalize;
 }
@@ -151,7 +169,7 @@ body{
 ==================================================*/
 
 /*================================================
-    1.5 - Etart of preloader part 
+    1.5 - Preloader part 
 ==================================================*/
 .preloader{
    position: fixed;
@@ -167,16 +185,15 @@ body{
     top: 50%;
     transform: translate(-50%,-50%);
 }
-*================================================
+/*================================================
     1.5 - End of preloader part 
 ==================================================*/
 
-
 /*================================================
-    02 - Start of header part 
+    02 - Header part 
 ==================================================*/
 #header_part{
-    /*margin-bottom: -88px;*/
+    
 }
 
 #header_part .header_content h6{
@@ -259,14 +276,8 @@ body{
 ==================================================*/
 
 /*================================================
-    03 - Start of navbar part
+    03 - Navbar part
 ==================================================*/
-/*.navbar{
-    background: #ffffff;
-    position: fixed;
-    top: 94px;
-    margin-top: -97px;
-}*/
 
 .nav_main{
     margin-top: -97px;
@@ -327,7 +338,7 @@ nav.navbar-light .navbar-toggler {
 ==================================================*/
 
 /*================================================
-    04 - Start of banner part
+    04 - Banner part
 ==================================================*/
 #banner_part{
     background: url(../images/banner_bg.jpg);
@@ -378,13 +389,6 @@ nav.navbar-light .navbar-toggler {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
-    position: relative;
-    right: 50%;
-    -webkit-transform: translateX(50%);
-    -moz-transform: translateX(50%);
-    -ms-transform: translateX(50%);
-    -o-transform: translateX(50%);
-    transform: translateX(50%);
 }
 
 .banner_content a:hover{
@@ -396,7 +400,7 @@ nav.navbar-light .navbar-toggler {
 ==================================================*/
 
 /*================================================
-    05 - Start of common heading part
+    05 - Common heading part
 ==================================================*/
 .common_heading {
     padding-bottom: 40px;
@@ -426,7 +430,7 @@ nav.navbar-light .navbar-toggler {
 ==================================================*/
 
 /*================================================
-    05.5 - Start of sub heading part
+    05.5 - Sub heading part
 ==================================================*/
 .sub_heading{
     padding-bottom: 10px;
@@ -471,7 +475,7 @@ nav.navbar-light .navbar-toggler {
 ==================================================*/
 
 /*================================================
-    06 - Start of about part
+    06 - About part
 ==================================================*/
 
 .hexagon {
@@ -654,9 +658,9 @@ nav.navbar-light .navbar-toggler {
     top: 50%;
     -webkit-transform: translate(-50% , -50%);
     -moz-transform: translate(-50% , -50%);
-    -ms-transform: translateX(-50% , -50%);
-    -o-transform: translateX(-50% , -50%);
-    transform: translateX(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    transform: translate(-50% , -50%);
 }
 
 .me_bio{
@@ -728,7 +732,7 @@ nav.navbar-light .navbar-toggler {
 ==================================================*/
 
 /*================================================
-    07 - Start of skills part
+    07 - Skills part
 ==================================================*/
 .progress{
     width: 150px;
@@ -941,7 +945,7 @@ nav.navbar-light .navbar-toggler {
 ==================================================*/
 
 /*================================================
-    07 - Start of service part
+    08 - Service part
 ==================================================*/
 
 .services{
@@ -1053,7 +1057,7 @@ nav.navbar-light .navbar-toggler {
 }
 
 .service_content p{
-    font-size: 13px;
+    font-size: 14px;
     padding: 0px 15px;
 }
 
@@ -1071,11 +1075,11 @@ nav.navbar-light .navbar-toggler {
     color: #ffffff;
 }
 /*================================================
-    07 - End of service part
+    08 - End of service part
 ==================================================*/
 
 /*================================================
-    08 - Start of portfolio part
+    09 - Portfolio part
 ==================================================*/
 
 .portfolio_main{
@@ -1184,11 +1188,11 @@ nav.navbar-light .navbar-toggler {
 }
 
 /*================================================
-    08 - End of portfolio part
+    09 - End of portfolio part
 ==================================================*/
 
 /*================================================
-    09 - Start of testimonial part
+    10 - Testimonial part
 ==================================================*/
 
 .my_testimonial{
@@ -1262,11 +1266,11 @@ nav.navbar-light .navbar-toggler {
 }
 
 /*================================================
-    09 - End of testimonial part
+    10 - End of testimonial part
 ==================================================*/
 
 /*================================================
-    10 - Start of counter part
+    11 - Counter part
 ==================================================*/
 
 .counter_main{
@@ -1276,10 +1280,10 @@ nav.navbar-light .navbar-toggler {
     background: #606060;
     position: relative;
     left: 50%;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
@@ -1296,11 +1300,11 @@ nav.navbar-light .navbar-toggler {
 }
 
 /*================================================
-    10 - End of counter part
+    11 - End of counter part
 ==================================================*/
 
 /*================================================
-    11 - Start of blog part
+    12 - Blog part
 ==================================================*/
 
 .blog_main{
@@ -1397,11 +1401,13 @@ nav.navbar-light .navbar-toggler {
 .blog_content a:focus,
 .blog_content a:hover{
     padding-left: 8px;
+    color: #e68324;
 }
 
 .blog_content a:focus i,
 .blog_content a:hover i{
     padding-left: 8px;
+    color: #e68324;
 }
 
 .blog_main:hover{
@@ -1418,12 +1424,12 @@ nav.navbar-light .navbar-toggler {
 
 
 /*================================================
-    11 - End of blog part
+    12 - End of blog part
 ==================================================*/
 
 
 /*================================================
-    12 - Start of marketplace part
+    13 - Marketplace part
 ==================================================*/
 
 .my_marketplace{
@@ -1488,14 +1494,23 @@ nav.navbar-light .navbar-toggler {
 .marketplace_main h6{
     margin-top: 15px;
     color: #f1f1f1;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.marketplace_main:hover h6{
+    color: #e68324;
 }
 
 /*================================================
-    12 - End of marketplace part
+    13 - End of marketplace part
 ==================================================*/
 
 /*================================================
-    13 - Start of hire me part
+    14 - Hire me part
 ==================================================*/
 
 .hire_me_main h4{
@@ -1532,11 +1547,11 @@ nav.navbar-light .navbar-toggler {
 }
 
 /*================================================
-    12 - End of hire me part
+    14 - End of hire me part
 ==================================================*/
 
 /*================================================
-    14 - Start of newsletter part
+    15 - Newsletter part
 ==================================================*/
 .newsletter_main{
     background: #1f1f1f;
@@ -1587,11 +1602,11 @@ nav.navbar-light .navbar-toggler {
 /*border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;*/
 /*================================================
-    14 - End of newsletter part
+    15 - End of newsletter part
 ==================================================*/
 
 /*================================================
-    15 - Start of contact part
+    16 - Contact part
 ==================================================*/
 .contact_me{
     background: url(../images/contact_bg.jpg);
@@ -1639,12 +1654,15 @@ nav.navbar-light .navbar-toggler {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
+    color: #0095da;
 }
 
 .contact_datails p i span{
     font-size: 17px;
     font-style: normal;
     margin-left: 10px;
+    color: #2f2f2f;
+    font-weight: 600;
 }
 
 .contact_datails p i a{
@@ -1656,6 +1674,10 @@ nav.navbar-light .navbar-toggler {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
+}
+
+.contact_datails p:hover i{
+    color: #e68324;
 }
 
 .contact_datails p:hover i a{
@@ -1693,7 +1715,7 @@ nav.navbar-light .navbar-toggler {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
-    color: #2f2f2f;
+    color: #0095da;
     margin-right: 10px;
 }
 
@@ -1759,13 +1781,25 @@ nav.navbar-light .navbar-toggler {
 
 .contact_form .btn_subm{
     margin: 24px 0px;
+    background: #0095da;
+    border-color: #0095da;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.contact_form .btn_subm:hover{
+    background: #e68324;
+    border-color: #e68324;
 }
 /*================================================
-    15 - End of contact part
+    16 - End of contact part
 ==================================================*/
 
 /*================================================
-    16 - Start of footer part
+    17 - Footer part
 ==================================================*/
 #footer_part{
     background: #111111;
@@ -1780,14 +1814,23 @@ nav.navbar-light .navbar-toggler {
 .footer_main h6 a{
     font-size: 15px;
     color: #0095da;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.footer_main h6 a:hover{
+    color: #e68324;
 }
 
 /*================================================
-    16 - End of footer part
+    17 - End of footer part
 ==================================================*/
 
 /*================================================
-    17 - Start of back to top button part
+    18 - Back to top button part
 ==================================================*/
 
 .back_to_top {
@@ -1801,11 +1844,11 @@ nav.navbar-light .navbar-toggler {
     position: fixed;
     bottom: 30px;
     right: 10px;
-    -webkit-transition: background-color .3s, opacity .5s, visibility .5s;
-    -moz-transition: background-color .3s, opacity .5s, visibility .5s;
-    -ms-transition: background-color .3s, opacity .5s, visibility .5s;
-    -o-transition: background-color .3s, opacity .5s, visibility .5s;
-    transition: background-color .3s, opacity .5s, visibility .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    transition: all linear .5s;
     z-index: 1000;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
@@ -1818,21 +1861,21 @@ nav.navbar-light .navbar-toggler {
 
 .back_to_top a{
     color: #0095da;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    transition: all linear .5s;
 }
 
 .back_to_top a i{
     font-size: 16px;
     color: #0095da;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    transition: all linear .5s;
 }
 
 .back_to_top:hover {
@@ -1850,12 +1893,14 @@ nav.navbar-light .navbar-toggler {
 .back_to_top a:focus,
 .back_to_top a:hover{
     padding-left: 10px;
+    color: #e68324;
 }
 
 .back_to_top a:hover i{
     padding-left: 10px;
+    color: #e68324;
 }
 
 /*================================================
-    17 - End of back to top button part
+    18 - End of back to top button part
 ==================================================*/

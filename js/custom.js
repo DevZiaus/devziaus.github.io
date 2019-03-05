@@ -2,9 +2,9 @@
 *******************************************
 *******************************************
 
-Template Name: MZSBulbul
+Template Name: Portfie
 Template URL: http://www.mzsbulbul.ga
-Description:  Personal Portfolio Template.
+Description: MZSBulbul's Personal Portfolio
 Author: Md. Ziaus Samad
 Author URL: https://www.mzsbulbul.ga
 Version: 1.0
@@ -12,8 +12,8 @@ Version: 1.0
 * This file contains the JavaScript &
 jQuery Code.
 
-**************************************************
-**************************************************
+***********************************************
+***********************************************
 */
 
 
@@ -46,6 +46,7 @@ $(function () {
             sticky.removeClass("nav_repos");
         }
     });
+    
     //for smooth scroll
     var html_body = $('html, body');
     $('a').on('click', function () {
@@ -60,7 +61,13 @@ $(function () {
             }
         }
     });
-
+    
+    //Type Effect
+    new TypeIt('.type_effect', {
+        speed: 150,
+        waitUntilVisible: true,
+        loop: true,
+    }).go();
 
     // for feature part slider
     $('.feature_slider').slick({
@@ -175,45 +182,52 @@ $(function () {
 
     });
 
-    //for form validation
-    function check() {
-        var name = document.getElementById('in_nm');
-        var email = document.getElementById('in_em');
-        var subject = document.getElementById('in_sub');
-        var message = document.getElementById('in_msg');
-        var phone = document.getElementById('in_phone');
-
-        if (name.value === "") {
-            alert("Please, Enter Your Name!");
-            name.focus;
-            return false;
-        }
-        if (email.value === "") {
-            alert("Please, Enter Your Email");
-            email.focus;
-            return false;
-        }
-        if (Subject.value === "") {
-            alert("Please, Enter Your subject!");
-            pass.focus;
-            return false;
-        }
-
-        if (message.value === "") {
-            alert('Please, Enter Your Messages!');
-            mess.focus;
-            return false;
-        }
-        
-        if (phone.value === "") {
-            alert('Please, Enter Your Phone Number!');
-            phone.focus;
-            return false;
-        }
-    }
     //for counter
     $('.counter').counterUp({
         delay: 10,
         time: 1000
     });
 });
+
+//for form validation
+function form_validate() {
+    "use strict";
+    var name = document.getElementById('in_nm'),
+        email = document.getElementById('in_em'),
+        subject = document.getElementById('in_sub'),
+        message = document.getElementById('in_msg'),
+        phone = document.getElementById('in_phone'),
+        submit = document.getElementById('submit');
+
+    if (name.value === "") {
+        alert("Please, Enter Your Name!");
+        name.focus;
+        return false;
+    }
+    if (email.value === "") {
+        alert("Please, Enter Your Email");
+        email.focus;
+        return false;
+    }
+    if (Subject.value === "") {
+        alert("Please, Enter Your subject!");
+        pass.focus;
+        return false;
+    }
+
+    if (message.value === "") {
+        alert('Please, Enter Your Messages!');
+        mess.focus;
+        return false;
+    }
+
+    if (phone.value === "") {
+        alert('Please, Enter Your Phone Number!');
+        phone.focus;
+        return false;
+    }
+}
+
+submit.addEventListener('click', function () {
+    form_validate();
+})

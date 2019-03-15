@@ -105,7 +105,7 @@ h1 {
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 50px;
     color: #0095da;
     font-weight: 400;
     text-transform: capitalize;
@@ -1187,6 +1187,28 @@ nav.navbar-light .navbar-toggler {
     border-color: #e68324;
 }
 
+.load_more{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 16px;
+    margin: 15px auto;
+    background: #0095da;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #fff;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.load_more:hover{
+    background: #e68324;
+    border-color: #e68324;
+    color: #fff;
+}
+
 /*================================================
     09 - End of portfolio part
 ==================================================*/
@@ -1790,6 +1812,8 @@ nav.navbar-light .navbar-toggler {
     transition: all linear .3s;
 }
 
+.contact_form .btn_subm:visited,
+.contact_form .btn_subm:active,
 .contact_form .btn_subm:hover{
     background: #e68324;
     border-color: #e68324;

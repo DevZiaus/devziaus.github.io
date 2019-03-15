@@ -163,6 +163,11 @@ responsive part.
     .back_to_top {
         right: -85px;
     }
+    
+    /* For inner pages breadcrumb part */
+    .breadcrumb_content h1 {
+        font-size: 35px;
+    }
 
 
 }
@@ -242,6 +247,11 @@ responsive part.
     .back_to_top {
         right: -50px;
     }
+    
+    /* For inner pages breadcrumb part */
+    .breadcrumb_content h1 {
+        font-size: 55px;
+    }
 
 }
 
@@ -316,6 +326,11 @@ responsive part.
 
     .back_to_top {
         right: -85px;
+    }
+    
+    /* For inner pages breadcrumb part */
+    .breadcrumb_content h1 {
+        font-size: 60px;
     }
 }
 

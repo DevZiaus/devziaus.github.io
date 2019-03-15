@@ -1,0 +1,82 @@
+
+
+/* -------------------------- Breadcrumb Part ------------------- */
+
+#breadcrumb_part{
+    background: url(../images/banner_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.breadcrumb_overlay{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 100px 0px;
+}
+
+.breadcrumb_content h1{
+    color: #0095da;
+    font-size: 68px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-bottom: 25px;
+   
+}
+
+.breadcrumb_content ul li{
+    display: inline-block;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #f18d26;
+    padding-right: 15px;
+}
+
+.breadcrumb_content ul li a{
+    color: #0095da;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.breadcrumb_content ul li a:hover{
+    color: #e68324;
+}
+
+.breadcrumb_content ul li a i{
+    padding-left: 10px;
+}
+
+.breadcrumb_content ul li a span{
+    padding-right: 5px;
+}
+
+.breadcrumb_content ul li a span i{
+    padding-left: 0;
+    display: inline-block;
+    font-size: 22px;
+}
+
+/* -------------------------- End of Breadcrumb Part ------------------- */
+
+
+/* -------------------------- Form submission Part ------------------- */
+
+.form_submission_content h4{
+    color: #05233e;
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+.form_submission_content p{
+    color: #7f8080;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* -------------------------- End of Form submission Part ------------------- */

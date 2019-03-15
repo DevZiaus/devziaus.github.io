@@ -64,10 +64,12 @@ $(function () {
     
     //Type Effect
     new TypeIt('.type_effect', {
+        //strings: ["Front End Web Developer" , "PSD to HTML Expert"],
         speed: 150,
         waitUntilVisible: true,
         loop: true,
     }).go();
+
 
     // for feature part slider
     $('.feature_slider').slick({

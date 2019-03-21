@@ -60,10 +60,14 @@
     font-size: 22px;
 }
 
-/* -------------------------- End of Breadcrumb Part ------------------- */
+/* -------------------------- End of breadcrumb Part ------------------- */
 
 
 /* -------------------------- Form submission Part ------------------- */
+
+.form_submission_content h3{
+    position: absol
+}
 
 .form_submission_content h4{
     color: #05233e;
@@ -74,9 +78,136 @@
 
 .form_submission_content p{
     color: #7f8080;
-    margin-bottom: 20px;
     font-size: 16px;
     line-height: 26px;
 }
 
-/* -------------------------- End of Form submission Part ------------------- */
+.form_submission_content a{
+    display: block;
+    margin-bottom: 20px;
+    color: #0095da;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.form_submission_content a:hover{
+    color: #e68324;
+    text-decoration: underline;
+}
+
+/* -------------------------- End of form submission Part ------------------- */
+
+
+/* -------------------------- Blog page Part ------------------- */
+
+.mb_25{
+    margin-bottom: 25px;
+}
+
+.search_form{
+    padding-left: 10px;
+    width: 73%;
+    position: relative;
+    left: 38%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.but_search{
+    background: #0095da;
+    border-color: #0095da;
+    position: relative;
+    right: 5%;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.but_search:hover{
+    background: #e68324;
+    border-color: #e68324;
+}
+
+.side_bar{
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.side_bar p{
+    color: #05233e;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.side_bar ul li{
+    margin-bottom: 5px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.side_bar ul li a{
+    color: #0095da;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.side_bar ul li:hover a{
+    color: #e68324;
+}
+
+.accor_head {
+	color: #05233e;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.accor_head i{
+    margin-left: 3px;
+}
+
+.accor_head:hover{
+    color: #e68324;
+    text-decoration: none;
+}
+
+/* -------------------------- End of blog page Part ------------------- */
+
+
+/* -------------------------- Single post page Part ------------------- */
+
+#blog .blog_title h3{
+    color: #05233e;
+    margin-bottom: 35px;
+    line-height: 42px;
+}
+
+#blog .blog_content p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+#blog .blog_content p span{
+    color: #6c6c6c;
+    margin-right: 8px;
+}
+
+/* -------------------------- End of single post page Part ------------------- */

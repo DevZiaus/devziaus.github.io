@@ -5,25 +5,46 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+
 <url>
   <loc>https://www.mzsbulbul.ga/</loc>
-  <lastmod>2019-03-16T20:16:37+00:00</lastmod>
+  <lastmod>2019-03-24T11:39:33+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.mzsbulbul.ga/index.html</loc>
-  <lastmod>2019-03-16T20:16:37+00:00</lastmod>
+  <lastmod>2019-03-24T11:39:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mzsbulbul.ga/pages/downloads.html</loc>
+  <lastmod>2019-03-24T11:39:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mzsbulbul.ga/pages/portfolio.html</loc>
-  <lastmod>2019-03-16T20:16:37+00:00</lastmod>
+  <lastmod>2019-03-24T11:39:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mzsbulbul.ga/pages/single_post.html</loc>
+  <lastmod>2019-03-24T11:39:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mzsbulbul.ga/pages/blog.html</loc>
-  <lastmod>2019-03-16T20:16:37+00:00</lastmod>
+  <lastmod>2019-03-24T11:39:33+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mzsbulbul.ga/files/CV_of_Md_Ziaus_Samad.docx</loc>
+  <lastmod>2019-03-24T11:39:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mzsbulbul.ga/files/CV_of_Md_Ziaus_Samad.pdf</loc>
+  <lastmod>2019-03-24T11:39:33+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 

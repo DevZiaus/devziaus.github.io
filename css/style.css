@@ -1890,6 +1890,11 @@ nav.navbar-light .navbar-toggler {
     -ms-transition: all linear .5s;
     -o-transition: all linear .5s;
     transition: all linear .5s;
+    -webkit-animation: backtotop 1s both infinite alternate, opacityb 1s both infinite alternate;
+    -moz-animation: backtotop 1s both infinite alternate, opacityb 1s both infinite alternate;
+    -ms-animation: backtotop 1s both infinite alternate, opacityb 1s both infinite alternate;
+    -o-animation: backtotop 1s both infinite alternate, opacityb 1s both infinite alternate;
+    animation: backtotop 1s both infinite alternate, opacityb 1s both infinite alternate;
 }
 
 .back_to_top a i{
@@ -1900,6 +1905,11 @@ nav.navbar-light .navbar-toggler {
     -ms-transition: all linear .5s;
     -o-transition: all linear .5s;
     transition: all linear .5s;
+    -webkit-animation: backtotop 1s both infinite alternate, opacityb 1s both infinite alternate;
+    -moz-animation: backtotop 1s both infinite alternate, opacityb 1s both infinite alternate;
+    -ms-animation: backtotop 1s both infinite alternate, opacityb 1s both infinite alternate;
+    -o-animation: backtotop 1s both infinite alternate, opacityb 1s both infinite alternate;
+    animation: backtotop 1s both infinite alternate, opacityb 1s both infinite alternate;
 }
 
 .back_to_top:hover {
@@ -1916,13 +1926,95 @@ nav.navbar-light .navbar-toggler {
 
 .back_to_top a:focus,
 .back_to_top a:hover{
-    padding-left: 10px;
     color: #e68324;
 }
 
 .back_to_top a:hover i{
-    padding-left: 10px;
     color: #e68324;
+}
+
+@-webkit-keyframes backtotop{
+    0%{
+        padding-left: 0px;
+    }
+    100%{
+        padding-left: 10px;
+    }
+}
+
+@-moz-keyframes backtotop{
+    0%{
+        padding-left: 0px;
+    }
+    100%{
+        padding-left: 10px;
+    }
+}
+
+@-o-keyframes backtotop{
+    0%{
+        padding-left: 0px;
+    }
+    100%{
+        padding-left: 10px;
+    }
+}
+
+@keyframes backtotop{
+    0%{
+        padding-left: 0px;
+    }
+    100%{
+        padding-left: 10px;
+    }
+}
+
+@-webkit-keyframes opacityb{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes opacityb{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes opacityb{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacityb{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .6;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 /*================================================
     18 - End of back to top button part

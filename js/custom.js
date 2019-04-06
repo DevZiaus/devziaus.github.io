@@ -70,7 +70,6 @@ $(function () {
         loop: true,
     }).go();
 
-
     // for feature part slider
     $('.feature_slider').slick({
         nextArrow: '<i class="fas fa-chevron-circle-right"></i>',

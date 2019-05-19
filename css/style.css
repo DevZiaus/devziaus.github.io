@@ -1302,9 +1302,6 @@ nav.navbar-light .navbar-toggler {
 }
 
 .load_more{
-    position: sticky;
-    bottom: 100px;
-    z-index: -1;
     color: #ffffff;
     font-size: 18px;
     padding: 10px 16px;

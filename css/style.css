@@ -152,6 +152,10 @@ a{
     padding-top: 50px;
 }
 
+a.btn, btn, input, btn-primary, btn-secondary, btn:active{
+    outline: none !important;
+}
+
 .py_50{
     padding: 50px 0px;
 }
@@ -357,7 +361,7 @@ nav.navbar-light .navbar-toggler {
 .me_img{
     position: relative;
     left: 50%;
-    bottom: -59px;
+    bottom: -81px;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -1654,11 +1658,12 @@ nav.navbar-light .navbar-toggler {
     margin: 15px 0px;
 }
 
-.hire_me_main a{
+.btn-secondary,
+.hire_me_main button{
     background: #0095da;
     color: #ffffff;
     font-size: 18px;
-    padding: 10px 16px;
+    padding: 7px 30px;
     display: inline-block;
     text-align: center;
     border: 1px solid #fff;
@@ -1674,9 +1679,34 @@ nav.navbar-light .navbar-toggler {
     border-radius: 20px;
 }
 
-.hire_me_main a:hover{
+.btn-secondary:hover,
+.hire_me_main button:hover{
     background: #e68324;
     border-color: #e68324;
+}
+
+button.close{
+    color: #fff;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+button.close:hover{
+    color: #e68324;
+}
+
+.modal-content{
+    background: #0095da;
+    font-size: 16px;
+}
+
+.modal-content h5,
+.modal-content p{
+    color: #fff;
+    text-align: justify;
 }
 /*================================================
     14 - End of hire me part

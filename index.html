@@ -53,7 +53,7 @@
     
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="100">
+<body data-spy="scroll" data-target=".navbar" data-offset="120">
 
     <!-- Preloader part -->
     <div class="preloader">
@@ -141,8 +141,9 @@
                         <div class="banner_content pt_50 col-md-7 text-left wow bounceInDown" data-wow-duration="2s">
                             <h3>Hi! I Am</h3>
                             <h1>Md. Ziaus Samad</h1>
-                            <h4>I'm a Front End </h4>
-                            <h2 class="type_effect">Web Developer</h2>
+                            <h4>I'm a</h4>
+                            <h3 class="type_effect">Front End</h3>
+                            <h2>Web Developer</h2>
                             <p>I am expert in HTML5, CSS3, Javascript, jQuery, Bootstrap &amp; Worpress. I will design any kind of Full Responsive Landing page, Single Page &amp; Multi Page Website and Any Kind of PSD to Responsive HTML</p>
                             <a href="#portfolio_part">See My Works <i class="fas fa-arrow-down"></i></a>
                             <a href="pages/downloads.html">Download my CV<i class="fas fa-arrow-right"></i></a>
@@ -793,7 +794,7 @@
                     <div class="hire_me_main pt_50 wow bounceInDown" data-wow-duration="1s">
                         <h4>I am availabe for freelance work</h4>
                         <p>If you have any project in mind you can hire me</p>
-                        <a href="#contact_part">Hire Me</a>
+                        <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#ModalHire">Hire Me</button>
                     </div>
                 </div>
             </div>
@@ -814,8 +815,8 @@
                             <div class="col-md-6 col-sm-12">
                                 <form name="subscription" action="pages/newsletter_submit.html" method="post" data-netlify="true">
                                     <div class="form-row">
-                                        <input type="email" name="Email" id="subscribe" class="newsletter_form" placeholder="Enter your email here">
-                                        <button type="submit" class="btn btn-light but_subs">Subscribe</button>
+                                        <input type="email" name="Email" id="subscribe" class="newsletter_form" placeholder="Enter your email here" required>
+                                        <button type="submit" class="btn btn-light but_subs" id="subsBtn">Subscribe</button>
                                     </div>
                                 </form>
                             </div>
@@ -916,6 +917,28 @@
         <a href="#">Scroll Top <i class="fas fa-angle-double-right"></i></a>
     </div>
     <!--End of back to top part-->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="ModalHire" tabindex="-1" role="dialog" aria-labelledby="ModalHireLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ModalHireLabel">Hire Me</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Please send me a messeage through contact form. Leave your contact
+            Details and a brief description of the job. Or you can go to any of the 
+            marketplaces specified above and contact me through that marketplace.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <!-- linked required js files -->

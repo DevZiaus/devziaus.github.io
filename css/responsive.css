@@ -73,6 +73,7 @@ responsive part.
     .banner_content h2 {
         font-size: 22px;
         margin-bottom: 10px;
+        margin-top: 16px;
     }
 
     .banner_content p {
@@ -86,7 +87,7 @@ responsive part.
     }
     
     .me_img {
-        bottom: -8px;
+        bottom: -10px;
     }
 
     #side-menu {
@@ -203,12 +204,13 @@ responsive part.
 
     .banner_content h4 {
         font-size: 15px;
-        margin-bottom: 5px;
+        margin-bottom: 7px;
     }
 
     .banner_content h2 {
         font-size: 25px;
         margin-bottom: 15px;
+        margin-top: 10px;
     }
 
     .banner_content p {
@@ -292,12 +294,13 @@ responsive part.
 
     .banner_content h4 {
         font-size: 20px;
-        margin-bottom: 8px;
+        margin-bottom: 10px;
     }
 
     .banner_content h2 {
         font-size: 35px;
         margin-bottom: 20px;
+        margin-top: 15px;
     }
 
     .banner_content p {
@@ -312,7 +315,7 @@ responsive part.
     }
     
     .me_img {
-        bottom: -98px;
+        bottom: -136px;
     }
 
     .fa-chevron-circle-left {
@@ -374,12 +377,13 @@ responsive part.
 
     .banner_content h4 {
         font-size: 25px;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 
     .banner_content h2 {
         font-size: 45px;
         margin-bottom: 35px;
+        margin-top: 35px;
     }
 
     .banner_content p {

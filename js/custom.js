@@ -191,7 +191,7 @@ $(function () {
 });
 
 //for form validation
-function form_validate() {
+function formValidate() {
     "use strict";
     var name = document.getElementById('in_nm'),
         email = document.getElementById('in_em'),
@@ -227,8 +227,7 @@ function form_validate() {
         phone.focus;
         return false;
     }
+    
 }
 
-submit.addEventListener('click', function () {
-    form_validate();
-})
+submit.addEventListener('click', formValidate);

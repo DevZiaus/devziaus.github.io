@@ -183,7 +183,9 @@
     margin-left: 3px;
 }
 
-.accor_head:hover{
+.accor_head:hover,
+.accor_head:active,
+.accor_head:visited{
     color: #e68324;
     text-decoration: none;
 }

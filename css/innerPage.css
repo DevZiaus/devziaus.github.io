@@ -253,6 +253,11 @@ span.middle{
     margin-bottom: 10px;
 }
 
+.small_text{
+    font-size: 14px;
+    font-weight: 300;
+}
+
 #notice .notice_content .small_text p,
 #notice .notice_content .small_text ul li,
 #notice .notice_content .small_text ol li{

@@ -17,35 +17,31 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mzsbulbul.ga/pages/downloads.html</loc>
+  <loc>https://www.mzsbulbul.ga/downloads.html</loc>
   <lastmod>2019-03-24T11:39:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mzsbulbul.ga/pages/portfolio.html</loc>
+  <loc>https://www.mzsbulbul.ga/portfolio.html</loc>
   <lastmod>2019-03-24T11:39:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mzsbulbul.ga/pages/single_post.html</loc>
-  <lastmod>2019-03-24T11:39:33+00:00</lastmod>
+  <loc>https://www.mzsbulbul.ga/single_post.html</loc>
+  <lastmod>2019-05-29T11:39:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mzsbulbul.ga/pages/blog.html</loc>
-  <lastmod>2019-03-24T11:39:33+00:00</lastmod>
+  <loc>https://www.mzsbulbul.ga/blog.html</loc>
+  <lastmod>2019-05-29T11:39:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mzsbulbul.ga/files/CV_of_Md_Ziaus_Samad.docx</loc>
-  <lastmod>2019-03-24T11:39:33+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.mzsbulbul.ga/notice-board.html</loc>
+  <lastmod>2019-05-30T11:39:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://www.mzsbulbul.ga/files/CV_of_Md_Ziaus_Samad.pdf</loc>
-  <lastmod>2019-03-24T11:39:33+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 
 
 </urlset>

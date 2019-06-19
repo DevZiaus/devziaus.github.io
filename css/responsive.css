@@ -46,13 +46,20 @@ responsive part.
         margin-top: -76px;
         top: 65px;
     }
+    
 
     .nav_repos {
         top: 0;
     }
+    
+    a.nav-link.special {
+        background: white;
+        margin-left: 0px;
+        padding-left: 18px !important;
+    }
 
     .banner_overlay {
-        padding: 10px 0px;
+        padding: 20px 0 10px 0px;
     }
 
     .banner_content h3 {
@@ -187,9 +194,15 @@ responsive part.
     .nav_repos {
         top: 0;
     }
+    
+    a.nav-link.special {
+        background: white;
+        margin-left: 0px;
+        padding-left: 18px !important;
+    }
 
     .banner_overlay {
-        padding: 20px 0px;
+        padding: 35px 0 20px 0px;
     }
 
     .banner_content h3 {
@@ -277,9 +290,15 @@ responsive part.
     .menu_part .nav-item .nav-link {
         padding: 10px 12px;
     }
+    
+    a.nav-link.special {
+        background: white;
+        margin-left: 0px;
+        padding-left: 18px !important;
+    }
 
     .banner_overlay {
-        padding: 45px 0px;
+        padding: 55px 0 45px 0px;
     }
 
     .banner_content h3 {

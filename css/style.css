@@ -355,6 +355,14 @@ a.nav-link.special:hover{
 .menu_part .nav-item .nav-link.active{
     color: #e68324;
 }
+
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler span i{
+    color: #0095da;
+}
 /*================================================
     03 - End of navbar part
 ==================================================*/

@@ -18,6 +18,7 @@ jQuery Code.
 
 
 $(function () {
+    "use strict";
 
     // Closes responsive menu when a scroll link is clicked
     $('.nav-link').on('click', function () {
@@ -64,12 +65,13 @@ $(function () {
     
     //Type Effect
     new TypeIt('.type_effect', {
-        //strings: ["Front End Web Developer" , "PSD to HTML Expert"],
+        strings: ['Front End' , 'PSD to HTML Expert' , 'Wordpress', 'Back End' , 'Full Stack'],
         speed: 150,
+        breakLines: false,
         waitUntilVisible: true,
         loop: true,
     }).go();
-
+    
     // for feature part slider
     $('.feature_slider').slick({
         nextArrow: '<i class="fas fa-chevron-circle-right"></i>',
@@ -153,7 +155,10 @@ $(function () {
     });
 
     // for venobox
-    $('.venobox').venobox();
+    $('.venobox').venobox({
+        spinner: 'cube-grid',
+        spinColor: '#0095da',
+    });
 
     // for wow animate
     new WOW({
@@ -189,45 +194,3 @@ $(function () {
         time: 1000
     });
 });
-
-//for form validation
-function formValidate() {
-    "use strict";
-    var name = document.getElementById('in_nm'),
-        email = document.getElementById('in_em'),
-        subject = document.getElementById('in_sub'),
-        message = document.getElementById('in_msg'),
-        phone = document.getElementById('in_phone'),
-        submit = document.getElementById('submit');
-
-    if (name.value === "") {
-        alert("Please, Enter Your Name!");
-        name.focus;
-        return false;
-    }
-    if (email.value === "") {
-        alert("Please, Enter Your Email");
-        email.focus;
-        return false;
-    }
-    if (Subject.value === "") {
-        alert("Please, Enter Your subject!");
-        pass.focus;
-        return false;
-    }
-
-    if (message.value === "") {
-        alert('Please, Enter Your Messages!');
-        mess.focus;
-        return false;
-    }
-
-    if (phone.value === "") {
-        alert('Please, Enter Your Phone Number!');
-        phone.focus;
-        return false;
-    }
-    
-}
-
-submit.addEventListener('click', formValidate);

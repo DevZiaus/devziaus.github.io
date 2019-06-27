@@ -1,5 +1,11 @@
 //for form validation
-var submit = document.getElementById('submit');
+function init() {
+    var submit = document.getElementById('submit');
+    submit.addEventListener('click', formValidate);
+}
+
+init();
+
 function formValidate() {
     "use strict";
     var name = document.getElementById('in_nm'),
@@ -35,5 +41,3 @@ function formValidate() {
         return false;
     }
 }
-
-submit.addEventListener('click', formValidate);

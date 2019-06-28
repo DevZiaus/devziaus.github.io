@@ -48,6 +48,14 @@ YOU WILL GET THE RIGHT SECTION.
 /*================================================
     01 - default css
 ==================================================*/
+/*:root {
+	--primary-color: #05233e;
+	--secondary-color: #0095da;
+	--hover-color: #e68324;
+	--dark-color: #141414;
+	--light-color: #7f8080; 
+}*/
+
 *{
     margin: 0;
     padding: 0;
@@ -691,6 +699,30 @@ a.nav-link.special:hover{
     background: rgba(0, 0, 0, 0.60);
 }
 
+#my_bio .about_me .me_img{
+    bottom: -45px;
+}
+
+#my_bio .about_me .cv_download {
+    position: relative;
+    top: 60px;
+}
+
+#my_bio .about_me .cv_download .cv-dwn{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#my_bio .about_me .cv_download .cv-dwn i{
+    margin-left: 5px;
+}
+
+#my_bio .about_me .cv_download .cv-dwn:hover {
+    border: 1px solid #e68324;
+    background: #e68324;
+    color: #fff;
+}
+
 .me_bio{
     background: #ffffff;
 }
@@ -1226,6 +1258,14 @@ a.nav-link.special:hover{
 ==================================================*/
 
 /*================================================
+    08.5 - Reason part
+==================================================*/
+
+/*================================================
+    08.5 - End of reason part
+==================================================*/
+
+/*================================================
     09 - Portfolio part
 ==================================================*/
 #portfolio_part .row{
@@ -1299,6 +1339,7 @@ a.nav-link.special:hover{
 .portfolio_overlay p{
     color: #bababa;
     margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 .portfolio_overlay a{

@@ -1260,7 +1260,43 @@ a.nav-link.special:hover{
 /*================================================
     08.5 - Reason part
 ==================================================*/
+#choose_me {
+    background: #dbdbdb;
+    padding-bottom: 25px;
+}
 
+.choose_me_main.with_border {
+    border-left: 1px solid #848484;
+}
+
+.choose_me_main h5{
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.choose_me_main p {
+    margin-bottom: 25px;
+}
+
+.choose_me_main p>i{
+    font-size: 75px;
+    color: #0095da;
+}
+
+.choose_me_main ul{
+    padding: 15px 25px;
+    font-size: 14px;
+}
+
+.choose_me_main ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.choose_me_main ul li i{
+    margin-right: 15px;
+    color: #0095da;
+}
 /*================================================
     08.5 - End of reason part
 ==================================================*/
@@ -1569,7 +1605,7 @@ a.nav-link.special:hover{
 
 .offer_title{
     font-weight: 900;
-    border: 3px dashed #ff0000;
+    border: 3px dashed #0095da;
 }
 
 .notice_title p{

@@ -130,6 +130,10 @@ responsive part.
     .me_bio {
         margin-top: 20px;
     }
+    
+    .choose_me_main.with_border {
+        border-left: none;
+    }
 
     .testimonial_main {
         width: 300px;
@@ -252,6 +256,10 @@ responsive part.
     .me_img,
     .me_bio {
         margin-top: 20px;
+    }
+    
+    .choose_me_main.with_border {
+        border-left: none;
     }
 
     #newsletter_part {

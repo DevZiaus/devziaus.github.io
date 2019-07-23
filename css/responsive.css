@@ -109,6 +109,14 @@ responsive part.
     .feature_content p {
         font-size: 14px;
     }
+    
+    #my_bio .about_me .me_img {
+        bottom: 5px;
+    }
+    
+    #my_bio .about_me .cv_download {
+        top: 10px;
+    }
 
     .me_bio p {
         font-size: 14px;
@@ -130,6 +138,7 @@ responsive part.
     .me_bio {
         margin-top: 20px;
     }
+    
     
     .choose_me_main.with_border {
         border-left: none;
@@ -252,6 +261,14 @@ responsive part.
     .fa-chevron-circle-right {
         right: -18px;
     }
+    
+    #my_bio .about_me .me_img {
+        bottom: 5px;
+    }
+    
+    #my_bio .about_me .cv_download {
+        top: 10px;
+    }
 
     .me_img,
     .me_bio {
@@ -353,6 +370,14 @@ responsive part.
         right: -25px;
     }
     
+    #my_bio .about_me .me_img {
+        bottom: -135px;
+    }
+    
+    #my_bio .about_me .cv_download {
+        top: 180px;
+    }
+    
     .portfolio_overlay a {
         top: 10%;
     }
@@ -430,6 +455,14 @@ responsive part.
 
     .fa-chevron-circle-right {
         right: -10px;
+    }
+    
+    #my_bio .about_me .me_img {
+        bottom: -60px;
+    }
+    
+    #my_bio .about_me .cv_download {
+        top: 100px;
     }
 
     .blog_main {

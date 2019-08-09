@@ -1478,6 +1478,7 @@ a.nav-link.special:hover{
 }
 
 .testimonial_img{
+    border: 2px solid #000;
     height: 100px;
     width: 100px;
     -webkit-border-radius: 50%;

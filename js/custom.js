@@ -63,14 +63,15 @@ $(function () {
         }
     });
     
-    //Type Effect
-    new TypeIt('.type_effect', {
-        strings: ['Front End' , 'PSD to HTML Expert' , 'Wordpress', 'Back End' , 'Full Stack'],
-        speed: 150,
-        breakLines: false,
-        waitUntilVisible: true,
+    /*** Type Effect ***/
+    var typed = new Typed(".my-text", {
+        strings: ["Md Ziaus Samad", "a Front End Web Developer", "a PSD to HTML Expert", "a Wordpress Expert", "a Back End Web Developer", "a Full Stack Web Developer"],
+        smartBackspace: true, // Default value
         loop: true,
-    }).go();
+        backDelay: 1000,
+        typeSpeed: 50,
+        backSpeed: 30
+    });
     
     // for feature part slider
     $('.feature_slider').slick({

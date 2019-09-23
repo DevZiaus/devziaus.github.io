@@ -297,18 +297,19 @@ body{
 ==================================================*/
 .nav_main{
     margin-top: -97px;
-    position: relative;
+    position: fixed;
     top: 94px;
+    width: 100%;
 }
 
-.nav_repos{
+/*.nav_repos{
     top: 0;
     -webkit-position: sticky;
     -moz-position: sticky;
     -ms-position: sticky;
     -o-position: sticky;
     position: sticky;
-}
+}*/
 
 .bg_nav{
     background: rgba(0, 0, 0, 0.75);

@@ -19,6 +19,9 @@ jQuery Code.
 
 $(function () {
     "use strict";
+    
+    /*** On Refresh takes to top ***/
+    $(window).scrollTop(0);
 
     // Closes responsive menu when a scroll link is clicked
     $('.nav-link').on('click', function () {
@@ -32,19 +35,13 @@ $(function () {
 
     //for menu repositioning
     $(window).scroll(function () {
-        var scrolling = $(this).scrollTop();
-        var sticky = $(".nav_main");
-        var colr = $(".nav-item");
-        if (scrolling > 50) {
-            sticky.addClass("bg_nav"), 500;
+        var top = $(window).scrollTop();
+        if (top >= 100) {
+            $('.navbar').addClass('bg_nav')
         } else {
-            sticky.removeClass("bg_nav");
-        }
-
-        if (scrolling > 50) {
-            sticky.addClass("nav_repos"), 500;
-        } else {
-            sticky.removeClass("nav_repos");
+            if ($('.navbar').hasClass('bg_nav')) {
+                $('.navbar').removeClass('bg_nav')
+            }
         }
     });
     

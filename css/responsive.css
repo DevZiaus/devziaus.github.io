@@ -44,10 +44,6 @@ responsive part.
     .main-content .type {
         font-size: 25px;
     }
-    
-    .me_img {
-        bottom: -10px;
-    }
 
     #side-menu {
         width: 200px;
@@ -62,33 +58,33 @@ responsive part.
         font-size: 14px;
     }
     
-    #my_bio .about_me .me_img {
-        bottom: 5px;
+    .about .about-img {
+        bottom: 0;
+        margin-bottom: 25px;
     }
     
-    #my_bio .about_me .contact-me-button {
-        top: 10px;
+    .about .col-md-7{
+        text-align: center;
     }
-
-    .me_bio p {
-        font-size: 14px;
+    
+    .about h4{
+        font-size: 20px;
     }
-
-    .me_bio p a {
-        font-size: 14px;
+    
+    .video p {
+        font-size: 16px;
     }
-
+    
+    .video a i {
+        font-size: 20px;
+    }
+    
     .fa-chevron-circle-left {
         left: 10px;
     }
 
     .fa-chevron-circle-right {
         right: 10px;
-    }
-
-    .me_img,
-    .me_bio {
-        margin-top: 20px;
     }
     
     
@@ -168,9 +164,15 @@ responsive part.
         font-size: 35px;
     }
     
-    .me_img {
-        bottom: -20px;
+    .about .about-img {
+        bottom: 0;
+        margin-bottom: 25px;
     }
+    
+    .about .col-md-7{
+        text-align: center;
+    }
+    
 
     .fa-chevron-circle-left {
         left: -18px;
@@ -178,23 +180,6 @@ responsive part.
 
     .fa-chevron-circle-right {
         right: -18px;
-    }
-    
-    #my_bio .about_me .me_img {
-        bottom: 5px;
-    }
-    
-    #my_bio .about_me .contact-me-button {
-        top: 10px;
-    }
-
-    .me_img,
-    .me_bio {
-        margin-top: 20px;
-    }
-    
-    .choose_me_main.with_border {
-        border-left: none;
     }
 
     #newsletter_part {
@@ -245,9 +230,9 @@ responsive part.
     .main-content .type {
         font-size: 45px;
     }
-    
-    .me_img {
-        bottom: -165px;
+        
+    .about .col-md-7{
+        text-align: center;
     }
 
     .fa-chevron-circle-left {
@@ -256,14 +241,6 @@ responsive part.
 
     .fa-chevron-circle-right {
         right: -25px;
-    }
-    
-    #my_bio .about_me .me_img {
-        bottom: -135px;
-    }
-    
-    #my_bio .about_me .contact-me-button {
-        top: 180px;
     }
     
     .portfolio_overlay a {

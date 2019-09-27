@@ -28,7 +28,6 @@ YOU WILL GET THE RIGHT SECTION.
 03 - Navbar part
 04 - Banner part
 05 - Common heading part
-05.5 - Sub heading part
 06 - About part
 07 - Skills part
 08 - Service part
@@ -48,13 +47,13 @@ YOU WILL GET THE RIGHT SECTION.
 /*================================================
     01 - default css
 ==================================================*/
-/*:root {
-	--primary-color: #05233e;
-	--secondary-color: #0095da;
-	--hover-color: #e68324;
-	--dark-color: #141414;
-	--light-color: #7f8080; 
-}*/
+:root{
+    --primary: #0095da; 
+    --hover: #e68324; 
+    --text: #777;
+    --dark: #333;
+    --light: #ddd;
+}
 
 *{
     margin: 0;
@@ -119,22 +118,22 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
-    color: #0095da;
-    font-weight: 400;
+    font-size: 36px;
+    color: var(--dark);
+    font-weight: 700;
     text-transform: capitalize;
 }
 
 h3 {
     font-size: 40px;
-    color: #ffffff;
     text-transform: capitalize;
 }
 
 h4 {
-    font-size: 30px;
-    color: #ffffff;
+    font-size: 22px;
     text-transform: capitalize;
+    font-weight: 700;
+    color: var(--dark);
 }
 
 h5 {
@@ -168,6 +167,10 @@ a{
 
 a.btn, btn, input, btn-primary, btn-secondary, btn:active{
     outline: none !important;
+}
+
+.section-padding{
+    padding: 120px 0;
 }
 
 .py_50{
@@ -504,49 +507,103 @@ canvas{
     05 - End of common heading part
 ==================================================*/
 
-/*================================================
-    05.5 - Sub heading part
-==================================================*/
-.sub_heading{
-    padding-bottom: 10px;
+/*===============================
+    06 - About Section Styles
+================================*/
+
+.about .about-img{
+    bottom: -50px;
+    text-align: center;
+    overflow: hidden;
 }
 
-.sub_heading h5{
-    font-size: 25px;
+.about-img img{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.about-img:hover img{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.about p a{
+    font-style: italic;
+    color: #005983;
+}
+
+.about p a:hover{
+    color: #e68324;
+}
+
+.about p span{
+    color: #0095da;
+    font-size: 18px;
+}
+
+.video p{
+    font-size: 18px;
+    margin-bottom: 20px;
     text-transform: capitalize;
-    color: #7c7c7c;
-    position: relative;
 }
 
-.sub_heading h5:after{
-	content: '';
-	width: 55px;
-	height: 3px;
-	background: #7c7c7c;
-	left: 50%;
-	bottom: -5px;
-	position: absolute;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
+.video a{
+    padding: 10px;
+    display: inline-block;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
 }
 
-#skills_part .sub_heading{
-    padding-top: 25px;
+.video a i{
+    font-size: 25px;
+    color: #eb1111;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
 }
 
-.me_bio .sub_heading h5:after{
-	bottom: 8px;
+.video a:hover i{
+    color: #e68324;
 }
-/*================================================
-    05.5 - End of sub heading part
-==================================================*/
 
-/*================================================
-    06 - About part
-==================================================*/
+.about h2{
+    margin-bottom: 20px;
+}
+
+.about h4{
+    margin-bottom: 30px
+}
+
+.about .social-icons{
+    margin-top: 35px;
+}
+
+.about .cta-contact{
+    margin-top: 40px;
+    color: #333;
+}
+
+.about .cta-contact:hover{
+    color: #fff;
+}
+
+
 .hexagon {
   position: relative;
   width: 80px; 
@@ -721,97 +778,6 @@ canvas{
     background: rgba(0, 0, 0, 0.60);
 }
 
-#my_bio .about_me .me_img{
-    bottom: -45px;
-}
-
-#my_bio .about_me .contact-me-button {
-    position: relative;
-    top: 60px;
-}
-
-#my_bio .about_me .contact-me-button .cnt-btn{
-	border: 1px solid #0095da;
-	color: #fff;
-	padding: 8px 55px;
-	background: #0095da;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-}
-
-#my_bio .about_me .contact-me-button .cnt-btn:hover {
-    border-color: #e68324;
-    background: #e68324;
-    color: #fff;
-}
-
-.me_bio{
-    background: #ffffff;
-}
-
-.me_bio h5{
-    padding: 20px 0px 10px;
-}
-
-.me_bio .me_bio_content{
-    padding: 15px 20px;
-    position: relative;
-}
-
-.me_bio .me_bio_content p a{
-    font-style: italic;
-}
-
-.me_bio .me_bio_content p a:hover{
-    color: #e68324;
-}
-
-.me_bio .me_bio_content p span{
-    color: #0095da;
-    font-size: 18px;
-}
-
-.me_bio .me_bio_content .watch{
-    color: #eb1111;
-}
-
-.video{
-    margin-top: 25px;
-}
-
-.video p{
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #a52b2b;
-    text-transform: capitalize;
-}
-
-.video a{
-    padding: 10px;
-    display: inline-block;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-}
-
-.video a i{
-    font-size: 75px;
-    color: #eb1111;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-}
-
-.video a:hover i{
-    color: #e68324;
-}
 /*================================================
     06 - Start of about part
 ==================================================*/
@@ -1920,7 +1886,7 @@ canvas{
 /*================================================
     15 - Hire me part
 ==================================================*/
-.hire_me_main h4{
+.hire_me_main h3{
     color: #0095da;
 }
 

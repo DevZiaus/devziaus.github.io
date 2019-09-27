@@ -65,83 +65,44 @@
     </div>-->
     <!-- End of preloader part -->
     
-    
-    <!-- Header part-->
-   <!-- <header id="header_part">
+    <!-- Header/Navbar Markup -->
+    <header id="header">
         <div class="container">
             <div class="row">
-                <div class="col-5">
-                    <div class="header_content">
-                        <h6><a href="tel:+8801912284879"><i class="fas fa-phone"></i>+880 1912-284879</a></h6>
-                        <h6><a href="tel:mzsbulbul"><i class="fab fa-skype"></i>mzsbulbul</a></h6>
-                    </div>
-                </div>
-                <div class="col-7">
-                    <div class="header_icon">
-                        <ul class="float-right">
-                            <li><a href="https://www.facebook.com/developer.ziaus" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://twitter.com/DeveloperZiaus" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.instagram.com/developer.ziaus" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/mzsbulbul" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <nav class="navbar navbar-expand-lg full-width">
+                    <a href="#" class="navbar-brand animation" data-animation="fadeInLeft">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                    
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primary-menu" aria-controls="primary-menu" aria-expanded="false" aria-label="Toggle Navigation">
+                        <span><i class="fa fa-align-right"></i></span>
+                    </button>
+                    
+                    <div id="primary-menu" class="collapse navbar-collapse animation" data-animation="fadeInRight">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="#main" class="nav-link active">Home</a></li>
+                            <li class="nav-item"><a href="#about_part" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="#service_part" class="nav-link">Services</a></li>
+                            <li class="nav-item"><a href="#portfolio_part" class="nav-link">Portfolio</a></li>
+                            <li class="nav-item"><a href="#testimonial_part" class="nav-link">Testimonials</a></li>
+                            <li class="nav-item"><a href="notice-board.html" class="nav-link">Notices</a></li>
+                            <li class="nav-item"><a href="downloads.html" class="nav-link">Downloads</a></li>
+                            <li class="nav-item"><a href="#blog_part" class="nav-link">Blog</a></li>
+                            <li class="nav-item"><a href="#contact_part" class="nav-link">Contact</a></li>
                         </ul>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
-    </header>-->
-    <!-- end of header part-->
-
-    <!-- Navbar part -->
-    <nav class="navbar navbar-expand-lg navbar-light menu_part sticky-top nav_main">
-        <div class="container">
-            <a class="navbar-brand logo wow fadeInLeft" href="index.html" data-wow-duration="2s">
-                <img src="images/logo.png" alt="logo.png" class="img-fluid">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span><i class="fas fa-align-right"></i></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto wow fadeInRight" data-wow-duration="2s">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#main">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about_part">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service_part">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio_part">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonial_part">Testimonial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="notice-board.html">Notices</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog_part">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#marketplace_part">Marketplaces</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact_part">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- End of navbar part -->
+    </header>
+    <!-- End of Header/Navbar markup -->
 
 
-    <!-- Banner part -->
+    <!-- Main Area Markup -->
     <section id="main" class="main d-flex justify-content-center text-center">
         <div id="myparticles"></div>
         <div class="main-content align-self-center">
-            <div class="welcome">Welcome</div>
+            <div class="welcome">Welcome !</div>
             <div class="type">I am <span class="my-text"></span></div>
             <div class="social-icons">
                 <a href="https://www.facebook.com/developer.ziaus"><i class="fab fa-facebook-f"></i></a>
@@ -151,11 +112,14 @@
                 <a href="https://www.youtube.com/channel/UCQeeAsAA-Id7A4H1weXYXUQ"><i class="fab fa-youtube"></i></a>
                 <a href="https://github.com/mzsbulbul"><i class="fab fa-github"></i></a>
             </div>
-            <a href="#" class="cta cta-portfolio">Portfolio</a>
-            <a href="#" class="cta cta-contact">Contact</a>
+            <a href="#portfolio_part" class="cta cta-portfolio">My Portfolio <i class="fas fa-arrow-down"></i></a>
+            <a href="downloads.html#download_cv" class="cta cta-contact">Download CV <i class="fas fa-arrow-right"></i></a>
         </div>
+        <svg viewBox="0 0 1400 100" class="svg-bottom"><!-- Non Rectangular bottom section -->
+            <polygon points="0,0 200,100 1200,100 1400,0 1400,100 0,100 0,0" style="fill:#fff;"></polygon>
+        </svg>
     </section>
-    <!-- End of banner part -->
+    <!-- End of Main Area Markup -->
 
 
 
@@ -949,6 +913,8 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-better-nav.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/myparticles.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/venobox.min.js"></script>

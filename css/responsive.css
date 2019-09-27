@@ -23,39 +23,18 @@ responsive part.
         padding-right: 7.5px;
         padding-left: 7.5px;
     }
-
-    #header_part .header_content h6 a {
-        font-size: 10px;
+    
+    li.nav-item a.nav-link::before{
+        bottom: 5px;
     }
-
-    #header_part .header_content a i {
-        margin-right: 5px;
-    }
-
-    #header_part .header_icon ul li a {
-        font-size: 13px;
-        padding: 12px 5px;
+    
+    li.nav-item a.nav-link::after{
+        bottom: 5px;
     }
 
     .navbar .navbar-brand .img-fluid {
         max-width: 70%;
         height: auto;
-    }
-
-    .nav_main {
-        margin-top: -76px;
-        top: 65px;
-    }
-    
-
-    .nav_repos {
-        top: 0;
-    }
-    
-    a.nav-link.special {
-        background: white;
-        margin-left: 0px;
-        padding-left: 18px !important;
     }
 
     .banner_overlay {
@@ -173,18 +152,12 @@ responsive part.
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
 
-    .nav_main {
-        top: 80px;
-    }
-
-    .nav_repos {
-        top: 0;
+    li.nav-item a.nav-link::before{
+        bottom: 5px;
     }
     
-    a.nav-link.special {
-        background: white;
-        margin-left: 0px;
-        padding-left: 18px !important;
+    li.nav-item a.nav-link::after{
+        bottom: 5px;
     }
 
     .banner_overlay {
@@ -257,14 +230,12 @@ responsive part.
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
-    .menu_part .nav-item .nav-link {
-        padding: 10px 12px;
+    li.nav-item a.nav-link::before{
+        bottom: 5px;
     }
     
-    a.nav-link.special {
-        background: white;
-        margin-left: 0px;
-        padding-left: 18px !important;
+    li.nav-item a.nav-link::after{
+        bottom: 5px;
     }
 
     .banner_overlay {

@@ -79,6 +79,7 @@ a{
 img{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 h1, 
@@ -180,6 +181,26 @@ a.btn, btn, input, btn-primary, btn-secondary, btn:active{
 body{
     overflow-x: hidden;
 }
+
+.full-width{
+    width: 100%;
+}
+
+.svg-bottom{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    z-index: 2;
+}
+
+.svg-top{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -1px;
+    z-index: 2;
+}
 /*================================================
     01 - end of default css
 ==================================================*/
@@ -205,186 +226,114 @@ body{
     1.5 - End of preloader part 
 ==================================================*/
 
-/*================================================
-    02 - Header part 
-==================================================*/
-#header_part{
-    
-}
-
-#header_part .header_content h6{
-    font-size: 14px;
-    font-weight: 400;
-    color: #05233e;
-    padding: 0px 0px 3px;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-}
-
-#header_part .header_content h6 a{
-    transition: all linear .3s;
-    font-size: 14px;
-    font-weight: 400;
-    color: #05233e;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-}
-
-
-#header_part .header_content h6:hover a i,
-    #header_part .header_content h6:hover a{
-    color: #e68324;
-}
-
-#header_part .header_content a i{
-    color: #0095da;
-    margin-right: 10px;
-    font-size: 14px;
-}
-
-#header_part .header_content a img{
-    height: 14px;
-    width: 14px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-}
-
-#header_part .header_icon ul li{
-    float: left;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-}
-
-#header_part .header_icon ul li a{
-    color: #0095da;
-    font-size: 14px;
-    padding: 12px 8px;
-    display: block;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-}
-
-#header_part .header_icon ul li:last-child a{
-    padding-right: 0;
-}
-
-#header_part .header_icon ul li:hover a{
-    color: #e68324;
-}
-
 
 /*================================================
-    02 - end of header part
+    03 - Header/Navbar Styles
 ==================================================*/
-
-/*================================================
-    03 - Navbar part
-==================================================*/
-.nav_main{
-    margin-top: -97px;
+header{
     position: fixed;
-    top: 94px;
+    z-index: 100;
     width: 100%;
 }
 
-/*.nav_repos{
-    top: 0;
-    -webkit-position: sticky;
-    -moz-position: sticky;
-    -ms-position: sticky;
-    -o-position: sticky;
-    position: sticky;
-}*/
-
-.bg_nav{
-    background: rgba(0, 0, 0, 0.75);
+.header-dark{
+    background: rgba(51, 51, 51, 0.75);
 }
 
-nav.navbar-light .navbar-toggler {
-	border-color: rgba(5, 35, 62, 0.99);
+.navbar{
+    padding: 15px 0;
 }
 
-.navbar .logo{
-    margin-top: 0px;
+a.navbar-brand{
+    margin-top: 0;
+    padding-top: 0;
     max-width: 65px;
 }
 
-.menu_part .nav-item .nav-link{
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: capitalize;
-    padding: 10px 18px;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+#side-menu{
+    width: 250px;
+    background: rgba(0, 149, 218, 0.9);
+    text-align: center;
 }
 
-a.nav-link.special{
-    background: #0095da;
-    color: #790000 !important;
-    padding-right: 18px !important;
-    margin-left: 18px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+nav button.navbar-toggler span i{
+    color: rgba(255, 255, 255, 0.5);
 }
 
-a.nav-link.special:hover{
-    background: #e68324;
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0;
+}
+
+nav li.nav-item{
+    margin: 10px;
+}
+
+nav li.nav-item:last-child{
+    margin-right: 0;
+}
+
+li.nav-item a.nav-link{
+    position: relative;
+    display: inline-block;
     color: #fff !important;
 }
 
-.menu_part .nav-item .nav-link:last-child{
-    padding-right: 0px;
-}
-
-.menu_part .nav-item .nav-link:focus,
-.menu_part .nav-item .nav-link:hover{
+li.nav-item:hover a.nav-link,
+li.nav-item a.nav-link.active{
     color: #e68324;
 }
 
-.menu_part .nav-item .nav-link.active{
-    color: #e68324;
+li.nav-item a.nav-link::before{
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    width: 0;
+    height: 3px;
+    content: '';
+    background: #e68324;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
 }
 
-.navbar-toggler {
-    border: 0;
+li.nav-item a.nav-link::after{
+    position: absolute;
+    right: 50%;
+    bottom: -7px;
+    width: 0;
+    height: 3px;
+    content: '';
+    background: #e68324;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
 }
 
-.navbar-toggler span i{
-    color: #0095da;
+li.nav-item a.nav-link:hover::before{
+    width: 60%;
+}
+
+li.nav-item a.nav-link.active::before{
+    width: 60%;
+}
+
+li.nav-item a.nav-link:hover::after{
+    width: 60%;
+}
+
+li.nav-item a.nav-link.active::after{
+    width: 60%;
 }
 /*================================================
-    03 - End of navbar part
+    End of Header/Navbar Styles
 ==================================================*/
 
 /*================================================
-    04 - Banner part
+    04 - Main Area Styles
 ==================================================*/
 .main{
     width: 100%;
@@ -403,7 +352,7 @@ a.nav-link.special:hover{
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 0;
 }
 
@@ -442,13 +391,18 @@ a.nav-link.special:hover{
 
 .cta{
     margin: 40px 15px 0;
-    padding: 10px 60px;
     font-size: 16px;
     font-weight: 700;
     color: #fff;
+    padding: 10px 45px;
     border: 2px solid #0095da;
     display: inline-block;
     position: relative;
+    text-transform: capitalize;
+}
+
+.cta i{
+    margin-left: 10px;
 }
 
 .cta-portfolio, 
@@ -458,26 +412,6 @@ a.nav-link.special:hover{
 }
 
 .cta-portfolio::after{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: -100%;
-    top: 0;
-    content: '';
-    background: #e68324;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-    z-index: -1;
-}
-
-.cta-portfolio:hover::after{
-    left: 0;
-}
-
-.cta-contact::before{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -493,8 +427,28 @@ a.nav-link.special:hover{
     z-index: -1;
 }
 
-.cta-contact:hover::before{
+.cta-portfolio:hover::after{
     top: 0;
+}
+
+.cta-contact::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    top: 0;
+    content: '';
+    background: #e68324;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+    z-index: -1;
+}
+
+.cta-contact:hover::before{
+    left: 0;
 }
 
 .cta:hover{
@@ -518,7 +472,7 @@ canvas{
     font-weight: 700;
 }
 /*================================================
-    04 - End of banner part
+    End Of Main Area Styles
 ==================================================*/
 
 /*================================================

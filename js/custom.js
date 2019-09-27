@@ -37,10 +37,10 @@ $(function () {
     $(window).scroll(function () {
         var top = $(window).scrollTop();
         if (top >= 100) {
-            $('.navbar').addClass('bg_nav')
+            $('header').addClass('header-dark')
         } else {
-            if ($('.navbar').hasClass('bg_nav')) {
-                $('.navbar').removeClass('bg_nav')
+            if ($('header').hasClass('header-dark')) {
+                $('header').removeClass('header-dark')
             }
         }
     });

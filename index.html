@@ -60,9 +60,9 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="120">
 
     <!-- Preloader part -->
-<!--    <div class="preloader">
-        <img src="images/preloader.gif" alt="">
-    </div>-->
+    <div class="preloader">
+        <img src="images/preloader.svg" alt="Preloader"> <!-- Created from https://loading.io -->
+    </div>
     <!-- End of preloader part -->
     
     <!-- Header/Navbar Markup -->
@@ -70,7 +70,7 @@
         <div class="container">
             <div class="row">
                 <nav class="navbar navbar-expand-lg full-width">
-                    <a href="#" class="navbar-brand animation" data-animation="fadeInLeft">
+                    <a href="#" class="navbar-brand wow fadeInLeft">
                         <img src="images/logo.png" alt="Logo">
                     </a>
                     
@@ -78,17 +78,17 @@
                         <span><i class="fa fa-align-right"></i></span>
                     </button>
                     
-                    <div id="primary-menu" class="collapse navbar-collapse animation" data-animation="fadeInRight">
+                    <div id="primary-menu" class="collapse navbar-collapse wow fadeInRight">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><a href="#main" class="nav-link active">Home</a></li>
                             <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                            <li class="nav-item"><a href="#service_part" class="nav-link">Services</a></li>
-                            <li class="nav-item"><a href="#portfolio_part" class="nav-link">Portfolio</a></li>
-                            <li class="nav-item"><a href="#testimonial_part" class="nav-link">Testimonials</a></li>
+                            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                            <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                            <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
                             <li class="nav-item"><a href="notice-board.html" class="nav-link">Notices</a></li>
                             <li class="nav-item"><a href="downloads.html" class="nav-link">Downloads</a></li>
-                            <li class="nav-item"><a href="#blog_part" class="nav-link">Blog</a></li>
-                            <li class="nav-item"><a href="#contact_part" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -112,8 +112,8 @@
                 <a href="https://www.youtube.com/channel/UCQeeAsAA-Id7A4H1weXYXUQ"><i class="fab fa-youtube"></i></a>
                 <a href="https://github.com/mzsbulbul"><i class="fab fa-github"></i></a>
             </div>
-            <a href="#portfolio_part" class="cta cta-portfolio">My Portfolio <i class="fas fa-arrow-down"></i></a>
-            <a href="downloads.html#download_cv" class="cta cta-contact">Download CV <i class="fas fa-arrow-right"></i></a>
+            <a href="#portfolio_part" class="cta cta-portfolio wow fadeInLeft">My Portfolio <i class="fas fa-arrow-down"></i></a>
+            <a href="downloads.html#download_cv" class="cta cta-contact wow fadeInRight">Download CV <i class="fas fa-arrow-right"></i></a>
         </div>
         <svg viewBox="0 0 1400 100" class="svg-bottom"><!-- Non Rectangular bottom section -->
             <polygon points="0,0 200,100 1200,100 1400,0 1400,100 0,100 0,0" style="fill:#fff;"></polygon>
@@ -127,18 +127,18 @@
         <div class="container">
             <div class="row">
                 <!-- Author Image -->
-                <div class="col-md-5 about-img animation" data-animation="zoomIn">
+                <div class="col-md-5 about-img wow zoomIn">
                     <img src="images/about_img.jpg" alt="Author's Picture" class="img-fluid polygon">
                 </div>
                 
                 <!-- Author Details -->
-                <div class="col-md-7 animation" data-animation="fadeInRight">
+                <div class="col-md-7 wow fadeInRight">
                     <h2>About Me</h2>
                     <h4>Professional Web developer</h4>
                     <p>I am a Ceritified professional front end web developer. Expert in HTML, CSS, JavaScript, jQuery, BootStrap CSS Framework, PHP &amp; Wordpress. I studied B.Sc. in EEE from International Islamic University, Chittagong. Then I Have completed Front end Web Development (Web Design) from <a href="https://www.creativeit-inst.com/">Creative IT</a> of Bangladesh and <a href="https://www.shawacademy.com/">Shaw Academy</a>.</p>
                     <p>I am working on web design Industry quite while now. My website designs are exclusively Unique &amp; hand coded, Fully Responsive, 100% all browser compatible &amp; Easily customizable.</p>
                     <p><span>Let's Build something Creative</span></p>
-                    <div class="video wow zoomIn" data-wow-duration="2s" data-wow-delay=".5s">
+                    <div class="video wow zoomIn">
                         <p>Watch the video to learn more <a href="https://www.youtube.com/embed/QF4LJdJfjFM" class="venobox" data-vbtype="video" title="Watch this video to know more.">
                                 <i class="fab fa-youtube"></i>
                             </a>
@@ -159,59 +159,21 @@
             </div>
         </div>
     </section>
-    <!--<section id="my_bio" class="pt_50">
-        <div class="about_me text-center">
-            <div class="about_me_overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="me_img">
-                                <img src="images/about_img.jpg" alt="Author's Picture" class="img-fluid polygon">
-                            </div>
-                            <div class="contact-me-button">
-                                <a class="btn btn-outline-primary cnt-btn" href="#contact_part">Contact Me</a>
-                            </div>
-                            <div class="back-circle-1"></div>
-                            <div class="back-circle-2"></div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="me_bio">
-                                <div class="sub_heading col-lg-12 text-center wow bounceInDown" data-wow-duration="1s">
-                                    <h5>Who Am I?</h5>
-                                </div>
-                                <div class="me_bio_content wow bounceInRight" data-wow-duration="1s">
-                                    <p>I am a Ceritified professional front end web developer. Expert in HTML, CSS, JavaScript, jQuery, BootStrap CSS Framework, PHP &amp; Wordpress. I studied B.Sc. in EEE from International Islamic University, Chittagong. Then I Have completed Front end Web Development (Web Design) from <a href="https://www.creativeit-inst.com/">Creative IT</a> of Bangladesh and <a href="https://www.shawacademy.com/">Shaw Academy</a>. I am working on web design Industry quite while now. My website designs are exclusively Unique &amp; hand coded, Fully Responsive, 100% all browser compatible &amp; Easily customizable.</p>
-                                    <p><span>Let's Build something Creative</span></p>
-                                    <div class="video wow bounceIn" data-wow-duration="2s" data-wow-delay=".5s">
-                                        <p class="watch">Watch the video to learn more</p>
-                                        <a href="https://www.youtube.com/embed/QF4LJdJfjFM" class="venobox" data-vbtype="video" title="Watch this video to know more.">
-                                            <i class="fab fa-youtube"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
     <!-- End of about me part -->
 
     <!-- Skills part-->
-    <section id="skills_part">
+    <section id="skills" class="skills pb-120">
         <div class="container">
             <!-- Common heading part-->
                 <div class="row">
-                    <div class="common_heading col-lg-12 text-center wow bounceInDown" data-wow-duration="1s">
+                    <div class="common_heading col-lg-12 text-center wow fadeInDown">
                         <p>what I am Good at</p>
                         <h5>Skills</h5>
                     </div>
                 </div>
                 <!-- End of common heading part-->
             <div class="row">
-                <div class="col-lg-2 col-md-4 col-sm-6 pt_50 wow bounceInLeft" data-wow-duration="1s">
+                <div class="col-lg-2 col-md-4 col-sm-6 pt_50 wow fadeInLeft">
                     <div class="progress blue">
                         <span class="progress-left">
                             <span class="progress-bar"></span>
@@ -225,7 +187,7 @@
                         <h5>HTML</h5>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 pt_50 wow bounceInLeft" data-wow-duration="1s">
+                <div class="col-lg-2 col-md-4 col-sm-6 pt_50 wow fadeInLeft">
                     <div class="progress green">
                         <span class="progress-left">
                             <span class="progress-bar"></span>
@@ -239,7 +201,7 @@
                         <h5>CSS</h5>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 pt_50 wow bounceInLeft" data-wow-duration="1s">
+                <div class="col-lg-2 col-md-4 col-sm-6 pt_50 wow fadeInLeft">
                     <div class="progress pink">
                         <span class="progress-left">
                             <span class="progress-bar"></span>
@@ -253,7 +215,7 @@
                         <h5>JAVASCRIPT</h5>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 pt_50 wow bounceInRight" data-wow-duration="1s">
+                <div class="col-lg-2 col-md-4 col-sm-6 pt_50 wow fadeInRight">
                     <div class="progress yellow">
                         <span class="progress-left">
                             <span class="progress-bar"></span>
@@ -267,7 +229,7 @@
                         <h5>jQUERY</h5>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 pt_50 wow bounceInRight" data-wow-duration="1s">
+                <div class="col-lg-2 col-md-4 col-sm-6 pt_50 wow fadeInRight">
                     <div class="progress red">
                         <span class="progress-left">
                             <span class="progress-bar"></span>
@@ -281,7 +243,7 @@
                         <h5>Photoshop</h5>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 pt_50 wow bounceInRight" data-wow-duration="1s">
+                <div class="col-lg-2 col-md-4 col-sm-6 pt_50 wow fadeInRight">
                     <div class="progress yellow">
                         <span class="progress-left">
                             <span class="progress-bar"></span>
@@ -301,84 +263,89 @@
     <!-- End of skills part-->
 
     <!-- Services part -->
-    <section id="service_part" class="pt_50">
-        <div class="services">
-            <div class="service_overlay">
-                <div class="container">
-                    <!-- Common heading part-->
-                    <div class="row">
-                        <div class="common_heading col-lg-12 text-center wow bounceInDown" data-wow-duration="1s">
-                            <p>what I do</p>
-                            <h5>My Services</h5>
+    <section id="services" class="services section-padding">
+        <svg viewBox="0 0 1400 100" class="svg-top"><!-- Non Rectangular top section -->
+            <polygon points="0,100 200,0 1200,0 1400,100 1400,0 0,0 0,100" style="fill:#fff;"></polygon>
+        </svg>
+        <div class="container">
+            <!-- Common heading part-->
+            <div class="row">
+                <div class="common_heading col-lg-12 text-center wow fadeInDown">
+                    <p>what I do</p>
+                    <h5>My Services</h5>
+                </div>
+            </div>
+            <!-- End of common heading part-->
+            <div class="service-items">
+                <div class="row">
+                    <div class="my_services col-lg-3 col-md-6 wow fadeInLeft">
+                        <div class="service_main text-center">
+                            <div class="service">
+                                <div class="service_icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                            </div>
+                            <div class="service_content mr_10">
+                                <h6>PSD to HTML</h6>
+                                <p>Any Kind of Responsive PSD, AI, PNG, JPEG, XD or any kind of image to html.</p>
+                            </div>
                         </div>
                     </div>
-                    <!-- End of common heading part-->
-                    <div class="row">
-                        <div class="my_services col-lg-3 col-md-6 wow bounceInLeft" data-wow-duration="1s">
-                            <div class="service_main text-center">
-                                <div class="service">
-                                    <div class="service_icon">
-                                        <i class="fas fa-code"></i>
-                                    </div>
-                                </div>
-                                <div class="service_content mr_10">
-                                    <h6>PSD to HTML</h6>
-                                    <p>Any Kind of Responsive PSD, AI, PNG, JPEG, XD or any kind of image to html.</p>
+                    <div class="my_services col-lg-3 col-md-6 wow fadeInLeft">
+                        <div class="service_main text-center">
+                            <div class="service">
+                                <div class="service_icon">
+                                    <i class="far fa-copy"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div class="my_services col-lg-3 col-md-6 wow bounceInRight" data-wow-duration="1s">
-                            <div class="service_main text-center">
-                                <div class="service">
-                                    <div class="service_icon">
-                                        <i class="far fa-copy"></i>
-                                    </div>
-                                </div>
-                                <div class="service_content mr_10">
-                                    <h6>Sigle/Multi Page Design</h6>
-                                    <p>Any Kind of Responsive Multi page Website Design, Simple or complex Layout.</p>
-                                </div>
+                            <div class="service_content mr_10">
+                                <h6>Sigle/Multi Page Design</h6>
+                                <p>Any Kind of Responsive Multi page Website Design, Simple or complex Layout.</p>
                             </div>
                         </div>
-                        <div class="my_services col-lg-3 col-md-6 wow bounceInLeft" data-wow-duration="1s">
-                            <div class="service_main text-center">
-                                <div class="service">
-                                    <div class="service_icon">
-                                        <i class="far fa-newspaper"></i>
-                                    </div>
-                                </div>
-                                <div class="service_content mr_10">
-                                    <h6>Custom Website</h6>
-                                    <p>Any Kind of Responsive single page or multi page Custom Website.</p>
+                    </div>
+                    <div class="my_services col-lg-3 col-md-6 wow fadeInRight">
+                        <div class="service_main text-center">
+                            <div class="service">
+                                <div class="service_icon">
+                                    <i class="far fa-newspaper"></i>
                                 </div>
                             </div>
+                            <div class="service_content mr_10">
+                                <h6>Custom Website</h6>
+                                <p>Any Kind of Responsive single page or multi page Custom Website.</p>
+                            </div>
                         </div>
-                        <div class="my_services col-lg-3 col-md-6 wow bounceInRight" data-wow-duration="1s">
-                            <div class="service_main text-center">
-                                <div class="service">
-                                    <div class="service_icon">
-                                        <i class="fab fa-wordpress-simple"></i>
-                                    </div>
+                    </div>
+                    <div class="my_services col-lg-3 col-md-6 wow fadeInRight">
+                        <div class="service_main text-center">
+                            <div class="service">
+                                <div class="service_icon">
+                                    <i class="fab fa-wordpress-simple"></i>
                                 </div>
-                                <div class="service_content">
-                                    <h6>Wordpress Website</h6>
-                                    <p>Any Kind of Wordpress website Creation &amp; Customization. Simple or complex or e-commerce.</p>
-                                </div>
+                            </div>
+                            <div class="service_content">
+                                <h6>Wordpress Website</h6>
+                                <p>Any Kind of Wordpress website Creation &amp; Customization. Simple or complex or e-commerce.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <svg viewBox="0 0 1400 100" class="svg-bottom">
+            <!-- Non Rectangular bottom section -->
+            <polygon points="0,0 200,100 1200,100 1400,0 1400,100 0,100 0,0" style="fill:#fff;"></polygon>
+        </svg>
     </section>
     <!-- End of services part -->
     
     
-    <section id="service-features" class="pt_50">
+    <section id="service-features" class="section-padding">
         <div class="container">
             <!-- Common heading part-->
                 <div class="row">
-                    <div class="common_heading col-lg-12 text-center wow bounceInDown" data-wow-duration="1s">
+                    <div class="common_heading col-lg-12 text-center wow fadeInDown">
                         <p>what is Special about my services</p>
                         <h5>Service Features</h5>
                     </div>
@@ -472,176 +439,269 @@
     
 
     <!-- Portfolio part -->
-    <section id="portfolio_part" class="pt_50 text-center">
+    <section id="portfolio" class="portfolio section-padding text-center">
+		<svg viewBox="0 0 1400 100" class="svg-top"><!-- Non Rectangular top section -->
+            <polygon points="0,100 200,0 1200,0 1400,100 1400,0 0,0 0,100" style="fill:#fff;"></polygon>
+        </svg>
         <div class="container">
             <!-- Common heading part-->
             <div class="row">
-                <div class="common_heading col-lg-12 text-center wow bounceInDown" data-wow-duration="3s">
+                <div class="common_heading col-lg-12 text-center wow fadeInDown">
                     <p>Portfolio</p>
                     <h5>My recent Projects</h5>
                 </div>
             </div>
             <!-- End of common heading part-->
             <div class="row">
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/Portfolio-thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>HTML Template</h6>
-                            <p>For Themeforest</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Portfolio.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                <ul class="filter text-center full-width wow fadeInDown">
+                    <li class="filter-active" data-filter="*">All</li>
+                    <li data-filter=".front-end">Front End</li>
+                    <li data-filter=".back-end">Back End</li>
+                    <li data-filter=".full-stack">Full Stack</li>
+                    <li data-filter=".wordpress">Wordpress</li>
+                    <li data-filter=".graphic-design">Graphic Design</li>
+                </ul>
+            </div>
+            <div class="portfolio-wrapper wow fadeInUp">
+                <div class="row">
+                    <div class="col-md-3 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/beatles_thumb.jpg" alt="Portfolio Item 1" class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>Single Page</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/beatles.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://beatls.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/denofprogrammers-thumbs.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>Wordpress Website</h6>
-                            <p>For Client</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/denofprogrammers.png"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://www.denofprogrammers.ga" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item wordpress">
+                        <div class="item-content">
+                            <img src="images/portfolio/denofprogrammers-thumbs.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Wordpress Website</h4>
+                                        <span>For Client</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/denofprogrammers.png"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https:www.denofprogrammers.ga" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/zakiajournal-thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>Wordpress Blog</h6>
-                            <p>For Client</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/zakiajournal.png"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://www.zakiajournal.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-6 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/Portfolio-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>HTML Template</h4>
+                                        <span>For Themeforest</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Portfolio.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://mzsbulbul.github.io/portfoliohtmltemplate" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-               <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/Shopacus-thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>PSD to HTML</h6>
-                            <p>On Upwork</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Shopacus.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://loginregister.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-6 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/Shopacus-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>On Upwork</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Shopacus.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://loginregister.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/beatles_thumb.jpg" alt="Recent Project 2 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>PSD to HTML</h6>
-                            <p>Single Page</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/beatles.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://beatls.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/national_thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>Multi Page</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/national.png"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://nationaldoctors.netlify.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/national_thumb.jpg" alt="Recent Project 3 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>PSD to HTML</h6>
-                            <p>Multi Page</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/national.png"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://nationaldoctors.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/Activebox-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>Single Page</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Activebox.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://activebox-responsive.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/strict_thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>Single Page</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/strict.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://strict-responsive.netlify.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 portfolio-item wordpress">
+                        <div class="item-content">
+                            <img src="images/portfolio/zakiajournal-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Wordpress Website</h4>
+                                        <span>For Client</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/zakiajournal.png"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://www.zakiajournal.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/spirit8_thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>Single Page</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/spirit8.png"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://spirit8.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 portfolio-item certificate">
+                        <div class="item-content">
+                            <img src="images/portfolio/Creative-IT_Web-Design-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Certificate</h4>
+                                        <span>Professional Web Design</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Creative-IT_Web-Design.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://www.creativeit-inst.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 portfolio-item graphic-design">
+                        <div class="item-content">
+                            <img src="images/portfolio/portfolio-psd-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD Design</h4>
+                                        <span>For HTML/CSS Conversion</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/portfolio-psd.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="portfolio.html" class="load_more">Load More</a>
+			<div class="row">
+                <a href="portfolio.html" class="load_more">Load More</a>
+            </div>
         </div>
+		<svg viewBox="0 0 1400 100" class="svg-bottom">
+            <!-- Non Rectangular bottom section -->
+            <polygon points="0,0 200,100 1200,100 1400,0 1400,100 0,100 0,0" style="fill:#fff;"></polygon>
+        </svg>
     </section>
     <!-- End of portfolio part -->
-
-    <!-- Testimonial part -->
-    <section id="testimonial_part" class="pt_50 text-center">
-        <div class="my_testimonial">
-            <div class="testi_overlay">
-                <div class="container">
-                    <!-- Common heading part-->
-                    <div class="row">
-                        <div class="common_heading col-lg-12 text-center wow bounceInDown" data-wow-duration="3s">
-                            <p>Testimonials</p>
-                            <h5>What people say about my work</h5>
-                        </div>
-                    </div>
-                    <!-- End of common heading part-->
-                    <div class="row testimonial_slider">
-                       <div class="col-lg-4 col-md-6">
-                            <div class="testimonial_main">
-                                <div class="testimonial_img">
-                                    <img src="images/testimonial/zakia.png" alt="Testimonial giver's picture" class="img-fluid">
-                                </div>
-                                <div class="testimonial_content">
-                                    <p><sup><i class="fas fa-quote-left"></i></sup>Ziaus Samad is a very much professional Web Developer. He designed &amp; Developed my Website. He is very skilled, sincere & experienced in his work. Whenever I had trouble understanding something, Ziaus helped me to understand it very sincerely. He is never tired of explaining the same thing over and over again. When asked a question, He responses very well. I'm perfectly satisfied with his work. The quality of his work is very good. I look forward to working with him again in the future. <sup><i class="fas fa-quote-right"></i></sup></p>
-                                    <h5>Zakia Siddiqi</h5>
-                                    <h6>Founder &amp; Author, <a href="https://www.zakiajournal.com" target="_blank">Zakia Journal</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="testimonial_main">
-                                <div class="testimonial_img">
-                                    <img src="images/testimonial/Shagun.png" alt="Testimonial giver's picture" class="img-fluid">
-                                </div>
-                                <div class="testimonial_content">
-                                    <p><sup><i class="fas fa-quote-left"></i></sup>Ziaus lives up to his motto - "Satisfaction of my client is my main achievement." He is patient and doesn't tire of making revisions. He is also very good with taking feedback and implementing it. When I had trouble understanding what code does what to be able to make minor changes in the future myself (with my amateur level HTML/CSS knowledge), he volunteered to write comments in his code to make it easy for me to follow. He is sincere and dedicated and I'd hire him again.<sup><i class="fas fa-quote-right"></i></sup></p>
-                                    <h5>Shagun Kumar</h5>
-                                    <h6>Client, Upwork</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="testimonial_main">
-                                <div class="testimonial_img">
-                                    <img src="images/testimonial/testimonial_3.jpg" alt="Testimonial giver's picture" class="img-fluid">
-                                </div>
-                                <div class="testimonial_content">
-                                    <p><sup><i class="fas fa-quote-left"></i></sup>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ducimus obcaecati quidem facilis inventore ullam et sapiente vero provident est.<sup><i class="fas fa-quote-right"></i></sup></p>
-                                    <h5>John Doe</h5>
-                                    <h6>CEO</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of testimonial part -->
-
-    <!-- Counter part-->
-    <section id="counter_part" class="text-center pt_50">
+    
+    <!-- Achievements Section Markup -->
+    <section id="achievements" class="achievements section-padding text-center">
         <!-- <div class="my_counter">
                 <div class="counter_overlay">-->
         <div class="container">
             <!-- Common heading part-->
             <div class="row">
-                <div class="common_heading col-lg-12 text-center wow bounceInDown" data-wow-duration="3s">
+                <div class="common_heading col-lg-12 text-center wow fadeInDown">
                     <p>Achievements</p>
                     <h5>My career in digits</h5>
                 </div>
             </div>
             <!-- End of common heading part-->
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="counter_main">
-                        <span class="counter">3</span>
-                        <p>Awards Received</p>
+            <div class="achievements-wrapper">
+                <div class="row">
+                   
+                    <!-- Tootal Completed Projects -->
+                    <div class="col-md-4 wow fadeInLeft">
+                        <div class="achievements-single">
+                            <div class="achievement-number"><span class="count-num">20</span>+</div>
+                            <h4>Projects Completed</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="counter_main">
-                        <span class="counter">25</span>
-                        <p>Projects Completed</p>
+                    
+                    <!-- Total Happy Clients -->
+                    <div class="col-md-4 wow fadeInUp">
+                        <div class="achievements-single">
+                            <div class="achievement-number"><span class="count-num">9</span>+</div>
+                            <h4>Happy Clients</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="counter_main">
-                        <span class="counter">12</span>
-                        <p>Happy Clients</p>
+                    
+                    <!-- Total Rewards Recieved -->
+                    <div class="col-md-4 wow fadeInRight">
+                        <div class="achievements-single">
+                            <div class="achievement-number"><span class="count-num">2</span>+</div>
+                            <h4>Awards Recieved</h4>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -651,22 +711,81 @@
             </div>-->
     </section>
     <!-- End of counter part-->
-    
+
+    <!-- Testimonial part -->
+    <section id="testimonials" class="testimonials section-padding text-center">
+        <svg viewBox="0 0 1400 100" class="svg-top"><!-- Non Rectangular top section -->
+            <polygon points="0,100 200,0 1200,0 1400,100 1400,0 0,0 0,100" style="fill:#fff;"></polygon>
+        </svg>
+        <div class="container">
+        <!-- Common heading part-->
+            <div class="row">
+                <div class="common_heading col-lg-12 text-center wow fadeInDown">
+                    <p>Testimonials</p>
+                        <h5>What people say about me</h5>
+                </div>
+            </div>
+            <!-- End of common heading part-->
+            <div class="testimonial-wrapper offset-md-1 col-md-10  wow zoomIn">
+                <div class="row testimonial-slider">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-single">
+                        <div class="testimonial-content">
+                            <div class="testimonial-img">
+                                <img src="images/testimonial/zakia.png" alt="Testimonial Author" class="img-fluid">
+                            </div>
+                            <h4 class="testimonial-author">Zakia Sultana</h4>
+                            <span>Founder &amp; Author, <a href="https://www.zakiajournal.com" target="_blank">Zakia Journal</a></span>
+                            <p><sup><i class="fas fa-quote-left"></i></sup>Ziaus Samad is a very much professional Web Developer. He designed &amp; Developed my Website. He is very skilled, sincere & experienced in his work. Whenever I had trouble understanding something, Ziaus helped me to understand it very sincerely. He is never tired of explaining the same thing over and over again. When asked a question, He responses very well. I'm perfectly satisfied with his work. The quality of his work is very good. I look forward to working with him again in the future. <sup><i class="fas fa-quote-right"></i></sup></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-single">
+                        <div class="testimonial-content">
+                            <div class="testimonial-img">
+                                <img src="images/testimonial/Shagun.png" alt="Testimonial Author" class="img-fluid">
+                            </div>
+                            <h4 class="testimonial-author">Shagun Kumar</h4>
+                            <span>Client, <a href="#">Upwork</a></span>
+                            <p><sup><i class="fas fa-quote-left"></i></sup>Ziaus lives up to his motto - "Satisfaction of my client is my main achievement." He is patient and doesn't tire of making revisions. He is also very good with taking feedback and implementing it. When I had trouble understanding what code does what to be able to make minor changes in the future myself (with my amateur level HTML/CSS knowledge), he volunteered to write comments in his code to make it easy for me to follow. He is sincere and dedicated and I'd hire him again.<sup><i class="fas fa-quote-right"></i></sup></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-single">
+                        <div class="testimonial-content">
+                            <div class="testimonial-img">
+                                <img src="images/testimonial/testimonial_3.jpg" alt="Testimonial Author" class="img-fluid">
+                            </div>
+                            <h4 class="testimonial-author">John Doe</h4>
+                            <span>CEO, <a href="#">Googele Developers</a></span>
+                            <p><sup><i class="fas fa-quote-left"></i></sup>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolor voluptatem earum reiciendis illo, deleniti ipsum beatae vitae aspernatur ut qui iste, tempore temporibus fugiat veniam culpa dolore explicabo commodi modi velit assumenda. Dolor, soluta? Saepe totam esse, tempora ullam accusamus sed. Enim beatae nam vel odit vitae provident facere!<sup><i class="fas fa-quote-right"></i></sup></p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <svg viewBox="0 0 1400 100" class="svg-bottom"><!-- Non Rectangular bottom section -->
+            <polygon points="0,0 200,100 1200,100 1400,0 1400,100 0,100 0,0" style="fill:#fff;"></polygon>
+        </svg>
+    </section>
+    <!-- End of testimonial part -->
     
     
     <!-- Blog part -->
-    <section id="blog_part" class="pt_50 text-center">
+    <section id="blog" class="blog section-padding text-center">
         <div class="container">
             <!-- Common heading part-->
             <div class="row">
-                <div class="common_heading col-lg-12 text-center wow bounceInDown" data-wow-duration="3s">
+                <div class="common_heading col-lg-12 text-center wow fadeInDown">
                     <p>My Blog</p>
                     <h5>See the latest news</h5>
                 </div>
             </div>
             <!-- End of common heading part-->
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInLeft">
                     <div class="blog_main">
                         <div class="blog_title">
                             <h6>What is HTML</h6>
@@ -681,7 +800,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInUp">
                     <div class="blog_main">
                         <div class="blog_title">
                             <h6>What is all this about?</h6>
@@ -696,7 +815,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInRight">
                     <div class="blog_main">
                         <div class="blog_title">
                             <h6>Welcome to Den of the Programmers</h6>
@@ -718,83 +837,87 @@
     <!-- End of blog part -->
 
     <!-- Marketplace part -->
-    <section id="marketplace_part" class="py_50">
-        <div class="my_marketplace">
-            <div class="marketplace_overlay">
-                <div class="container">
-                    <!-- Common heading part-->
-                    <div class="row">
-                        <div class="common_heading col-lg-12 text-center wow bounceInDown" data-wow-duration="3s">
-                            <p>where to find me</p>
-                            <h5>Market Places</h5>
-                        </div>
+    <section id="marketplaces" class="marketplaces section-padding">
+        <svg viewBox="0 0 1400 100" class="svg-top">
+            <!-- Non Rectangular top section -->
+            <polygon points="0,100 200,0 1200,0 1400,100 1400,0 0,0 0,100" style="fill:#fff;"></polygon>
+        </svg>
+        <div class="container">
+            <!-- Common heading part-->
+            <div class="row">
+                <div class="common_heading col-lg-12 text-center wow fadeInDown">
+                    <p>where to find me</p>
+                    <h5>Market Places</h5>
+                </div>
+            </div>
+            <!-- End of common heading part-->
+            <div class="row">
+                <div class="marketplace_main col-lg-2 col-md-4 col-sm-6 text-center wow fadeInLeft">
+                    <div class="market_place_img">
+                        <a href="https://themeforest.net/user/mzsbulbul" target="_blank">
+                            <img src="images/marketplace/envato.png" alt="ThemeForest Logo" class="img-fluid">
+                        </a>
                     </div>
-                    <!-- End of common heading part-->
-                    <div class="row">
-                        <div class="marketplace_main col-lg-2 col-md-4 col-sm-6 text-center wow bounceInLeft" data-wow-duration="1s">
-                            <div class="market_place_img">
-                                <a href="https://themeforest.net/user/mzsbulbul" target="_blank">
-                                    <img src="images/marketplace/envato.png" alt="ThemeForest Logo" class="img-fluid">
-                                </a>
-                            </div>
-                            <h6>Themeforest</h6>
-                        </div>
-                        <div class="marketplace_main col-lg-2 col-md-4 col-sm-6 text-center wow bounceInLeft disabled" data-wow-duration="1s">
-                            <div class="market_place_img disabled">
-                                <a href="#" >
-                                    <img src="images/marketplace/upwork.png" alt="Upwork Logo" class="img-fluid">
-                                </a>
-                            </div>
-                            <h6>UpWork</h6>
-                        </div>
-                        <div class="marketplace_main col-lg-2 col-md-4 col-sm-6 text-center wow bounceInLeft" data-wow-duration="1s">
-                            <div class="market_place_img">
-                                <a href="https://www.fiverr.com/mzsbulbul" target="_blank">
-                                    <img src="images/marketplace/fiverr.png" alt="fiverr Logo" class="img-fluid">
-                                </a>
-                            </div>
-                            <h6>Fiverr</h6>
-                        </div>
-                        <div class="marketplace_main col-lg-2 col-md-4 col-sm-6 text-center wow bounceInRight" data-wow-duration="1s">
-                            <div class="market_place_img">
-                                <a href="#">
-                                    <img src="images/marketplace/peopleperhour-com.png" alt="PeoplePerHour Logo" class="img-fluid">
-                                </a>
-                            </div>
-                            <h6>PeoplePerHour</h6>
-                        </div>
-                        <div class="marketplace_main col-lg-2 col-md-4 col-sm-6 text-center wow bounceInRight" data-wow-duration="1s">
-                            <div class="market_place_img">
-                                <a href="https://www.freelancer.com/u/bulbul019" target="_blank">
-                                    <img src="images/marketplace/freelancer.png" alt="Freelancer Logo" class="img-fluid">
-                                </a>
-                            </div>
-                            <h6>Freelancer</h6>
-                        </div>
-                        <div class="marketplace_main col-lg-2 col-md-4 col-sm-6 text-center wow bounceInRight" data-wow-duration="1s">
-                            <div class="market_place_img">
-                                <a href="https://99designs.com/profiles/mzsbulbul" target="_blank">
-                                    <img src="images/marketplace/99designs.png" alt="99design Logo" class="img-fluid">
-                                </a>
-                            </div>
-                            <h6>99design</h6>
-                        </div>
+                    <h6>Themeforest</h6>
+                </div>
+                <div class="marketplace_main col-lg-2 col-md-4 col-sm-6 text-center wow fadeInLeft disabled">
+                    <div class="market_place_img disabled">
+                        <a href="#">
+                            <img src="images/marketplace/upwork.png" alt="Upwork Logo" class="img-fluid">
+                        </a>
                     </div>
+                    <h6>UpWork</h6>
+                </div>
+                <div class="marketplace_main col-lg-2 col-md-4 col-sm-6 text-center wow fadeInLeft">
+                    <div class="market_place_img">
+                        <a href="https://www.fiverr.com/mzsbulbul" target="_blank">
+                            <img src="images/marketplace/fiverr.png" alt="fiverr Logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <h6>Fiverr</h6>
+                </div>
+                <div class="marketplace_main col-lg-2 col-md-4 col-sm-6 text-center wow fadeInRight">
+                    <div class="market_place_img">
+                        <a href="#">
+                            <img src="images/marketplace/peopleperhour-com.png" alt="PeoplePerHour Logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <h6>PeoplePerHour</h6>
+                </div>
+                <div class="marketplace_main col-lg-2 col-md-4 col-sm-6 text-center wow fadeInRight">
+                    <div class="market_place_img">
+                        <a href="https://www.freelancer.com/u/bulbul019" target="_blank">
+                            <img src="images/marketplace/freelancer.png" alt="Freelancer Logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <h6>Freelancer</h6>
+                </div>
+                <div class="marketplace_main col-lg-2 col-md-4 col-sm-6 text-center wow fadeInRight">
+                    <div class="market_place_img">
+                        <a href="https://99designs.com/profiles/mzsbulbul" target="_blank">
+                            <img src="images/marketplace/99designs.png" alt="99design Logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <h6>99design</h6>
                 </div>
             </div>
         </div>
+        <svg viewBox="0 0 1400 100" class="svg-bottom">
+            <!-- Non Rectangular bottom section -->
+            <polygon points="0,0 200,100 1200,100 1400,0 1400,100 0,100 0,0" style="fill:#fff;"></polygon>
+        </svg>
     </section>
     <!-- end of marketplace part -->
 
     <!-- Hire me part -->
-    <section id="hire_me_part" class="text-center">
+    <section id="hire_me_part" class="section-padding text-center">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="hire_me_main pt_50 wow bounceInDown" data-wow-duration="1s">
+                    <div class="hire_me_main pt_50 wow bounceInDown">
                         <h3>I am availabe for freelance work</h3>
                         <p>If you have any project in mind you can hire me</p>
-                        <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#ModalHire">Hire Me</button>
+                        <a class="btn" href="https://calendly.com/developerziaus" target="_blank">Schedule a meeting</a>
                     </div>
                 </div>
             </div>
@@ -829,72 +952,73 @@
     <!-- Start of newsletter part-->
 
     <!-- Contact part -->
-    <section id="contact_part" class="pt_50">
-        <div class="contact_me">
-            <div class="contact_overlay">
-                <div class="container">
-                    <!-- Start of common heading part-->
-                    <div class="row">
-                        <div class="common_heading col-lg-12 text-center wow bounceInDown" data-wow-duration="3s">
-                            <p>Contact Me</p>
-                            <h5>Get in touch</h5>
+    <section id="contact" class="contact section-padding">
+        <svg viewBox="0 0 1400 100" class="svg-top">
+            <!-- Non Rectangular top section -->
+            <polygon points="0,100 200,0 1200,0 1400,100 1400,0 0,0 0,100" style="fill:#fff;"></polygon>
+        </svg>
+        <div class="container">
+            <!-- Start of common heading part-->
+            <div class="row">
+                <div class="common_heading col-lg-12 text-center wow fadeInDown">
+                    <p>Contact Me</p>
+                    <h5>Get in touch</h5>
+                </div>
+            </div>
+            <!-- End of common heading part-->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact_datails wow zoomIn">
+                        <h6>Contact Details</h6>
+                        <p><i class="fas fa-phone"><span>Contact no: </span><a href="tel:+8801912284879">+880 1912-284879</a></i></p>
+                        <p><i class="far fa-envelope"><span>Email: </span><a href="mailto:mzsbulbul@outlook.com">developer.ziaus@gmail.com</a></i></p>
+                        <p><i class="fas fa-globe"><span>Website: </span><a href="https://mzsbulbul.ga">www.mzsbulbul.ga</a></i></p>
+                        <p><i class="fab fa-skype"><span>skype: </span><a href="tel:mzsbulbul">mzsbulbul</a></i></p>
+                        <p><i class="fab fa-whatsapp"><span>whatsapp: </span><a href="tel:+8801912284879">+880 1912-284879</a></i></p>
+
+                        <div class="contact_social">
+                            <h6>Stay Connected With Me</h6>
+                            <ul>
+                                <li><a href="https://www.facebook.com/developer.ziaus" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="https://twitter.com/DeveloperZiaus" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a href="https://www.instagram.com/developer.ziaus" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/mzsbulbul" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCQeeAsAA-Id7A4H1weXYXUQ"><i class="fab fa-youtube-square"></i></a></li>
+                                <li><a href="https://github.com/mzsbulbul"><i class="fab fa-github-square"></i></a></li>
+                            </ul>
                         </div>
                     </div>
-                    <!-- End of common heading part-->
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="contact_datails wow bounceInLeft" data-wow-duration="1s">
-                                <h6>Contact Details</h6>
-                                <p>Here is my contact Information</p>
-                                <p><i class="fas fa-phone"><span>Contact no: </span><a href="tel:+8801912284879">+880 1912-284879</a></i></p>
-                                <p><i class="far fa-envelope"><span>Email: </span><a href="mailto:mzsbulbul@outlook.com">developer.ziaus@gmail.com</a></i></p>
-                                <p><i class="fas fa-globe"><span>Website: </span><a href="https://mzsbulbul.ga">www.mzsbulbul.ga</a></i></p>
-                                <p><i class="fab fa-skype"><span>skype: </span><a href="tel:mzsbulbul">mzsbulbul</a></i></p>
-                                <p><i class="fab fa-whatsapp"><span>whatsapp: </span><a href="tel:+8801912284879">+880 1912-284879</a></i></p>
-
-                                <div class="contact_social">
-                                    <h6>Stay Connected With Me</h6>
-                                    <ul>
-                                        <li><a href="https://www.facebook.com/developer.ziaus" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                                        <li><a href="https://twitter.com/DeveloperZiaus" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-                                        <li><a href="https://www.instagram.com/developer.ziaus" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/mzsbulbul" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact_form wow zoomIn">
+                        <form name="contact" action="contact-submit.html" method="post" data-netlify="true">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form_inp" id="in_nm" name="Name" placeholder="" required>
+                                    <label for="in_nm">Name<sup>*</sup></label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form_inp" name="Email" id="in_em" placeholder="" required>
+                                    <label for="in_em">Email<sup>*</sup></label>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="contact_form wow bounceInRight" data-wow-duration="1s">
-                                <form name="contact" action="contact-submit.html" method="post" data-netlify="true">
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <input type="text" class="form_inp" id="in_nm" name="Name" placeholder="" required>
-                                            <label for="in_nm">Name<sup>*</sup></label>
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <input type="email" class="form_inp" name="Email" id="in_em" placeholder="" required>
-                                            <label for="in_em">Email<sup>*</sup></label>
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <input type="tel" class="form_inp" id="in_phone" name="Phone" placeholder="" required>
-                                            <label for="in_phone">Phone<sup>*</sup></label>
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <input type="text" class="form_inp" id="in_sub" name="Subject" placeholder="" required>
-                                            <label for="in_sub">Subject<sup>*</sup></label>
-                                        </div>
-                                    </div>
-                                    <div class="form-group input">
-                                        <textarea id="in_msg" name="Message" class="form_text" placeholder="" required></textarea>
-                                        <label for="in_msg">Message<sup>*</sup></label>
-                                    </div>
-                                    <button type="reset" class="btn btn-dark btn_subm" value="reset">Reset</button>
-                                    <button type="submit" id="submit" class="btn btn-dark btn_subm" value="submit">Submit</button>
-                                </form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="tel" class="form_inp" id="in_phone" name="Phone" placeholder="" required>
+                                    <label for="in_phone">Phone<sup>*</sup></label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form_inp" id="in_sub" name="Subject" placeholder="" required>
+                                    <label for="in_sub">Subject<sup>*</sup></label>
+                                </div>
                             </div>
-                        </div>
+                            <div class="form-group input">
+                                <textarea id="in_msg" name="Message" class="form_text" placeholder="" required></textarea>
+                                <label for="in_msg">Message<sup>*</sup></label>
+                            </div>
+                            <button type="reset" class="btn btn-dark btn_subm" value="reset">Reset</button>
+                            <button type="submit" id="submit" class="btn btn-dark btn_subm" value="submit">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -952,7 +1076,9 @@
     <script src="js/wow.min.js"></script>
     <script src="js/venobox.min.js"></script>
     <script src="js/typed.min.js"></script>
+    <script src="js/myType.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/isotope.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/formValidate.js"></script>

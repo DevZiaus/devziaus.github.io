@@ -89,215 +89,393 @@
     <!-- End of banner part -->
 
     <!-- Portfolio part -->
-    <section id="portfolio_part" class="py_50 text-center">
+    <section id="portfolio" class="portfolio section-padding text-center mt-5">
+        <svg viewBox="0 0 1400 100" class="svg-top"><!-- Non Rectangular top section -->
+            <polygon points="0,100 200,0 1200,0 1400,100 1400,0 0,0 0,100" style="fill:#fff;"></polygon>
+        </svg>
         <div class="container">
             <!-- Common heading part-->
             <div class="row">
-                <div class="common_heading col-lg-12 text-center wow bounceInDown" data-wow-duration="3s">
+                <div class="common_heading col-lg-12 text-center wow fadeInDown">
                     <p>Portfolio</p>
                     <h5>My recent Projects</h5>
                 </div>
             </div>
             <!-- End of common heading part-->
             <div class="row">
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/Portfolio-thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>HTML Template</h6>
-                            <p>For Themeforest</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Portfolio.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                <ul class="filter text-center full-width wow fadeInDown">
+                    <li class="filter-active" data-filter="*">All</li>
+                    <li data-filter=".front-end">Front End</li>
+                    <li data-filter=".back-end">Back End</li>
+                    <li data-filter=".full-stack">Full Stack</li>
+                    <li data-filter=".wordpress">Wordpress</li>
+                    <li data-filter=".graphic-design">Graphic Design</li>
+                </ul>
+            </div>
+            <div class="portfolio-wrapper wow fadeInUp">
+                <div class="row">
+                    <div class="col-md-3 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/beatles_thumb.jpg" alt="Portfolio Item 1" class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>Single Page</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/beatles.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://beatls.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/denofprogrammers-thumbs.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>Wordpress Website</h6>
-                            <p>For Client</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/denofprogrammers.png"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://www.denofprogrammers.ga" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item wordpress">
+                        <div class="item-content">
+                            <img src="images/portfolio/denofprogrammers-thumbs.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Wordpress Website</h4>
+                                        <span>For Client</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/denofprogrammers.png"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https:www.denofprogrammers.ga" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/zakiajournal-thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>Wordpress Blog</h6>
-                            <p>For Client</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/zakiajournal.png"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://www.zakiajournal.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-6 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/Portfolio-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>HTML Template</h4>
+                                        <span>For Themeforest</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Portfolio.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://mzsbulbul.github.io/portfoliohtmltemplate" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-               <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/Shopacus-thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>PSD to HTML</h6>
-                            <p>On Upwork</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Shopacus.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://loginregister.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-6 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/Shopacus-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>On Upwork</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Shopacus.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://loginregister.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/beatles_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>PSD to HTML</h6>
-                            <p>Single Page</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/beatles.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://beatls.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/national_thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>Multi Page</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/national.png"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://nationaldoctors.netlify.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/national_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>PSD to HTML</h6>
-                            <p>Multi Page</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/national.png"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://nationaldoctors.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/Activebox-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>Single Page</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Activebox.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://activebox-responsive.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/Activebox-thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>PSD to HTML</h6>
-                            <p>Single Page</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Activebox.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="hhttps://activebox-responsive.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/strict_thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>Single Page</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/strict.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://strict-responsive.netlify.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/strict_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>PSD to HTML</h6>
-                            <p>Single Page</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/strict.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://strictsingle.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-6 portfolio-item wordpress">
+                        <div class="item-content">
+                            <img src="images/portfolio/zakiajournal-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Wordpress Website</h4>
+                                        <span>For Client</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/zakiajournal.png"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://www.zakiajournal.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/Creative-IT_Web-Design.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>Certificate</h6>
-                            <p>Professional Web Design</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Creative-IT_Web-Design.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://www.creativeit-inst.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/spirit8_thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>Single Page</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/spirit8.png"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://spirit8.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/Shaw-Academy_Web-Development-thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>Certificate</h6>
-                            <p>Diploma in Web Development</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Shaw-Academy_Web-Development.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="http://www.proprofs.com//quiz-school/usercertificate.php?id=181812443" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item certificate">
+                        <div class="item-content">
+                            <img src="images/portfolio/Creative-IT_Web-Design-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Certificate</h4>
+                                        <span>Professional Web Design</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Creative-IT_Web-Design.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://www.creativeit-inst.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/spirit8_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>PSD to HTML</h6>
-                            <p>Single Page</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/spirit8.png"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://spirit8.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item graphic-design">
+                        <div class="item-content">
+                            <img src="images/portfolio/portfolio-psd-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD Design</h4>
+                                        <span>For HTML/CSS Conversion</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/portfolio-psd.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/motion_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>PSD to HTML</h6>
-                            <p>Single Page</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/motion.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://motionsinglepage.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/registration_thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>Registration Page</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/registration_page.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://registrationpage.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/registration_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>PSD to HTML</h6>
-                            <p>Registration Page</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/registration_page.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://registrationpage.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/motion_thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>PSD to HTML</h4>
+                                        <span>Single Page</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/motion_thumb.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://motionsinglepage.netlify.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/Template-Monster_Certificate-HTML-CSS-thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>Certificate</h6>
-                            <p>HTML - CSS</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Template-Monster_Certificate-HTML-CSS.jpg"><i class="fas fa-search-plus"></i></a>
+                    <div class="col-md-3 portfolio-item certificate">
+                        <div class="item-content">
+                            <img src="images/portfolio/Shaw-Academy_Web-Development-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Certificate</h4>
+                                        <span>Diploma in Web Development</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Shaw-Academy_Web-Development.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="http://www.proprofs.com//quiz-school/usercertificate.php?id=181812443" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/Udemy_Learn-Bootstrap-4-Responsive-Web-Development.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>Certificate</h6>
-                            <p>Bootstrap 4 Responsive Web Development</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Udemy_Learn-Bootstrap-4-Responsive-Web-Development.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://www.udemy.com/certificate/UC-BNNJCVSQ" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item certificate">
+                        <div class="item-content">
+                            <img src="images/portfolio/Template-Monster_Certificate-HTML-CSS-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Certificate</h4>
+                                        <span>HTML CSS</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Template-Monster_Certificate-HTML-CSS.jpg"><i class="fas fa-search-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/StackSkills_certificate-of-completion-for-html-5-from-the-ground-up-thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>Certificate</h6>
-                            <p>HTML 5 From Ground Up</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/StackSkills_certificate-of-completion-for-html-5-from-the-ground-up.png"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://stackskills.com/courses/68610/certificate?utm_campaign=issued_certificate_notification&utm_medium=email&utm_source=student_mailer" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item certificate">
+                        <div class="item-content">
+                            <img src="images/portfolio/StackSkills_certificate-of-completion-for-html-5-from-the-ground-up-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Certificate</h4>
+                                        <span>HTML5 From Ground Up</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/StackSkills_certificate-of-completion-for-html-5-from-the-ground-up.png"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://stackskills.com/courses/68610/certificate?utm_campaign=issued_certificate_notification&utm_medium=email&utm_source=student_mailer" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/Udemy_How-to-Build-a-Wordpress-Website-for_beginners-thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>Certificate</h6>
-                            <p>How to Build a Worpress Website</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Udemy_How-to-Build-a-Wordpress-Website-for_beginners.jpg"><i class="fas fa-search-plus"></i></a>
-                            <a href="https://www.udemy.com/certificate/UC-JVOKB6G3" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <div class="col-md-3 portfolio-item certificate">
+                        <div class="item-content">
+                            <img src="images/portfolio/The-Complete-Front-End-Web-Development-Course-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Certificate</h4>
+                                        <span>Complete Front End Web Development</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/The-Complete-Front-End-Web-Development-Course.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://www.udemy.com/certificate/UC-9TUBPCKD" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio_main">
-                        <img src="images/portfolio/Graduation_thumb.jpg" alt="Recent Project 1 Picture" class="img-fluid">
-                        <div class="portfolio_overlay">
-                            <h6>Certificate</h6>
-                            <p>How to Build a Worpress Website</p>
-                            <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Graduation.jpg"><i class="fas fa-search-plus"></i></a>
+                    <div class="col-md-3 portfolio-item certificate">
+                        <div class="item-content">
+                            <img src="images/portfolio/convert-PSD-to-HTML-and-CSS-responsive-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Certificate</h4>
+                                        <span>Convert PSD to HTML Responsive</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/convert-PSD-to-HTML-and-CSS-responsive.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://www.udemy.com/certificate/UC-QM3D11IH" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 portfolio-item certificate">
+                        <div class="item-content">
+                            <img src="images/portfolio/Udemy_Learn-Bootstrap-4-Responsive-Web-Development-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Certificate</h4>
+                                        <span>Bootstrap 4 Responsive</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Udemy_Learn-Bootstrap-4-Responsive-Web-Development.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://www.udemy.com/certificate/UC-BNNJCVSQ" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 portfolio-item certificate">
+                        <div class="item-content">
+                            <img src="images/portfolio/Udemy_How-to-Build-a-Wordpress-Website-for_beginners-thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Certificate</h4>
+                                        <span>Build Wordpress Website</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Udemy_How-to-Build-a-Wordpress-Website-for_beginners.jpg"><i class="fas fa-search-plus"></i></a>
+                                        <a href="https://www.udemy.com/certificate/UC-JVOKB6G3" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 portfolio-item certificate">
+                        <div class="item-content">
+                            <img src="images/portfolio/Graduation_thumb.jpg" alt="Portfolio Item " class="img-fluid">
+                            <div class="img-overlay d-flex align-items-center">
+                                <div class="portfolio-info full-width">
+                                    <div class="description">
+                                        <h4>Certificate</h4>
+                                        <span>EEE</span>
+                                    </div>
+                                    <div class="icon-link">
+                                        <a class="venobox" data-gall="portfolioGallery" href="images/portfolio/Graduation.jpg"><i class="fas fa-search-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <svg viewBox="0 0 1400 100" class="svg-bottom">
+            <!-- Non Rectangular bottom section -->
+            <polygon points="0,0 200,100 1200,100 1400,0 1400,100 0,100 0,0" style="fill:#fff;"></polygon>
+        </svg>
     </section>
     <!-- End of portfolio part -->
     
@@ -336,8 +514,8 @@
     <script src="js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/venobox.min.js"></script>
-    <script src="js/typeit.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/isotope.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/custom.js"></script>
 </body>

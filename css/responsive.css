@@ -37,10 +37,6 @@ responsive part.
         height: auto;
     }
 
-    .banner_overlay {
-        padding: 20px 0 10px 0px;
-    }
-
     .main-content .type {
         font-size: 25px;
     }
@@ -87,20 +83,31 @@ responsive part.
         right: 10px;
     }
     
-    
-    .choose_me_main.with_border {
-        border-left: none;
+    .testimonials .fa-chevron-circle-left {
+        display: none;
     }
 
-    .testimonial_main {
-        width: 300px;
+    .testimonials .fa-chevron-circle-right {
+        display: none;
+    }
+    
+    ul.filter li{
+        margin-bottom: 10px;
+    }
+    
+    .achievements .achievements-wrapper .row .col-md-4{
+        margin-bottom: 30px;
+    }
+    
+    .achievements .achievements-wrapper .row .col-md-4:last-child{
+        margin-bottom: 0;
     }
 
     .blog_main {
         width: 310px;
     }
 
-    .hire_me_main h4 {
+    .hire_me_main h3{
         font-size: 18px;
     }
 
@@ -156,10 +163,6 @@ responsive part.
         bottom: 5px;
     }
 
-    .banner_overlay {
-        padding: 35px 0 20px 0px;
-    }
-
     .main-content .type {
         font-size: 35px;
     }
@@ -181,14 +184,33 @@ responsive part.
     .fa-chevron-circle-right {
         right: -18px;
     }
+    
+    .testimonials .fa-chevron-circle-left {
+        left: -33px;
+    }
 
-    #newsletter_part {
-        margin: 0px 35px;
+    .testimonials .fa-chevron-circle-right {
+        right: -33px;
+    }
+    
+    ul.filter li{
+        margin-bottom: 10px;
+    }
+    
+    .achievements .achievements-wrapper .row .col-md-4{
+        margin-bottom: 30px;
+    }
+    
+    .achievements .achievements-wrapper .row .col-md-4:last-child{
+        margin-bottom: 0;
+    }
+    
+    .hire_me_main h3{
+        font-size: 30px;
     }
 
     .newsletter_main {
         margin: 0px 50px;
-        top: 90%;
     }
     
     .contact_datails, .contact_form {
@@ -196,7 +218,7 @@ responsive part.
     }
 
     .back_to_top {
-        right: -50px;
+        right: -85px;
     }
     
     /* For inner pages breadcrumb part */
@@ -223,10 +245,6 @@ responsive part.
         bottom: 5px;
     }
 
-    .banner_overlay {
-        padding: 55px 0 45px 0px;
-    }
-
     .main-content .type {
         font-size: 45px;
     }
@@ -236,24 +254,47 @@ responsive part.
     }
 
     .fa-chevron-circle-left {
-        left: -25px;
+        left: -20px;
     }
 
     .fa-chevron-circle-right {
-        right: -25px;
+        right: -20px;
     }
     
-    .portfolio_overlay a {
-        top: 10%;
+    .testimonials .fa-chevron-circle-left {
+        left: -90px;
     }
 
-    .counter_main p {
+    .testimonials .fa-chevron-circle-right {
+        right: -90px;
+    }
+    
+    ul.filter li{
+        margin-bottom: 10px;
+    }
+    
+    .portfolio-info .description h4{
+        font-size: 16px;
+    }
+    
+    .portfolio-info .description span{
+        display: none;
+    }
+    
+    .portfolio-item:hover .portfolio-info .description{
+        top: 0;
+    }
+    
+    .portfolio-item:hover .portfolio-info .icon-link {
+        bottom: -5px;
+    }
+    
+    .achievements-single h4 {
         font-size: 14px;
-        margin: 10px 0px;
     }
 
     .newsletter_main {
-        margin: 0px -15px;
+        margin: 0px -10px;
     }
 
     .back_to_top {
@@ -274,14 +315,7 @@ responsive part.
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 991px) and (max-width: 1199px) {
-    .menu_part .nav-item .nav-link {
-        padding: 10px 12px;
-    }
 
-    .banner_overlay {
-        padding: 60px 0px;
-    }
-    
     .main-content .type {
         font-size: 50px;
     }
@@ -294,12 +328,12 @@ responsive part.
         right: -10px;
     }
     
-    #my_bio .about_me .me_img {
-        bottom: -60px;
+    .testimonials .fa-chevron-circle-left {
+        left: -100px;
     }
-    
-    #my_bio .about_me .contact-me-button {
-        top: 100px;
+
+    .testimonials .fa-chevron-circle-right {
+        right: -100px;
     }
 
     .blog_main {
@@ -307,14 +341,11 @@ responsive part.
     }
 
     .newsletter_main {
-        margin: 0px 60px;
+        margin: 0px 100px;
     }
 
     .back_to_top {
-        right: -65px;
+        right: -70px;
     }
 
 }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}

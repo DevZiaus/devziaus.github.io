@@ -19,6 +19,11 @@ jQuery Code.
 
 $(function () {
     "use strict";
+
+    // Preloader js    
+    $(window).on('load', function () {
+        $('.preloader').fadeOut(500);
+    });
     
     /*** On Refresh takes to top ***/
     $(window).scrollTop(0);
@@ -27,11 +32,6 @@ $(function () {
     $('.nav-link').on('click', function () {
         $('.navbar-collapse').collapse('hide');
     });
-
-/*    // Preloader js    
-    $(window).on('load', function () {
-        $('.preloader').delay(1500).fadeOut(500);
-    })*/
 
     //for menu repositioning
     $(window).scroll(function () {
@@ -58,16 +58,6 @@ $(function () {
                 return false;
             }
         }
-    });
-    
-    /*** Type Effect ***/
-    var typed = new Typed(".my-text", {
-        strings: ["Md Ziaus Samad", "a Front End Web Developer", "a PSD to HTML Expert", "a Wordpress Expert", "a Back End Web Developer", "a Full Stack Web Developer"],
-        smartBackspace: true, // Default value
-        loop: true,
-        backDelay: 1000,
-        typeSpeed: 50,
-        backSpeed: 30
     });
     
     // for feature part slider
@@ -112,45 +102,31 @@ $(function () {
     });
 
     // for testimonial slider
-    $('.testimonial_slider').slick({
+    $('.testimonial-slider').slick({
         nextArrow: '<i class="fa fa-chevron-circle-right"></i>',
         prevArrow: '<i class="fa fa-chevron-circle-left"></i>',
         infinite: true,
         autoplay: true,
         autoplaySpeed: 3500,
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
-        dots: false,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false,
-                    arrows: true,
-                }
-        },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true,
-                }
-        },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true,
-                }
-        }
-      ]
+        dots: true
     });
+    
+    // for portfolio filtering
+    var $grid = $('.portfolio-wrapper').isotope({
+        itemSelector: '.portfolio-item'
+    });
+
+    $('.filter li').on('click', function () {
+        $('.filter li').removeClass('filter-active');
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue
+        });
+        $(this).addClass('filter-active');
+    });//Md Ziaus Samad
 
     // for venobox
     $('.venobox').venobox({
@@ -186,9 +162,11 @@ $(function () {
 
     });
 
-    //for counter
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
+    /*------------------------------------------------
+            12 - Achievement Number Counter
+    ---------------------------------------------------*/
+	  $('.count-num').counterUp({
+	      delay: 10,
+	      time: 500
+	  });//Md. Ziaus Samad
 });

@@ -71,6 +71,46 @@
 /* -------------------------- End of breadcrumb Part ------------------- */
 
 
+/* -------------------------- Downloads Styles ------------------- */
+.downloads .download-item h6{
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.downloads .download-item p{
+    margin:5px 0 10px 0;
+}
+
+.downloads .download-item .buttons{
+    margin-top: 25px;
+}
+
+.downloads .download-item ul{
+    list-style-type: square !impportant;
+}
+
+.downloads .download-item p a{
+    color: var(--primary);
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.downloads .download-item p a:hover{
+    color: var(--hover);
+}
+
+/* -------------------------- End of Downloads Styles ------------------- */
+
+
+/*** Portfolio ***/
+/*.portfolio-item{
+    margin-top: 20px !important;
+}*/
+
+
 /* -------------------------- Form submission Part ------------------- */
 
 .form_submission_content h3{

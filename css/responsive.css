@@ -118,7 +118,7 @@ responsive part.
 
     .newsletter_main {
         margin: 0px 50px;
-        top: 90%;
+        top: 50%;
         padding: 10px 0px;
     }
 
@@ -294,7 +294,8 @@ responsive part.
     }
 
     .newsletter_main {
-        margin: 0px -10px;
+        margin: 0px -15px;
+        top: 85%;
     }
 
     .back_to_top {

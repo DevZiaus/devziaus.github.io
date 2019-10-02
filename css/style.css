@@ -187,7 +187,7 @@ a.btn, btn, input, btn-primary, btn-secondary, btn:active{
 }
 
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .full-width{
@@ -1976,6 +1976,9 @@ ul.filter li:hover{
     z-index: 0;
 }
 
+.marketplace_main{
+    margin-bottom: 15px;
+}
 
 .market_place_img{
     height: 150px;

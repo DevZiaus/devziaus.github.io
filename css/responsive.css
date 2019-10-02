@@ -84,11 +84,11 @@ responsive part.
     }
     
     .testimonials .fa-chevron-circle-left {
-        display: none;
+        display: none !important;
     }
 
     .testimonials .fa-chevron-circle-right {
-        display: none;
+        display: none !important;
     }
     
     ul.filter li{
@@ -230,6 +230,7 @@ responsive part.
 
 /*For progress bar 990 px devices only*/
 @media only screen and (max-width: 990px) {
+
     .progress {
         margin-bottom: 20px;
     }
@@ -237,6 +238,7 @@ responsive part.
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+    
     li.nav-item a.nav-link::before{
         bottom: 5px;
     }

@@ -2,15 +2,13 @@
 *******************************************
 *******************************************
 
-Template Name: Portfie
+Template Name: Developer Ziaus
 Template URL: http://www.mzsbulbul.ga
 Description: MZSBulbul's Personal Portfolio
 Author: Md. Ziaus Samad
 Author URL: https://www.mzsbulbul.ga
 Version: 1.0
-
-* This file contains the JavaScript &
-jQuery Code.
+Copyright: Md Ziaus Samad - www.mzsbulbul.ga
 
 ***********************************************
 ***********************************************

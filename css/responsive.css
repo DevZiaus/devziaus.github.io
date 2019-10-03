@@ -2,15 +2,13 @@
 *******************************************
 *******************************************
 
-Template Name: Portfie
+Template Name: Developer Ziaus
 Template URL: http://www.mzsbulbul.ga
 Description: MZSBulbul's Personal Portfolio
 Author: Md. Ziaus Samad
 Author URL: https://www.mzsbulbul.ga
 Version: 1.0
-
-* This file contains the styling for the 
-responsive part.
+Copyright: Md Ziaus Samad - www.mzsbulbul.ga
 
 ***********************************************
 ***********************************************
@@ -126,13 +124,13 @@ responsive part.
         font-size: 15px;
     }
 
-    .newsletter_main .newsletter_form {
+    .newsletter_main #mce-EMAIL{
         width: 75%;
-        height: 35px;
+        left: 50%;
     }
 
-    .newsletter_main .but_subs {
-        right: -30%;
+    .newsletter_main #mc-embedded-subscribe {
+        right: -35%;
     }
     
     .contact_datails, .contact_form {
@@ -211,6 +209,10 @@ responsive part.
 
     .newsletter_main {
         margin: 0px 50px;
+    }
+    
+    .newsletter_main #mce-EMAIL {
+        left: 48%;
     }
     
     .contact_datails, .contact_form {
@@ -299,6 +301,10 @@ responsive part.
         margin: 0px -15px;
         top: 85%;
     }
+    
+    .newsletter_main #mce-EMAIL {
+        width: 70%;
+    }
 
     .back_to_top {
         right: -85px;
@@ -345,6 +351,10 @@ responsive part.
 
     .newsletter_main {
         margin: 0px 100px;
+    }
+    
+    .newsletter_main #mce-EMAIL {
+        width: 70%;
     }
 
     .back_to_top {

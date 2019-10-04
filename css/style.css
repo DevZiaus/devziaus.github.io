@@ -303,7 +303,7 @@ nav li.nav-item:last-child{
 li.nav-item a.nav-link{
     position: relative;
     display: inline-block;
-    color: #fff !important;
+    color: #fff;
 }
 
 li.nav-item:hover a.nav-link,
@@ -2239,11 +2239,9 @@ button.close:hover{
     transition: all linear .3s;
 }
 
-.contact_datails p:hover i{
-    color: #e68324;
-}
-
-.contact_datails p:hover i a{
+.contact_datails p:hover i,
+.contact_datails p:hover i a,
+.contact_datails p:hover i span{
     color: #e68324;
 }
 
@@ -2366,8 +2364,8 @@ button.close:hover{
 /*================================================
     18 - Footer Section
 ==================================================*/
-#footer_Section{
-    background: #111111;
+.footer{
+    background: var(--dark);
     padding: 20px 0px;
 }
 

@@ -36,9 +36,9 @@ Copyright: Md Ziaus Samad - www.mzsbulbul.ga
 19 - Back to Top Button Section
 
 ==================================================*/
-/*================================================
-        Default CSS
-==================================================*/
+/*=========================
+        Default CSS        
+=========================*/
 :root{
     --primary: #0095da; 
     --seconday: #05233e; 
@@ -234,9 +234,9 @@ body{
     animation-duration: 2s;
 }
 
-/*================================================
-        Preloader Styles
-==================================================*/
+/*==============================
+        Preloader Styles        
+==============================*/
 .preloader{
     position: fixed;
 	width: 100%;
@@ -255,9 +255,9 @@ body{
     max-width: 200px;
 }
 
-/*================================================
-        Header/Navbar Styles
-==================================================*/
+/*==================================
+        Header/Navbar Styles        
+==================================*/
 header{
     position: fixed;
     z-index: 100;
@@ -356,13 +356,10 @@ li.nav-item a.nav-link:hover::after{
 li.nav-item a.nav-link.active::after{
     width: 60%;
 }
-/*================================================
-        End of Header/Navbar Styles
-==================================================*/
 
-/*================================================
-        Main Area Styles
-==================================================*/
+/*==============================
+        Main Area Styles        
+==============================*/
 .main{
     width: 100%;
     height: 100vh;
@@ -499,13 +496,10 @@ canvas{
 .type .my-text{
     font-weight: 700;
 }
-/*================================================
-        End Of Main Area Styles
-==================================================*/
 
-/*================================================
-        Common heading Section
-==================================================*/
+/*====================================
+        Common heading Section        
+====================================*/
 .common_heading {
     padding-bottom: 40px;
 }
@@ -529,13 +523,10 @@ canvas{
 .contact .common_heading h5{
     color: #0095da;
 }
-/*================================================
-        End of common heading Section
-==================================================*/
 
-/*===============================
-        About Section Styles
-================================*/
+/*==================================
+        About Section Styles                
+==================================*/
 
 .about .about-img{
     bottom: -50px;
@@ -639,9 +630,9 @@ canvas{
     color: #fff;
 }
 
-/*================================================
-        Skills Section
-==================================================*/
+/*============================
+        Skills Section        
+============================*/
 .progress{
     width: 150px;
     height: 150px;
@@ -968,13 +959,10 @@ canvas{
 .skill_title h5{
     margin: 10px 0px;
 }
-/*================================================
-        End of skills Section
-==================================================*/
 
-/*================================================
-        Service Section
-==================================================*/
+/*=============================
+        Service Section        
+=============================*/
 .services{
     background: url(../images/services_bg.jpg);
     background-position: center center;
@@ -1122,9 +1110,9 @@ canvas{
     color: #ffffff;
 }
 
-/*===============================
-    Feature Section Styles
-================================*/
+/*====================================
+        Feature Section Styles                
+====================================*/
 .hexagon {
   position: relative;
   width: 80px; 
@@ -1284,9 +1272,9 @@ canvas{
     border-right: 65px solid #fff;
 } 
 
-/*================================================
-    09 - Portfolio Section
-==================================================*/
+/*===============================
+        Portfolio Section        
+===============================*/
 .portfolio{
     background: url(../images/portfolio-bg.jpg) center center no-repeat;
     background-size: cover;
@@ -1519,9 +1507,9 @@ ul.filter li:hover{
     color: #fff;
 }
 
-/*======================================
-    10 - Achievements Section Styles
-=======================================*/
+/*=========================================
+        Achievements Section Styles                
+=========================================*/
 .achievements-wrapper{
     margin-top: 60px;
 }
@@ -1542,13 +1530,9 @@ ul.filter li:hover{
     margin-top: 30px;
 }
 
-/*================================================
-    09 - End of portfolio Section
-==================================================*/
-
-/*================================================
-    10 - Testimonial Section
-==================================================*/
+/*=================================
+        Testimonial Section        
+=================================*/
 .testimonials{
     background: url(../images/testimonial_bg.jpg) center center no-repeat;
     background-size: cover;
@@ -1678,148 +1662,9 @@ ul.filter li:hover{
     width: 13px;
 }
 
-/*================================================
-    10 - End of testimonial Section
-==================================================*/
-
-/*================================================
-    12 - Notice Section
-==================================================*/
-.my_notice{
-    background: url(../images/noticeboard_bg.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.notice_overlay{
-    padding: 90px 0px;
-    background: rgba(0, 0, 0, 0.60);
-}
-
-.notice_main{
-    /*width: 370px;
-    max-width: 850px;*/
-    width: 100%;
-    margin: 15px 0px;
-    padding: 15px;
-    background: #f1f1f1;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-    position: relative;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-    -webkit-box-shadow: 0 0 5px #000000;
-    -moz-box-shadow: 0 0 5px #000000;
-    -ms-box-shadow: 0 0 5px #000000;
-    -o-box-shadow: 0 0 5px #000000;
-    box-shadow: 0 0 5px #000000;
-}
-
-.notice_title{
-    padding: 5px 0px;
-}
-
-.notice_title h4{
-    margin-bottom: 5px;
-    color: #05233e;
-    font-weight: 600;
-    padding: 10px;
-}
-
-.offer_title{
-    font-weight: 900;
-    border: 3px dashed #0095da;
-}
-
-.notice_title p{
-    font-size: 13px;
-    color: #2c2c2c;
-}
-
-.notice_title p span{
-    color: #6c6c6c;
-}
-
-.notice_content{
-    margin: 5px;
-}
-
-.notice_content p{
-    margin: 5px 0px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #05233e;
-}
-
-.notice_content p.big_text{
-    text-transform: uppercase;
-    font-size: 22px !important;
-    text-align: center !important;
-    margin-bottom: 10px;
-}
-
-.notice_content a{
-    font-size: 15px;
-    color: #0f0f0f;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-    color: #0095da;
-}
-
-.notice_content a i{
-    font-size: 13px;
-    margin-left: -2px;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-    color: #0095da;
-}
-
-.notice_content a:focus,
-.notice_content a:hover{
-    padding-left: 8px;
-    color: #e68324;
-}
-
-.notice_content a:focus i,
-.notice_content a:hover i{
-    padding-left: 8px;
-    color: #e68324;
-}
-
-.notice_main:hover{
-    -webkit-box-shadow: 0 0 10px #000000;
-    -moz-box-shadow: 0 0 10px #000000;
-    -ms-box-shadow: 0 0 10px #000000;
-    -o-box-shadow: 0 10 5px #000000;
-    box-shadow: 0 0 20px #060026;
-}
-/*================================================
-    10 - End of notice Section
-==================================================*/
-
-/*================================================
-    13 - Blog Section
-==================================================*/
+/*==========================
+        Blog Section        
+==========================*/
 .blog .row{
     background: #fff;
 }
@@ -1937,14 +1782,11 @@ ul.filter li:hover{
 .blog_main:hover .blog_img img{
     transform: scale(1.2) rotate(-10deg);
 }
-/*================================================
-    13 - End of blog Section
-==================================================*/
 
 
-/*================================================
-    14 - Marketplace Section
-==================================================*/
+/*=================================
+        Marketplace Section        
+=================================*/
 .marketplaces{
     background: url(../images/marketplace_bg.jpg);
     background-position: center center;
@@ -2027,13 +1869,10 @@ ul.filter li:hover{
 .marketplace_main:hover h6{
     color: #e68324;
 }
-/*================================================
-    14 - End of marketplace Section
-==================================================*/
 
-/*================================================
-    15 - Hire me Section
-==================================================*/
+/*=============================
+        Hire me Section                
+=============================*/
 .hire_me_main h3{
     color: #0095da;
 }
@@ -2092,13 +1931,10 @@ button.close:hover{
     color: #fff;
     text-align: justify;
 }
-/*================================================
-    15 - End of hire me Section
-==================================================*/
 
-/*================================================
-    16 - Newsletter Section
-==================================================*/
+/*================================
+        Newsletter Section                
+================================*/
 .newsletter_main{
     background: #1f1f1f;
     margin: 0px 150px;
@@ -2157,13 +1993,10 @@ button.close:hover{
     background: var(--hover);
     border-color: var(--hover);
 }
-/*================================================
-    16 - End of newsletter Section
-==================================================*/
 
-/*================================================
-    17 - Contact Section
-==================================================*/
+/*=============================
+        Contact Section        
+=============================*/
 .contact{
     background: url(../images/contact_bg.jpg);
     background-position: center center;
@@ -2357,13 +2190,10 @@ button.close:hover{
     background: #e68324;
     border-color: #e68324;
 }
-/*================================================
-    17 - End of contact Section
-==================================================*/
 
-/*================================================
-    18 - Footer Section
-==================================================*/
+/*============================
+        Footer Section        
+============================*/
 .footer{
     background: var(--dark);
     padding: 20px 0px;
@@ -2387,13 +2217,10 @@ button.close:hover{
 .footer_main h6 a:hover{
     color: #e68324;
 }
-/*================================================
-    18 - End of footer Section
-==================================================*/
 
-/*================================================
-    19 - Back to top button Section
-==================================================*/
+/*========================================
+        Back to top button Section        
+========================================*/
 .back_to_top {
     display: inline-block;
     background: transparent;
@@ -2553,6 +2380,6 @@ button.close:hover{
         opacity: 1;
     }
 }
-/*================================================
-    19 - End of back to top button Section
-==================================================*/
+/*===============================
+        End of Styles.css        
+===============================*/

@@ -1369,7 +1369,7 @@ ul.filter li{
     width: 100%;
     left: -110%;
     top: 0;
-    background: rgba(0, 149, 218, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
@@ -1384,7 +1384,7 @@ ul.filter li{
     width: 100%;
     right: -110%;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 149, 218, 0.8);
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
@@ -1421,7 +1421,7 @@ ul.filter li{
 
 .portfolio-info .description h4, 
 .portfolio-info .description span{
-    color: #fff;
+    color: var(--primary);
 }
 
 .portfolio-info .description span{
@@ -1433,7 +1433,7 @@ ul.filter li{
     height: 30px;
     width: 30px;
     line-height: 25px;
-    border: 2px solid var(--primary);
+    border: 2px solid #fff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -1443,7 +1443,7 @@ ul.filter li{
 }
 
 .icon-link a i{
-    color: var(--primary);
+    color: #fff;
 }
 
 .portfolio-item:hover .item-content img{

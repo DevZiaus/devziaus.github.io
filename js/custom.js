@@ -105,7 +105,7 @@ $(function () {
         prevArrow: '<i class="fa fa-chevron-circle-left"></i>',
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 3500,
+        autoplaySpeed: 4000,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,

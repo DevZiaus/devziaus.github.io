@@ -2,5 +2,3 @@
 
 # Redirect default Netlify subdomain to primary domain
 https://mzsbulbulportfolio.netlify.com/* https://www.devziaus.ga/:splat 301!
-https://*.mzsbulbul.ga/ https://www.devziaus.ga/:splat 301!
-https://mzsbulbul.ga/* https://www.devziaus.ga/:splat 301!

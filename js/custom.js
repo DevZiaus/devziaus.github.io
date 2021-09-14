@@ -154,7 +154,7 @@ $(function () {
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: 0
-            }, 1000);
+            }, 1500);
             return false;
         });
 

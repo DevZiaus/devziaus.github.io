@@ -2278,7 +2278,7 @@ button.close:hover {
     margin: 30px;
     position: fixed;
     bottom: 30px;
-    right: -60px;
+    left: -60px;
     -webkit-transition: all linear .5s;
     -moz-transition: all linear .5s;
     -ms-transition: all linear .5s;

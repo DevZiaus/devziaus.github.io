@@ -2110,9 +2110,8 @@ button.close:hover {
     transition: all linear .3s;
 }
 
-.contact_datails p:hover i,
-.contact_datails p:hover i a,
-.contact_datails p:hover i span {
+
+.contact_datails p:hover i a {
     color: #e68324;
 }
 

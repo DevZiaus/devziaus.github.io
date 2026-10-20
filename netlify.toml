@@ -1,0 +1,8 @@
+# Netlify build configuration
+#
+# The Lighthouse plugin installed in the Netlify UI is pinned to v4, which
+# requires Node.js < 20. Netlify runs build plugins with its system Node.js
+# version, so the plugin must be v6+ to work with Node 22+.
+# File-based configuration takes precedence over the UI-installed version.
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"

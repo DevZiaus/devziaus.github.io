@@ -112,19 +112,21 @@ $(function () {
         dots: true
     });
     
-    // for portfolio filtering
-    var $grid = $('.portfolio-wrapper').isotope({
-        itemSelector: '.portfolio-item'
-    });
-
-    $('.filter li').on('click', function () {
-        $('.filter li').removeClass('filter-active');
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({
-            filter: filterValue
+    // for portfolio filtering (only when Isotope and a portfolio grid exist)
+    if ($.fn.isotope && $('.portfolio-wrapper').length) {
+        var $grid = $('.portfolio-wrapper').isotope({
+            itemSelector: '.portfolio-item'
         });
-        $(this).addClass('filter-active');
-    });//Md Ziaus Samad
+
+        $('.filter li').on('click', function () {
+            $('.filter li').removeClass('filter-active');
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({
+                filter: filterValue
+            });
+            $(this).addClass('filter-active');
+        });
+    }//Md Ziaus Samad
 
     // for venobox
     $('.venobox').venobox({

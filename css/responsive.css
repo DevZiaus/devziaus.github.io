@@ -3,12 +3,12 @@
 *******************************************
 
 Template Name: Developer Ziaus
-Template URL: http://www.mzsbulbul.ga
+Template URL: https://devziaus.tech
 Description: MZSBulbul's Personal Portfolio
 Author: Md. Ziaus Samad
-Author URL: https://www.mzsbulbul.ga
+Author URL: https://devziaus.tech
 Version: 1.0
-Copyright: Md Ziaus Samad - www.mzsbulbul.ga
+Copyright: Md Ziaus Samad - https://devziaus.tech
 
 ***********************************************
 ***********************************************
